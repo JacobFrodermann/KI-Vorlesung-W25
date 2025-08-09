@@ -56,7 +56,8 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Multi-Layer Perzeptron (MLP): Graphische Darstellung, Vorwärtslauf
+> - k2: Multi-Layer Perzeptron (MLP): Graphische Darstellung,
+>   Vorwärtslauf
 > - k2: Aktivierungsfunktionen (insbesondere ReLU)
 > - k3: Vorwärtslauf (forward pass) für ein gegebenes MLP
 > - k3: Berechnung der einzelnen Aktivierungen
@@ -110,4 +111,4 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c6e3966 (lecture: fix utf8 issues (pdf), 2025-07-24)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

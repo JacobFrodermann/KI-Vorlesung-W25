@@ -158,7 +158,6 @@
 - Das Modell $`(\mathcal{H_m},\mathcal{A_m})`$ wird $`k`$ mal trainiert
   und validiert, jedes mal mit unterschiedlichen Trainings- und
   Validierungsmengen:
-
   - Die Trainingsdaten werden in $`k`$ disjunkte Teilmengen
     $`D_1, D_2, ..., D_k`$ aufgeteilt.
 
@@ -236,4 +235,4 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fdb622 (lecture: fix minor formatting issues, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -126,8 +126,8 @@ Ergebnis:
 <img src="images/state-space.png" width="60%">
 
 - Durch die Suche im Problemgraphen wird ein Suchbaum aufgespannt
-- Varianten: Zustände können in einem Pfad wiederholt vorkommen vs.
-  Wiederholungen werden ausgeschlossen
+- Varianten: Zustände können in einem Pfad wiederholt vorkommen
+  vs. Wiederholungen werden ausgeschlossen
 
 ## Definition Zustand und Aktion
 
@@ -330,7 +330,8 @@ Wieviel Speicher benötigt die Suche?
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Definition Problem: Begriffe Zustand, Aktion, Zustandsraum, Problemgraph, Suchbaum
+> - k2: Definition Problem: Begriffe Zustand, Aktion, Zustandsraum,
+>   Problemgraph, Suchbaum
 > - k2: Problemlösen als Suche nach Wegen im Problemgraph =\> Suchbaum
 > - k2: Unterschied zw. Tree-Search und Graph-Search
 >
@@ -393,4 +394,4 @@ Wieviel Speicher benötigt die Suche?
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

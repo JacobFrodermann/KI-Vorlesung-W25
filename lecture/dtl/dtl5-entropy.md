@@ -143,11 +143,11 @@ Wahrscheinlichkeit für $`A`$: $`p_A = 4/6 = 0.667`$
 Wahrscheinlichkeit für $`B`$: $`p_B = 2/6 = 0.333`$
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
     H(S) &=& -\sum_k p_k \log_2 p_k\\
          &=& -(4/6 \cdot \log_2 4/6 + 2/6 \cdot \log_2 2/6)\\
          &=& -(-0.39 -0.53) = 0.92 \operatorname{Bit}
-\end{array}
+\end{eqnarray}
 ```
 
 ## Mittlere Entropie nach Betrachtung von Attribut $`A`$
@@ -183,13 +183,13 @@ Wahrscheinlichkeit für $`B`$: $`p_B = 2/6 = 0.333`$
   - Gesamtzahl Beispiele: 6
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
     R(S, A) &=& \sum_{v \in \operatorname{Values}(A)} \frac{|S_v|}{|S|} H(S_v)\\
          &=& 4/6 \cdot H(\lbrace 1,3,5,6 \rbrace) + 2/6 \cdot H(\lbrace 2,4 \rbrace)\\
          &=& 4/6\cdot(-3/4 \cdot \log_2 3/4 - 1/4 \cdot \log_2 1/4) +\\
          && 2/6\cdot(-1/2 \cdot \log_2 1/2 - 1/2 \cdot \log_2 1/2)\\
          &=& 0.54 + 0.33 = 0.87 \operatorname{Bit}
-\end{array}
+\end{eqnarray}
 ```
 
 ## Ausblick: Gini Impurity
@@ -318,4 +318,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 80d2904 (Remove Hugo: remove cbox, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

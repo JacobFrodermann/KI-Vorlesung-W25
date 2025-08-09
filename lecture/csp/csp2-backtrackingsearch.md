@@ -131,4 +131,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 - Eigener Code basierend auf einer Idee nach ([Russell und Norvig
   2020](#ref-Russell2020), p. 176, fig. 5.5)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

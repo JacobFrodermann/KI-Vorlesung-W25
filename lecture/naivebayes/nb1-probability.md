@@ -228,14 +228,14 @@ Projektion eines Quaders auf eine Seitenfläche vergleichbar ist.
 - Verallgemeinerung (**Kettenregel**):
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
 P(A_1,A_2,\ldots,A_n) &=& P(A_n,\ldots,A_2,A_1)\\
     & = & P(A_n|A_{n-1},\ldots,A_1)P(A_{n-1},\ldots,A_1)\\
     & = & P(A_n|A_{n-1},\ldots,A_1)P(A_{n-1}|A_{n-2},\ldots,A_1)P(A_{n-2},\ldots,A_1)\\
     & = & \ldots\\
     & = & P(A_n|A_{n-1},\ldots,A_1) \ldots P(A_2|A_1)P(A_1)\\
     & = & \prod_i P(A_i|A_1,\ldots,A_{i-1})
-\end{array}
+\end{eqnarray}
 ```
 
 ## Bayes-Regel
@@ -415,4 +415,4 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fdb622 (lecture: fix minor formatting issues, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

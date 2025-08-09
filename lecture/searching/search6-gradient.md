@@ -208,4 +208,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9521f1a (lecture: pandoc can't fetch image from wiki anymore, 2025-07-24)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -70,7 +70,8 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Erhöhung der Modell-Komplexität durch Einführung von Merkmalen höherer Ordnung
+> - k2: Erhöhung der Modell-Komplexität durch Einführung von Merkmalen
+>   höherer Ordnung
 > - k2: Unter- und Überanpassung
 > - k2: Regularisierung (Auswirkung auf Gewichte und Modell)
 > - k3: Gradientenabstieg für regularisierte logistische Regression
@@ -114,4 +115,4 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fdb622 (lecture: fix minor formatting issues, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -203,4 +203,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash
   License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 80d2904 (Remove Hugo: remove cbox, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

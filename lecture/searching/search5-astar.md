@@ -1,4 +1,4 @@
-# Suche mit 
+# Suche mit A*
 
 > [!NOTE]
 >
@@ -27,7 +27,7 @@
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> - [VL A*](https://youtu.be/eMkEN-HtEs8)
+> - [VL A\*](https://youtu.be/eMkEN-HtEs8)
 >
 > </details>
 
@@ -191,13 +191,13 @@ Außerdem muss gelten:
 - Ausblick auf Verbesserungen der vorgestellten Suchverfahren:
   - Beschränkung der Suchtiefe (“Depth-Limited-Search”)
   - Iterative Vertiefung der Suchtiefe (“Iterative-Deepening-Search”),
-    beispielsweise IDA\* (“Iterative-Deepening A\*“)
+    beispielsweise IDA\* (“Iterative-Deepening A\*”)
   - Beschränkung des verwendeten Speichers, beispielsweise SMA
     *(“Simplified Memory-Bounded A*”)
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): A*: Abschnitt 3.5.2,
+- Russell und Norvig ([2020](#ref-Russell2020)): A\*: Abschnitt 3.5.2,
   Heuristiken: Kapitel 3.6
 
 ------------------------------------------------------------------------
@@ -220,7 +220,7 @@ Außerdem muss gelten:
 >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> - [Selbsttest A*
+> - [Selbsttest A\*
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106600&client_id=FH-Bielefeld)
 >
 > </details>
@@ -286,7 +286,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4fa1636 (lecture: use '?raw=true' for images via link to github repo, 2025-07-24)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

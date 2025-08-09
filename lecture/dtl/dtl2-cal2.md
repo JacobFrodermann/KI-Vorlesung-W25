@@ -81,13 +81,13 @@ Eine andere Sichtweise ist die Nutzung als Checkliste für eine Reparatur
 - **Alphabet** für Baum:
 
 ``` math
-    \lbrace x_t | t=1,\ldots,n \rbrace \cup \lbrace \kappa | \kappa = \ast,A,B,C,\ldots \rbrace \cup \lbrace (,) \rbrace
+\lbrace x_t | t=1,\ldots,n \rbrace \cup \lbrace \kappa | \kappa = \ast,A,B,C,\ldots \rbrace \cup \lbrace (,) \rbrace
 ```
 
 - **Entscheidungsbaum** $`\alpha`$:
 
 ``` math
-    \alpha = \left\lbrace  \begin{array}{ll}
+\alpha = \left\lbrace  \begin{array}{ll}
         \kappa  & \text{Terminalsymbole: } \kappa = \ast,A,B, \ldots\\
         x_t(\alpha_1, \alpha_2, \ldots, \alpha_{m_t}) & x_t \text{ Testattribut mit } m_t \text{ Ausprägungen}
     \end{array}\right.
@@ -269,4 +269,4 @@ Referenzen vom Typ `Baum` sein).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

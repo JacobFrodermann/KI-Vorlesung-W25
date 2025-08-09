@@ -89,7 +89,8 @@ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Forwärts- und Rückwärtslauf in Matrix Notation mit mehreren Datenpunkten als Eingabe
+> - k2: Forwärts- und Rückwärtslauf in Matrix Notation mit mehreren
+>   Datenpunkten als Eingabe
 > - k2: Ableitung der Aktivierungsfunktionen
 > - k3: Berechnung der partiellen Ableitungen
 > - k3: Rückwärtslauf (backpropagation) für ein gegebenes MLP
@@ -111,4 +112,4 @@ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 969421b (lecture: do not emit beamer slides for nn lectures at this time, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

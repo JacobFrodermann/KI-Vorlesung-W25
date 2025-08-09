@@ -129,7 +129,8 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Performanzmetriken für die Evaluierung von Klassifizierungsmodellen
+> - k2: Performanzmetriken für die Evaluierung von
+>   Klassifizierungsmodellen
 > - k2: Wahrheitsmatrix (engl. Confusion Matrix)
 > - k2: Treffergenauigkeit (engl. Accuracy)
 > - k2: Precision (engl. Precision)
@@ -147,4 +148,4 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fdb622 (lecture: fix minor formatting issues, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -208,7 +208,8 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 > <summary><strong>✅ Lernziele</strong></summary>
 >
 > - k2: Optimierungsmöglichkeit: Sortierung der Nachfolger =\> Heuristik
-> - k2: Optimierungsmöglichkeit: Suchtiefe beschränken =\> Übergang zu Bewertungsfunktion
+> - k2: Optimierungsmöglichkeit: Suchtiefe beschränken =\> Übergang zu
+>   Bewertungsfunktion
 > - k2: Optimierungsmöglichkeit: Bewertung über Spieldatenbanken
 > - k3: alpha-beta-Pruning
 >
@@ -313,8 +314,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- ([Russell und Norvig 2014](#ref-Russell2014), p. 185)
 - ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
   [deepmind.com/research/alphago/](https://deepmind.com/research/case-studies/alphago-the-story-so-far)
-- ([Russell und Norvig 2014](#ref-Russell2014), p. 185)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 80d2904 (Remove Hugo: remove cbox, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

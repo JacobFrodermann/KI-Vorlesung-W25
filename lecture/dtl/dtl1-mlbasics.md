@@ -311,7 +311,8 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 >
 > - k1: Definition und Arten des Lernens
 > - k2: Überwachtes Lernen: Lernen durch Beobachten (mit Lehrer)
-> - k2: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte, Trainingsmenge
+> - k2: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte,
+>   Trainingsmenge
 >
 > </details>
 >
@@ -385,4 +386,4 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 281b180 (lecture: fix missing math mode (DTL1), 2025-07-24)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

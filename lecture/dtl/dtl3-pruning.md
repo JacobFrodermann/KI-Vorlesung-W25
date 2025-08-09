@@ -89,7 +89,7 @@ $`\tilde{x}`$ ist in diesem Fall der leere Weg …
 ## Allgemeine Transformationsregel
 
 ``` math
-    x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
+x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 ```
 
 ## Wrap-Up
@@ -161,4 +161,4 @@ $`\tilde{x}`$ ist in diesem Fall der leere Weg …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -80,7 +80,8 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Logistische Regression aus Sicht neuronaler Netze: Graphische Darstellung, Vergleich mit Perzeptron und linearer Regression
+> - k2: Logistische Regression aus Sicht neuronaler Netze: Graphische
+>   Darstellung, Vergleich mit Perzeptron und linearer Regression
 > - k2: Formalisierung
 > - k2: Sigmoid-Aktivierungsfunktion
 > - k2: Verlust- und Kosten (Cross-Entropy Loss)
@@ -103,4 +104,4 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fdb622 (lecture: fix minor formatting issues, 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

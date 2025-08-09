@@ -57,10 +57,10 @@ Erinnerung: CAL2/CAL3
 - Informationsgewinn durch Betrachtung von Attribut $`A`$
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
     \operatorname{Gain}(S, A) &=& H(S) - R(S, A)\\[5pt]
                             &=& H(S) - \sum_{v \in \operatorname{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
-\end{array}
+\end{eqnarray}
 ```
 
 $`R(S,A)`$ ist die Unsicherheit/nötige Bits nach Auswahl von Attribut A.
@@ -87,13 +87,13 @@ partitionierten Trainingsmenge **nach** Betrachtung von Attribut $`A`$ …
 $`H(S) = 0.92 \operatorname{Bit}`$
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
 \operatorname{Gain}(S, x_1) &=& 0.92 - 0.87 = 0.05 \operatorname{Bit}\\
 \operatorname{Gain}(S, x_2) &=& 0.92 - 2/6  \cdot 0 - 4/6 \cdot 1\\
                             &=& 0.25 \operatorname{Bit}\\
 \operatorname{Gain}(S, x_3) &=& 0.92 - 3/6 \cdot 0.92 - 2/6 \cdot 1 - 1/6 \cdot 0\\
                             &=& 0.13 \operatorname{Bit}
-\end{array}
+\end{eqnarray}
 ```
 
 Informationsgewinn für $`x_2`$ am höchsten =\> wähle $`x_2`$ als
@@ -329,4 +329,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

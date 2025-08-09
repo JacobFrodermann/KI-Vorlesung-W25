@@ -166,10 +166,10 @@ $`P(\text{Nase=0}|\text{krank})`$, $`P(\text{Nase=0}|\text{gesund})`$, …
 
 Wähle Klasse
 ``` math
-\begin{array}{rl}
+\begin{eqnarray}
 h_{MAP} = \operatorname{argmax}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0}|h) \cdot P(\text{Husten=1}|h) \\
     & \cdot P(\text{Haut=0}|h) \cdot P(\text{Fieber=1}|h)
-\end{array}
+\end{eqnarray}
 ```
 
 **Ergebnis**: (nur die für den zu klassifizierenden Beispiel-Vektor
@@ -285,11 +285,11 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
   streng monoton
 
 ``` math
-\begin{array}{rcl}
+\begin{eqnarray}
 h_{MAP} &=& \operatorname{argmax}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
         &=& \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i | h) \\[5pt]
         &=& \operatorname{argmax}_{h \in H} [\log(P(h)) + \sum_i \log(P(D_i | h))]
-\end{array}
+\end{eqnarray}
 ```
 
 ## Maximum Likelihood
@@ -365,8 +365,10 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 > - k2: Annahme von Unabhängigkeit =\> ‘Naive’ Bayes Klassifikation
 > - k2: Naivität der Annahme, dennoch sehr gute Erfolge in Praxis
 > - k2: Probleme mit niedrigen Wahrscheinlichkeiten
-> - k3: Schätzen der bedingten Wahrscheinlichkeiten aus den Trainingsdaten
-> - k3: Klassifikation mit Naive Bayes durch Nutzung der geschätzten Wahrscheinlichkeiten
+> - k3: Schätzen der bedingten Wahrscheinlichkeiten aus den
+>   Trainingsdaten
+> - k3: Klassifikation mit Naive Bayes durch Nutzung der geschätzten
+>   Wahrscheinlichkeiten
 >
 > </details>
 >
@@ -435,4 +437,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f0b0a3 (Remove Hugo: tooling: shift headings (use h1 as top-level headings), 2025-07-17)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

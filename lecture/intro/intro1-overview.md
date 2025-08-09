@@ -67,7 +67,7 @@ Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
 > besteht, wie diese zu bestimmen und zu unterscheiden sind, gibt es
 > **keine allgemeingültige Definition der Intelligenz**.
 >
->  Quelle: [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+> Quelle: [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
 > [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
 > [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
 > on Wikipedia ([CC BY-SA
@@ -92,7 +92,7 @@ genauer an.
 > Introspektion, der Wille, das Glauben und einige mehr. Auch Emotionen
 > haben einen wesentlichen kognitiven Anteil.
 >
->  Quelle: [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
+> Quelle: [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
 > [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
 > [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
 > on Wikipedia ([CC BY-SA
@@ -117,7 +117,7 @@ Fähigkeiten wie Glaube und Wille spielen derzeit keine Rolle in der KI.
 > Ziel der KI ist es, Maschinen zu entwickeln, die sich verhalten, als
 > verfügten sie über Intelligenz.
 >
->  – John McCarthy (1955)
+> – John McCarthy (1955)
 
 Einwand:
 [Braitenberg-Vehikel](https://en.wikipedia.org/wiki/Braitenberg_vehicle)
@@ -129,7 +129,7 @@ nicht intelligent! Bezieht sich nur auf *Verhalten*!
 > intellektuellen Verarbeitungsfähigkeiten von Menschen in Verbindung
 > gebracht werden …
 >
->  – Encyclopedia Britannica
+> – Encyclopedia Britannica
 
 Einwand: Dann wäre aber auch Auswendig-Lernen oder das Multiplizieren
 langer Zahlen als intelligent zu betrachten! Bezieht sich vor allem auf
@@ -138,7 +138,7 @@ langer Zahlen als intelligent zu betrachten! Bezieht sich vor allem auf
 > Artificial Intelligence is the study of how to make computers do
 > things at which, at the moment, people are better.
 >
->  – Elaine Rich (“Artificial Intelligence”, McGraw-Hill, 1983)
+> – Elaine Rich (“Artificial Intelligence”, McGraw-Hill, 1983)
 
 Quelle: nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
 
@@ -157,14 +157,16 @@ Dazu gehört auch
 >
 > Die EU hat am 13. Juni 2024 die sogenannte “KI-Verordnung”
 > verabschiedet (“VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS
-> UND DES RATES”, [Document 32024R1689: Verordnung (EU) 2024/1689 des
-> Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung
-> harmonisierter Vorschriften für künstliche Intelligenz und zur
-> Änderung der Verordnungen (EG) Nr. 300/2008, (EU) Nr. 167/2013, (EU)
-> Nr. 168/2013, (EU) 2018/858, (EU) 2018/1139 und (EU) 2019/2144 sowie
-> der Richtlinien 2014/90/EU, (EU) 2016/797 und (EU) 2020/1828
-> (Verordnung über künstliche Intelligenz) (Text von Bedeutung für den
-> EWR)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689)).
+> UND DES RATES”, \[Document 32024R1689: Verordnung (EU) 2024/1689 des
+> Europäischen Parlaments und des Rates vom
+>
+> 1.  Juni 2024 zur Festlegung harmonisierter Vorschriften für
+>     künstliche Intelligenz und zur Änderung der Verordnungen (EG) Nr.
+>     300/2008, (EU) Nr. 167/2013, (EU) Nr. 168/2013, (EU) 2018/858,
+>     (EU) 2018/1139 und (EU) 2019/2144 sowie der Richtlinien
+>     2014/90/EU, (EU) 2016/797 und (EU) 2020/1828 (Verordnung über
+>     künstliche Intelligenz) (Text von Bedeutung für den
+>     EWR)\](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689)).
 >
 > Dort finden Sie unter Artikel 3 “Begriffsbestimmungen” unter Absatz 1
 > eine Begriffsdefinition. Ein “KI-System” wird darin als ein
@@ -570,14 +572,19 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
+  RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
+  Art. 3 Abs. 1
 - [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
   [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
-- [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
-  RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
-  Art. 3 Abs. 1
+- [AvB - RoboCup 2013 -
+  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
+  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+  Flickr.com ([CC BY
+  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 - [Turing Test version
   3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
@@ -589,10 +596,5 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
-- [AvB - RoboCup 2013 -
-  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
-  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-  Flickr.com ([CC BY
-  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 8e3127b (lecture: replace remaining hugo shortcodes (Intro1), 2025-07-25)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

@@ -98,7 +98,8 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Lineare Regression aus Sicht neuronaler Netze: Graphische Darstellung, Vergleich mit Perzeptron
+> - k2: Lineare Regression aus Sicht neuronaler Netze: Graphische
+>   Darstellung, Vergleich mit Perzeptron
 > - k2: Formalisierung
 > - k2: Verlust- und Kostenfunktion
 > - k2: Gradientenvektor
@@ -151,4 +152,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4fa1636 (lecture: use '?raw=true' for images via link to github repo, 2025-07-24)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
