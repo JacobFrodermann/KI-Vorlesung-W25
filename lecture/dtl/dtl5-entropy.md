@@ -82,9 +82,9 @@ Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
 
 </div>
 
-- $`v_1 = \operatorname{Kopf},  v_2 = \operatorname{Zahl}`$
+- $`v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}`$
 - $`p_1 = 0.5,  p_2 = 0.5`$
-- $`H(\operatorname{Fair}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1`$
+- $`H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1`$
   Bit
 
 $`\log_2 0.5 = -1`$
@@ -97,13 +97,13 @@ Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
 
 </div>
 
-- $`v_1 = \operatorname{Kopf},  v_2 = \operatorname{Zahl}`$
+- $`v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}`$
 
 - $`p_1 = 0.99,  p_2 = 0.01`$
 
-- $`H(\operatorname{UnFair}) = -(0.99 \log_2 0.99 + 0.01 \log_2 0.01)`$
+- $`H(\mathop{\text{UnFair}}) = -(0.99 \log_2 0.99 + 0.01 \log_2 0.01)`$
 
-  $`H(\operatorname{UnFair}) \approx 0.08`$ Bit
+  $`H(\mathop{\text{UnFair}}) \approx 0.08`$ Bit
 
 $`\log_2 0.01 \approx -6.64`$
 
@@ -119,7 +119,7 @@ Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
 
 - $`v_1 = 1,  v_2 = 2,   v_3 = 3,   v_4 = 4`$
 - $`p_1 = p_2 = p_3 = p_4 = 0.25`$
-- $`H(\operatorname{Wuerfel}) = -4\cdot(0.25 \log_2 0.25) = 2`$ Bit
+- $`H(\mathop{\text{Wuerfel}}) = -4\cdot(0.25 \log_2 0.25) = 2`$ Bit
 
 $`\log_2 0.25 = -2`$
 
@@ -146,14 +146,14 @@ Wahrscheinlichkeit für $`B`$: $`p_B = 2/6 = 0.333`$
 \begin{eqnarray}
     H(S) &=& -\sum_k p_k \log_2 p_k\\
          &=& -(4/6 \cdot \log_2 4/6 + 2/6 \cdot \log_2 2/6)\\
-         &=& -(-0.39 -0.53) = 0.92 \operatorname{Bit}
+         &=& -(-0.39 -0.53) = 0.92 \mathop{\text{Bit}}
 \end{eqnarray}
 ```
 
 ## Mittlere Entropie nach Betrachtung von Attribut $`A`$
 
 ``` math
-    R(S, A) = \sum_{v \in \operatorname{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
+    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)
 ```
 
 - Auswahl von Attribut $`A`$ partitioniert die Trainingsmenge: Je
@@ -184,11 +184,11 @@ Wahrscheinlichkeit für $`B`$: $`p_B = 2/6 = 0.333`$
 
 ``` math
 \begin{eqnarray}
-    R(S, A) &=& \sum_{v \in \operatorname{Values}(A)} \frac{|S_v|}{|S|} H(S_v)\\
+    R(S, A) &=& \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)\\
          &=& 4/6 \cdot H(\lbrace 1,3,5,6 \rbrace) + 2/6 \cdot H(\lbrace 2,4 \rbrace)\\
          &=& 4/6\cdot(-3/4 \cdot \log_2 3/4 - 1/4 \cdot \log_2 1/4) +\\
          && 2/6\cdot(-1/2 \cdot \log_2 1/2 - 1/2 \cdot \log_2 1/2)\\
-         &=& 0.54 + 0.33 = 0.87 \operatorname{Bit}
+         &=& 0.54 + 0.33 = 0.87 \mathop{\text{Bit}}
 \end{eqnarray}
 ```
 
@@ -318,4 +318,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

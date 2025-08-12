@@ -51,8 +51,8 @@ unterschiedliche Farben bekommen (=\> *Constraint*).
 <!-- -->
 
 - **Mögliche Lösung**: Zuweisung an Variablen (“Belegung”)
-  $`\lbrace \operatorname{A} = red, \operatorname{B} = blue, \operatorname{C} = green,
-  \operatorname{D} = red, \operatorname{E} = blue, \operatorname{F} = blue \rbrace`$
+  $`\lbrace \mathop{\text{A}} = red, \mathop{\text{B}} = blue, \mathop{\text{C}} = green,
+  \mathop{\text{D}} = red, \mathop{\text{E}} = blue, \mathop{\text{F}} = blue \rbrace`$
 
 ## Definition: Constraint Satisfaction Problem (CSP)
 
@@ -94,12 +94,12 @@ in einem Constraint miteinander in Beziehung? (Also wie viele Parameter
 hat ein Constraint?)
 
 - **unär**: betrifft einzelne Variablen Beispiel:
-  $`\operatorname{A} \neq red`$
+  $`\mathop{\text{A}} \neq red`$
 
 <!-- -->
 
 - **binär**: betrifft Paare von Variablen Beispiel:
-  $`\operatorname{A} \neq \operatorname{B}`$
+  $`\mathop{\text{A}} \neq \mathop{\text{B}}`$
 
 <!-- -->
 
@@ -219,4 +219,4 @@ hat ein Constraint?)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

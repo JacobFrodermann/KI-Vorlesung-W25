@@ -5,7 +5,7 @@
 Konstruieren Sie ein Netz mit drei Perzeptrons, welches für zwei
 Eingabevariablen $`x_1`$ und $`x_2`$ die in der folgenden Abbildung
 blau-grau dargestellten Bereiche mit +1 klassifiziert. Benutzen Sie die
-$`\operatorname{sign}`$-Funktion als Aktivierungsfunktion.
+$`\mathop{\text{sign}}`$-Funktion als Aktivierungsfunktion.
 
 <p align="center"><img src="images/perzeptron_netz.png" width="60%"></p><p align="center">Abbildung
 1</p>
@@ -76,4 +76,4 @@ Sprechen Sie für alle Experimente die folgenden Punkte an:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

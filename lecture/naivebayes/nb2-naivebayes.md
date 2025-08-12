@@ -13,8 +13,8 @@
 > berechneten bedingten Wahrscheinlichkeiten:
 >
 > ``` math
-> h_{MAP} = \operatorname{argmax}_{h \in H} P(h|D_1,  \ldots, D_n) =
-> \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i|h)
+> h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h|D_1,  \ldots, D_n) =
+> \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i|h)
 > ```
 >
 > Für jede Hypothese $`h`$, d.h. für jede Klasse, wird der Posterior
@@ -125,15 +125,15 @@ P(D_1, \ldots, D_n | H) = P(D_1 | H) \cdot \ldots \cdot P(D_n | H) = \prod_i P(D
   unterstützt wird.
 
 ``` math
-h_{MAP} = \operatorname{argmax}_{h \in H} P(h | D_1, \ldots, D_n)
-= \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
 ```
 
 ## Bayes’sches Lernen
 
 ``` math
-h_{MAP} = \operatorname{argmax}_{h \in H} P(h | D_1, \ldots, D_n)
-= \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
 ```
 
 **Training**: Bestimme die Wahrscheinlichkeiten aus Trainingsdaten
@@ -147,7 +147,7 @@ $`\mathbf{S}`$
 **Klassifikation**: Wähle wahrscheinlichste Klasse $`h_{MAP}`$ für
 Vektor $`\mathbf{x}`$
 
-- $`h_{MAP} = \operatorname{argmax}_{h \in H} P(h) \prod_{x \in \mathbf{x}} P(x | h)`$
+- $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h) \prod_{x \in \mathbf{x}} P(x | h)`$
 
 ## Beispiel Klassifikation mit NB
 
@@ -167,7 +167,7 @@ $`P(\text{Nase=0}|\text{krank})`$, $`P(\text{Nase=0}|\text{gesund})`$, …
 Wähle Klasse
 ``` math
 \begin{eqnarray}
-h_{MAP} = \operatorname{argmax}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0}|h) \cdot P(\text{Husten=1}|h) \\
+h_{MAP} = \mathop{\text{argmax}}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0}|h) \cdot P(\text{Husten=1}|h) \\
     & \cdot P(\text{Haut=0}|h) \cdot P(\text{Fieber=1}|h)
 \end{eqnarray}
 ```
@@ -214,15 +214,15 @@ berechnet werden!)
   <!-- -->
 
   - Likelihood der Daten (Terme):
-    - $`P(t|c) = \dfrac{\operatorname{count}(t,c)}{\sum_{v \in V} \operatorname{count}(v,c)}`$
-      mit $`\operatorname{count}(t,c)`$ Anzahl der Vorkommen von Term
+    - $`P(t|c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}`$
+      mit $`\mathop{\text{count}}(t,c)`$ Anzahl der Vorkommen von Term
       $`t`$ in allen Dokumenten der Klasse $`c`$ und $`V`$ die
       Vereinigung aller Terme aller Dokumente (als Menge)
 
     <!-- -->
 
     - Variante mit Laplace-Glättung (s.u.):
-      $`P(t|c) = \dfrac{\operatorname{count}(t,c) + 1}{\sum_{v \in V} \operatorname{count}(v,c) + |V|}`$
+      $`P(t|c) = \dfrac{\mathop{\text{count}}(t,c) + 1}{\sum_{v \in V} \mathop{\text{count}}(v,c) + |V|}`$
 
 ## Naivität im Naive Bayes
 
@@ -286,9 +286,9 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 ``` math
 \begin{eqnarray}
-h_{MAP} &=& \operatorname{argmax}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
-        &=& \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i | h) \\[5pt]
-        &=& \operatorname{argmax}_{h \in H} [\log(P(h)) + \sum_i \log(P(D_i | h))]
+h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} [\log(P(h)) + \sum_i \log(P(D_i | h))]
 \end{eqnarray}
 ```
 
@@ -297,8 +297,8 @@ h_{MAP} &=& \operatorname{argmax}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
 - **Maximum a Posteriori**
 
 ``` math
-h_{MAP} = \operatorname{argmax}_{h \in H} P(h | D_1, \ldots, D_n)
-= \operatorname{argmax}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
 ```
 
 - Annahme: Klassen uniform verteilt =\> $`P(h_i) = P(h_j)`$
@@ -308,7 +308,7 @@ h_{MAP} = \operatorname{argmax}_{h \in H} P(h | D_1, \ldots, D_n)
   =\> Maximiere die Likelihood der Daten
 
 ``` math
-h_{ML} = \operatorname{argmax}_{h \in H} \prod_i P(D_i | h)
+h_{ML} = \mathop{\text{argmax}}_{h \in H} \prod_i P(D_i | h)
 ```
 
 ## Ausblick: Kontinuierliche Attribute
@@ -437,4 +437,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

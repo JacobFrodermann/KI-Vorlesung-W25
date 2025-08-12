@@ -170,9 +170,9 @@ heißt “Crossover” deshalb oft “Rekombination”.
 
 ``` math
 g_i^{(t+1)} = \left\{
-\begin{array}{ll}
-    \neg g_i^{(t)} & \mbox{ falls } \chi_i \le p_{mut}\\[5pt]
-    \phantom{\neg} g_i^{(t)} & \mbox{ sonst }
+\begin{array}{rll}
+    \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
+    & g_i^{(t)} & \text{ sonst }
 \end{array}
 \right.
 ```
@@ -199,14 +199,14 @@ Einstellung machen und Kenngrößen berechnen.
 
 **Geschwindigkeit: AES** *Average Evaluations to a Solution*
 ``` math
-\mbox{AES } = \frac{\sum\limits_{i \in \mbox{erfolgreiche Läufe}} \mbox{Generationen von Lauf } i}{\mbox{Anzahl der erfolgreichen Läufe}}
+\text{AES } = \frac{\sum\limits_{i \in \text{erfolgreiche Läufe}} \text{Generationen von Lauf } i}{\text{Anzahl der erfolgreichen Läufe}}
 ```
 
 Die AES liegt im Intervall $`[0, maxGen]`$.
 
 **Lösungswahrscheinlichkeit: SR** *Success Rate*
 ``` math
-\mbox{SR } = \frac{\mbox{Anzahl der erfolgreichen Läufe}}{\mbox{Anzahl aller Läufe}}
+\text{SR } = \frac{\text{Anzahl der erfolgreichen Läufe}}{\text{Anzahl aller Läufe}}
 ```
 
 Die SR liegt im Intervall $`[0, 1]`$.
@@ -359,4 +359,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fbb38af (markdown: replace 'phantom' (workaround gh bug) (#443), 2025-08-12)<br></sub></sup></p></blockquote>

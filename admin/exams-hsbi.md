@@ -309,10 +309,10 @@ vollständige Lerntabelle an.
 Anders als in der Vorlesung besprochen, sollen die Gewichte $`w_1`$ und
 $`w_2`$ sowie die Schwelle $`\theta`$ jeweils mit dem Wert $`0`$
 initialisiert werden. Die Lernschrittweite $`\alpha`$ sei $`0.5`$.
-Nutzen Sie die $`\operatorname{sign}`$-Funktion als
+Nutzen Sie die $`\mathop{\text{sign}}`$-Funktion als
 Aktivierungsfunktion:
 ``` math
-\operatorname{sign}(x) = \left\{
+\mathop{\text{sign}}(x) = \left\{
     \begin{array}{ll}
     0 & \text{falls } x<0\\
     1 & \text{sonst}
@@ -367,4 +367,4 @@ her.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

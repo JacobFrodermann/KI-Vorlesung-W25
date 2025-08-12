@@ -158,7 +158,7 @@ Ein Problem besteht aus:
 Menge $`S_A \subset S`$
 
 **Aktionen**  
-Menge von Funktionen $`\operatorname{op}: S \to S`$
+Menge von Funktionen $`\mathop{\text{op}}: S \to S`$
 
 **Zustandsraum**  
 Menge aller Zustände $`S`$, die durch (wiederholte) Anwendung von
@@ -167,11 +167,11 @@ Aktionen von den Startzuständen aus erreichbar sind
 <!-- -->
 
 **Zieltest**  
-Funktion $`\operatorname{goal}: S \to \{0,1\}`$
+Funktion $`\mathop{\text{goal}}: S \to \{0,1\}`$
 
 **Zielzustände**  
 Menge $`S_E \subseteq S`$ mit
-$`\forall x \in S_E : \operatorname{goal}(x)=1`$
+$`\forall x \in S_E : \mathop{\text{goal}}(x)=1`$
 
 <!-- -->
 
@@ -394,4 +394,4 @@ Wieviel Speicher benötigt die Suche?
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

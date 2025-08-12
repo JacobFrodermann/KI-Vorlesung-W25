@@ -66,7 +66,7 @@
 <!-- -->
 
 - Nutzung gewichteter Features $`f_i`$:
-  $`\operatorname{Eval}(s) = w_1f_1(s) + w_2f_2(s) + \ldots`$
+  $`\mathop{\text{Eval}}(s) = w_1f_1(s) + w_2f_2(s) + \ldots`$
 
   - Beispiel: $`w_1 = 9`$ und $`f_1(s)`$ = (# weiße Königinnen) - (#
     schwarze Königinnen)
@@ -74,7 +74,7 @@
 <!-- -->
 
 - **Alternativ**: Speicherung von Positionen plus Bewertung in
-  Datenbanken =\> Lookup mit $`\operatorname{Eval}(s)`$ (statt
+  Datenbanken =\> Lookup mit $`\mathop{\text{Eval}}(s)`$ (statt
   Berechnung zur Laufzeit)
 
 ## Minimax mit mehreren Spielern
@@ -113,7 +113,7 @@ Wahrscheinlichkeit $`P(i)`$ dieses Ausgangs annotiert wird.
 Expectimax-Wert für Zufallsknoten $`C`$:
 
 ``` math
-    \operatorname{Expectimax}(C) = \sum_i P(i) \operatorname{Expectimax}(s_i)
+    \mathop{\text{Expectimax}}(C) = \sum_i P(i) \mathop{\text{Expectimax}}(s_i)
 ```
 
 - $`i`$ mögliches Würfelergebnis
@@ -214,4 +214,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

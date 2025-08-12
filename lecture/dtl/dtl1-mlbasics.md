@@ -119,26 +119,26 @@
 
 - **Gesucht**: Diagnose und Reparaturanleitung
 
-  =\> Hypothese über den Merkmalen (Funktion $`\operatorname{h}`$)
+  =\> Hypothese über den Merkmalen (Funktion $`\mathop{\text{h}}`$)
 
-## Lernen durch Beobachten: Lernen einer Funktion $`\operatorname{f}`$
+## Lernen durch Beobachten: Lernen einer Funktion $`\mathop{\text{f}}`$
 
-Funktionsapproximation: Lernen einer Funktion $`\operatorname{f}`$
+Funktionsapproximation: Lernen einer Funktion $`\mathop{\text{f}}`$
 anhand von Beispielen
 
 - Ein Beispiel ist ein Tupel
-  $`(\mathbf{x}, \operatorname{f}(\mathbf{x}))`$, etwa
+  $`(\mathbf{x}, \mathop{\text{f}}(\mathbf{x}))`$, etwa
 
 ``` math
-(\mathbf{x}, \operatorname{f}(\mathbf{x})) = \left(\begin{array}{ccc}
+(\mathbf{x}, \mathop{\text{f}}(\mathbf{x})) = \left(\begin{array}{ccc}
 O & O & X \\
 . & X & . \\
 X & . & .
 \end{array}, +1\right)
 ```
 
-- Aufgabe: Baue Hypothese $`\operatorname{h}`$ auf, so dass
-  $`\operatorname{h} \approx \operatorname{f}`$.
+- Aufgabe: Baue Hypothese $`\mathop{\text{h}}`$ auf, so dass
+  $`\mathop{\text{h}} \approx \mathop{\text{f}}`$.
   - Benutze dazu Menge von Beispielen =\> **Trainingsdaten**.
 
 <!-- -->
@@ -217,7 +217,7 @@ unerwünscht!
 ## Trainingsdaten und Merkmalsvektoren
 
 Lehrer gibt Beispiele vor: Eingabe $`\mathbf{x}`$ und passende Ausgabe
-$`\operatorname{f}(\mathbf{x})`$
+$`\mathop{\text{f}}(\mathbf{x})`$
 
 - Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) =\>
   Beispiel: Bewertung eines Spielstandes bei TicTacToe
@@ -386,4 +386,4 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
