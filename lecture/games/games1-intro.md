@@ -161,10 +161,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- ([Russell und Norvig 2020](#ref-Russell2020), pp. 193-196)
 - [“position-backgammon-decembre”](https://www.flickr.com/photos/83436399@N04/11267311625)
   by [serialgamer_fr](https://www.flickr.com/photos/83436399@N04) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- ([Russell und Norvig 2020](#ref-Russell2020), pp. 193-196)
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
