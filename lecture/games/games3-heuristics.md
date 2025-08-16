@@ -1,6 +1,6 @@
 # Heuristiken
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -27,6 +27,8 @@
 > Minimax-Prinzip ausgewertet wird (=\> *Expectimax*).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -153,9 +155,7 @@ der Nachfolger arbeiten.
   Heuristiken: Abschnitte 6.2.2, 6.3, 6.5
 - Ertel ([2017](#ref-Ertel2017))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

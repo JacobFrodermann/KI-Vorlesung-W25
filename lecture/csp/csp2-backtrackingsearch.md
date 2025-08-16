@@ -1,6 +1,6 @@
 # Lösen von diskreten CSP
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -15,6 +15,8 @@
 > ersetzt.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -71,15 +73,13 @@ mache notfalls Backtracking.
 - Kumar ([1992](#ref-Kumar1992))
 - Barták ([2001](#ref-Bartak2001))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Lösung von CSP mit endlichen Domänen mit Hilfe der BT-Suche
+> - k3: Ich kann CSP mit endlichen Domänen mit Hilfe der BT-Suche lösen
 >
 > </details>
 
@@ -131,4 +131,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 - Eigener Code basierend auf einer Idee nach ([Russell und Norvig
   2020](#ref-Russell2020), p. 176, fig. 5.5)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fe8d842 (lecture: rework outcomes (CSP2), 2025-08-16)<br></sub></sup></p></blockquote>

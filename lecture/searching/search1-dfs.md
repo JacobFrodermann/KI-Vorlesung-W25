@@ -1,6 +1,6 @@
 # Suche mit Tiefensuche
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -22,6 +22,8 @@
 > Stack gelegt werden.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -203,9 +205,7 @@ Siehe [Breitensuche](search2-bfs.md)
 - Russell und Norvig ([2020](#ref-Russell2020)): Tiefensuche: Abschnitt
   3.4.3
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -217,6 +217,8 @@ Siehe [Breitensuche](search2-bfs.md)
 > - k3: Uninformierte Suchverfahren: Tiefensuche
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

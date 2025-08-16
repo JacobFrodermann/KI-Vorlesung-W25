@@ -1,6 +1,6 @@
 # NN07 - Training & Testing
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -12,10 +12,12 @@
 > - [NN7.3 - Beispiel](https://youtu.be/7XATTMNI-gI)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN07-Testing-Validierung.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN07-Testing-Validierung.pdf)
 >
@@ -182,9 +184,7 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
   wird danach wie gewohnt auf den gesamten Trainigsdaten (ausgenommen
   Testdaten) trainiert und zum Schluss mit den Testdaten evaluiert.
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -197,6 +197,8 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 > - k2: Lernkurven
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

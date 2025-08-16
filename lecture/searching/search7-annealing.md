@@ -1,6 +1,6 @@
 # Lokale Suche: Simulated Annealing
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -25,6 +25,8 @@
 > Minima vermeiden bzw. überwinden.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -191,9 +193,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 - Russell und Norvig ([2020](#ref-Russell2020)): Simulated Annealing:
   Abschnitt 4.1.2
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -202,6 +202,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > - k2: Funktionsweise Simulated Annealing
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

@@ -1,6 +1,6 @@
 # ID3 und C4.5
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -24,6 +24,8 @@
 > Algorithmus **C4.5**.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -255,9 +257,7 @@ durch die Normierung in C4.5 aufgehoben wird.
   Abschnitt 19.3
 - Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -266,6 +266,8 @@ durch die Normierung in C4.5 aufgehoben wird.
 > - k3: Entscheidungsbaumalgorithmen ID3 und C4.5
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

@@ -1,6 +1,6 @@
-# Suche mit A*
+# Suche mit A\*
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -22,6 +22,8 @@
 > Suchschritten als BnB auskommt.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -200,9 +202,7 @@ Außerdem muss gelten:
 - Russell und Norvig ([2020](#ref-Russell2020)): A\*: Abschnitt 3.5.2,
   Heuristiken: Kapitel 3.6
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -215,6 +215,8 @@ Außerdem muss gelten:
 > - k3: Informierte Suchverfahren A\*
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -224,6 +226,8 @@ Außerdem muss gelten:
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106600&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

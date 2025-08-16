@@ -1,6 +1,6 @@
 # NN04 - Overfitting und Regularisierung
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -11,10 +11,12 @@
 >   Regularisierung](https://youtu.be/BW91MYPUH_k)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN04-Nichtlineare_Modelle_und_Overfitting.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN04-Nichtlineare_Modelle_und_Overfitting.pdf)
 >
@@ -62,9 +64,7 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 - Abu-Mostafa, Magdon-Ismail, und Lin ([2012](#ref-AbuMostafa2012)):
   Kapitel 4
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -77,6 +77,8 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 > - k3: Gradientenabstieg für regularisierte logistische Regression
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

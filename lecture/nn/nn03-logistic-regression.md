@@ -1,6 +1,6 @@
 # NN03 - Logistische Regression
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -16,10 +16,12 @@
 >   Gradientenabstieg](https://youtu.be/kPAZsr-r1LA)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN03-Logistische_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN03-Logistische_Regression.pdf)
 >
@@ -72,9 +74,7 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 - Lineare Regression <img src="images/lin_reg_nn.png">
 - Perzeptron <img src="images/perzeptron_nn.png">
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -88,6 +88,8 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 > - k3: Gradientenabstieg für logistische Regression
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

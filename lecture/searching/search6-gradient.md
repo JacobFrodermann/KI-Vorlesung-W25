@@ -1,6 +1,6 @@
 # Lokale Suche: Gradientensuche
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -16,6 +16,8 @@
 > Gradientensuche).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -130,9 +132,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 - Russell und Norvig ([2020](#ref-Russell2020)): Gradientenabstieg:
   Abschnitt 4.1.1
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -142,6 +142,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > - k3: Lokale Suche (Gradientenabstieg)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -151,6 +153,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106601&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -201,11 +205,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
 - [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
   by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
   [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

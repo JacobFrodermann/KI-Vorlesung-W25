@@ -1,6 +1,6 @@
 # CAL2
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -32,6 +32,8 @@
 > einen fehlerfreien Baum erzeugen.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -171,9 +173,7 @@ Referenzen vom Typ `Baum` sein).
   halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
   verlegt)
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -182,6 +182,8 @@ Referenzen vom Typ `Baum` sein).
 > - k3: Entscheidungsbaumlerner CAL2
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -191,6 +193,8 @@ Referenzen vom Typ `Baum` sein).
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106575&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

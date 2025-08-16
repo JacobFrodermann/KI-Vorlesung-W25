@@ -1,6 +1,6 @@
 # Minimax
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -21,6 +21,8 @@
 > und diese Bewertung wird dann im Spielbaum nach oben gereicht.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -181,9 +183,7 @@ Gedankenexperiment:
 - Russell und Norvig ([2020](#ref-Russell2020)): Minimax: Abschnitt 6.2
 - Ertel ([2017](#ref-Ertel2017))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -192,6 +192,8 @@ Gedankenexperiment:
 > - k3: Minimax-Algorithmus
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -201,6 +203,8 @@ Gedankenexperiment:
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106582&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

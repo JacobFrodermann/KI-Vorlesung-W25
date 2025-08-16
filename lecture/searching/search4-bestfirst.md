@@ -1,6 +1,6 @@
 # Suche mit Best First
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -15,6 +15,8 @@
 > berücksichtigt.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -99,9 +101,7 @@ Siehe [A\*](search5-astar.md)
 - Russell und Norvig ([2020](#ref-Russell2020)): Best First: Abschnitt
   3.5.1, Heuristiken: Kapitel 3.6
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -113,6 +113,8 @@ Siehe [A\*](search5-astar.md)
 > - k3: Informierte Suchverfahren Best-First
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -122,6 +124,8 @@ Siehe [A\*](search5-astar.md)
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106599&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

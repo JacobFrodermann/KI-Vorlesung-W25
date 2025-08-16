@@ -1,6 +1,6 @@
 # NN08 - Performanzanalyse
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -14,10 +14,12 @@
 >   Intuition](https://youtu.be/vsmoYiArtrA)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN08-Performanzanalyse.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN08-Performanzanalyse.pdf)
 >
@@ -121,9 +123,7 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
   herunter. In dieser Hinsicht gibt diese Metrik ein akkurates Bild über
   den Erfolg eines Modells.
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

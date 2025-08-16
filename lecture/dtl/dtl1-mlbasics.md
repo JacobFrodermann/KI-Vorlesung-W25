@@ -1,6 +1,6 @@
 # Machine Learning 101
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -36,6 +36,8 @@
 > Funktionswert) vom Lehrer.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -301,9 +303,7 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 - Russell und Norvig ([2020](#ref-Russell2020)): Lernen: Abschnitte 19.1
   und 19.2
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -315,6 +315,8 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 >   Trainingsmenge
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -324,6 +326,8 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106589&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

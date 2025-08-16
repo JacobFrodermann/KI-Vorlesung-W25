@@ -1,6 +1,6 @@
 # NN10 - Vorschau Deep Learning (CNN, RNN)
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -10,10 +10,12 @@
 > - [NN10.2 - TODO](https://youtu.be/TODO)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN10-CNN.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN10-CNN.pdf)
 >
@@ -25,9 +27,7 @@
 
 TODO
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

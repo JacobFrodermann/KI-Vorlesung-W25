@@ -1,6 +1,6 @@
 # NN02 - Lineare Regression und Gradientenabstieg
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -17,10 +17,12 @@
 > - [NN2.6 - Skalierung der Merkmale](https://youtu.be/m-TnM13I-no)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN02-Lineare_Regression.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN02-Lineare_Regression.pdf)
 >
@@ -90,9 +92,7 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 - Lineare Regression <img src="images/lin_reg_nn.png">
 - Perzeptron <img src="images/perzeptron_nn.png">
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -107,6 +107,8 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 > - k3: Gradientenabstieg
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -116,6 +118,8 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106590&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

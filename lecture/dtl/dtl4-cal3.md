@@ -1,6 +1,6 @@
 # CAL3
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -19,6 +19,8 @@
 > verwendeten Test hinzu.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -106,9 +108,7 @@ Bäume als CAL2 …
   halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
   verlegt)
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -117,6 +117,8 @@ Bäume als CAL2 …
 > - k3: Meta-Algorithmus CAL3 für überlappende Klassen
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -126,6 +128,8 @@ Bäume als CAL2 …
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106576&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

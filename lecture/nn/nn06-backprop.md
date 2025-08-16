@@ -1,6 +1,6 @@
 # NN06 - Backpropagation
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -11,10 +11,12 @@
 > - [NN6.3 - MLP Zusammenfassung](https://youtu.be/uvT4WPIIkwQ)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN06-MLP_Backpropagation.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN06-MLP_Backpropagation.pdf)
 > - [NN06.2-MLP_Backpropagation_Beispiel.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN06.2-MLP_Backpropagation_Beispiel.pdf)
@@ -81,9 +83,7 @@ W^{[l]} = W^{[l]} - \alpha \text{ } dW^{[l]} \tag{7}
 b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 ```
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -96,6 +96,8 @@ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 > - k3: Rückwärtslauf (backpropagation) für ein gegebenes MLP
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

@@ -1,6 +1,6 @@
 # Problemlösen
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -63,6 +63,8 @@
 > und Komplexität beurteilt werden.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -322,9 +324,7 @@ Wieviel Speicher benötigt die Suche?
 - Russell und Norvig ([2020](#ref-Russell2020)): Problemlösen: Kapitel
   3.1 - 3.3
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -336,6 +336,8 @@ Wieviel Speicher benötigt die Suche?
 > - k2: Unterschied zw. Tree-Search und Graph-Search
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -345,6 +347,8 @@ Wieviel Speicher benötigt die Suche?
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106586&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

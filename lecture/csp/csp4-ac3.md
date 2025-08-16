@@ -1,6 +1,6 @@
 # Kantenkonsistenz und AC-3
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -31,6 +31,8 @@
 > Inferenzschritt in die BT-Suche einbetten (“MAC”).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -73,7 +75,7 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 ## Forward Checking findet nicht alle Inkonsistenzen!
 
-<img src="images/forward_checking.png" width="55%">
+<img src="images/forward_checking.png" width="40%">
 
 - Nach $`\lbrace A=red, D=green \rbrace`$ bleibt für B und C nur noch
   blue
@@ -142,8 +144,8 @@ def ARC_Reduce(csp, x, y):
     return change
 ```
 
-Quelle: Eigener Code basierend auf einer Idee nach ([Russell und Norvig
-2020](#ref-Russell2020), p. 171, fig. 5.3)
+Quelle: AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach
+([Russell und Norvig 2020](#ref-Russell2020), p. 171, fig. 5.3)
 
 *Anmerkung*: Die Queue in AC-3 ist wie eine (mathematische) Menge zu
 betrachten: Jedes Element kann nur genau einmal in einer Menge enthalten
@@ -186,20 +188,22 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 - Kumar ([1992](#ref-Kumar1992))
 - Barták ([2001](#ref-Bartak2001))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Forward Checking (FC)
-> - k2: Erweiterung von FC auf alle Kanten: Kantenkonsistenz
-> - k2: Kantenkonsistenz bedeutet nicht globale Konsistenz
-> - k3: AC-3 Algorithmus
+> - k2: Ich kann “Forward Checking” (FC) erklären
+> - k2: Ich kann die Erweiterung von FC auf alle Kanten erklären
+>   (Kantenkonsistenz)
+> - k2: Ich kann an einem Beispiel erklären, dass Kantenkonsistenz nicht
+>   globale Konsistenz bedeutet
+> - k3: Ich kann den AC-3 Algorithmus anwenden
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -209,6 +213,8 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106574&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -216,29 +222,29 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >
 > **Fingerübungen**
 >
-> Ist die Kante zwischen a und b konsistent?
+> 1.  Ist die Kante zwischen a und b konsistent?
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_a.png?raw=true">
+>     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_a.png?raw=true" width="20%">
 >
-> Wann ist der Graph lokal konsistent?
+> 2.  Wann ist der Graph lokal konsistent?
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_b.png?raw=true">
+>     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_b.png?raw=true" width="15%">
 >
-> - a {1,2}; b {2,3}; c {1,2,3}; d {1,2,3}
-> - a {1,2}; b {2,3}; c {3}; d {1,2}
-> - a {1,3}; b {2,3}; c {1,3}; d {1,2,3}
-> - a {1,2}; b {2,3}; c {1,3}; d {1,2,3}
+>     - a {1,2}; b {2,3}; c {1,2,3}; d {1,2,3}
+>     - a {1,2}; b {2,3}; c {3}; d {1,2}
+>     - a {1,3}; b {2,3}; c {1,3}; d {1,2,3}
+>     - a {1,2}; b {2,3}; c {1,3}; d {1,2,3}
 >
-> Wie sieht die Queue im nächsten Schritt mit AC3 aus?
+> 3.  Wie sieht die Queue im nächsten Schritt mit AC3 aus?
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_c.png?raw=true">
+>     <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/csp/images/csp_challenge_c.png?raw=true" width="25%">
 >
-> Aktuelle Queue: \[ab, ac, ba, bc, ca, cb\]
+>     Aktuelle Queue: \[ab, ac, ba, bc, ca, cb\]
 >
-> - \[bc, ba, ca, cb, ab, ac\]
-> - \[ab, ac, ba, bc, ca, cb\]
-> - \[ac, ba, bc, ca, cb\]
-> - \[ac, ba, bc, ca, cb, ba\]
+>     - \[bc, ba, ca, cb, ab, ac\]
+>     - \[ab, ac, ba, bc, ca, cb\]
+>     - \[ac, ba, bc, ca, cb\]
+>     - \[ac, ba, bc, ca, cb, ba\]
 >
 > </details>
 
@@ -287,7 +293,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- Eigener Code basierend auf einer Idee nach ([Russell und Norvig
-  2020](#ref-Russell2020), p. 171, fig. 5.3)
+- AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach ([Russell
+  und Norvig 2020](#ref-Russell2020), p. 171, fig. 5.3)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c25b6e9 (lecture: amend credits (CSP4), 2025-08-16)<br></sub></sup></p></blockquote>

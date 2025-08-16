@@ -1,6 +1,6 @@
 # Einführung Evolutionäre Algorithmen
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -15,6 +15,8 @@
 > und damit im Laufe der Suche zu einer möglichen Lösung werden können.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -128,9 +130,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 - Bäck ([1996](#ref-Baeck1996))
 - Nissen ([1997](#ref-Nissen1997))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

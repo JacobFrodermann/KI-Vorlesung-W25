@@ -1,6 +1,6 @@
 # Wiederholung Wahrscheinlichkeitstheorie
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -43,6 +43,8 @@
 >   sich?).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -354,9 +356,7 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 - Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 12
 - Ertel ([2017](#ref-Ertel2017)): Abschnitt 7.1
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -370,6 +370,8 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 > - k3: Bayes’sche Regel
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

@@ -1,6 +1,6 @@
 # Entropie
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -19,6 +19,8 @@
 > ist.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -233,9 +235,7 @@ Hierzu drei lesenswerte Blog-Einträge:
   Abschnitt 19.3
 - Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -244,6 +244,8 @@ Hierzu drei lesenswerte Blog-Einträge:
 > - k3: Berechnung der Entropie und des Information Gain
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -253,6 +255,8 @@ Hierzu drei lesenswerte Blog-Einträge:
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106578&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

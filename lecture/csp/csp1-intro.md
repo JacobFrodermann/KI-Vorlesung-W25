@@ -1,6 +1,6 @@
 # Einführung Constraints
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -22,6 +22,8 @@
 > Belegung.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -153,19 +155,19 @@ hat ein Constraint?)
 - Kumar ([1992](#ref-Kumar1992))
 - Barták ([2001](#ref-Bartak2001))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Definitionen: Variable, Domäne, Constraint, Arität, CSP,
->   Zuweisung
-> - k3: Formulierung von CSP
+> - k2: Ich kann die Definitionen im Zusammenhang mit Constraints und
+>   CSP erklären: Variable, Domäne, Constraint, Arität, CSP, Zuweisung
+> - k3: Ich kann Probleme als CSP formulieren
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -219,4 +221,4 @@ hat ein Constraint?)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 358dec7 (lecture: rework outcomes (CSP1), 2025-08-16)<br></sub></sup></p></blockquote>

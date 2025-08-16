@@ -1,6 +1,6 @@
 # Modellierung mit Genetischen Algorithmen
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -30,6 +30,8 @@
 > Maxima, je nach Richtung der Optimierung) festfrisst.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -252,9 +254,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 - Bäck ([1996](#ref-Baeck1996))
 - Nissen ([1997](#ref-Nissen1997))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -263,6 +263,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > - k3: GA: Kodierung, Fitnessfunktion, Ablauf, Operatoren, Auswertung
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -272,6 +274,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106580&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

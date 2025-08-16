@@ -1,6 +1,6 @@
 # NN05 - Multilayer Perzeptron
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -9,10 +9,12 @@
 > - [NN5.1 - MLP Forward Propagation](https://youtu.be/7ltwa5WWuKI)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN05-MLP.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN05-MLP.pdf)
 >
@@ -48,9 +50,7 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 \hat{y} := a^{[2]} = \sigma \left( W^{[2]} \cdot a^{[1]} + b^{[2]} \right) \tag{2}
 ```
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -63,6 +63,8 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 > - k3: Berechnung der einzelnen Aktivierungen
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -72,6 +74,8 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106592&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

@@ -1,6 +1,6 @@
 # Suche mit Breitensuche
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -17,6 +17,8 @@
 > Dadurch wird bei der Breitensuche der Suchbaum ebenenweise entwickelt.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -164,9 +166,7 @@ anwendbaren Operationen bestimmt.)
 - Russell und Norvig ([2020](#ref-Russell2020)): Breitensuche: Abschnitt
   3.4.1
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -178,6 +178,8 @@ anwendbaren Operationen bestimmt.)
 > - k3: Uninformierte Suchverfahren: Breitensuche
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

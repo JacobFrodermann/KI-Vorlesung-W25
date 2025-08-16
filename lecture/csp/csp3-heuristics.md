@@ -1,6 +1,6 @@
 # Heuristiken
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -25,6 +25,8 @@
 > alle Constraints zu den Nachbarn auswerten.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -124,18 +126,18 @@ wenig zusätzlicher Aufwand entsteht.
 - Kumar ([1992](#ref-Kumar1992))
 - Barták ([2001](#ref-Bartak2001))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Verbesserung der BT-Suche mit Heuristiken: MRV, Gradheuristik,
->   LCV
+> - k3: Ich kann die BT-Suche mit verschiedenen Heuristiken verbessern:
+>   MRV, Gradheuristik, LCV
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -145,21 +147,17 @@ wenig zusätzlicher Aufwand entsteht.
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106573&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
 > <summary><strong>🏅 Challenges</strong></summary>
 >
 > Sei $`D=\lbrace 0, \ldots, 5 \rbrace`$, und ein Constraintproblem
-> definiert durch
->
-> ``` math
-> \langle
->     \lbrace v_1, v_2, v_3, v_4 \rbrace,
->     \lbrace D_{v_1} = D_{v_2} = D_{v_3} = D_{v_4} = D \rbrace,
->     \lbrace c_1, c_2, c_3, c_4 \rbrace
-> \rangle
-> ```
+> definiert durch $`\langle
+> \lbrace v_1, v_2, v_3, v_4 \rbrace, \lbrace D_{v_1} = D_{v_2} = D_{v_3} = D_{v_4} = D \rbrace,
+> \lbrace c_1, c_2, c_3, c_4 \rbrace \rangle`$
 >
 > mit
 >
@@ -220,4 +218,4 @@ wenig zusätzlicher Aufwand entsteht.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c1810bd (lecture: fix math in challenges (CSP3), 2025-08-16)<br></sub></sup></p></blockquote>

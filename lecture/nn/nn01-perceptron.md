@@ -1,6 +1,6 @@
 # NN01 - Das Perzeptron
 
-> [!NOTE]
+> [!TIP]
 >
 > <details>
 >
@@ -15,10 +15,12 @@
 >   Lernalgorithmus](https://youtu.be/JD8Qsg8_kQI)
 >
 > </details>
+
+> [!NOTE]
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [NN01-Das_Perzeptron.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN01-Das_Perzeptron.pdf)
 >
@@ -57,9 +59,7 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 - Gewichte und Schwellenwert sind unbekannte Parameter des Modells, die
   es zu lernen gilt \> siehe **Perzeptron Lernalgorithmus**
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -74,6 +74,8 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 > - k3: Perzeptron Lernalgorithmus
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

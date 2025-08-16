@@ -1,6 +1,6 @@
 # Suche mit Branch-and-Bound
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -19,6 +19,8 @@
 > (realen) Kosten der partiellen Wege.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -137,9 +139,7 @@ Siehe [A\*](search5-astar.md)
 - Russell und Norvig ([2020](#ref-Russell2020)): Branch-and-Bound
   (Uniforme Suche): Abschnitt 3.4.2
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -152,6 +152,8 @@ Siehe [A\*](search5-astar.md)
 > - k3: Informierte Suchverfahren: Branch-and-Bound
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

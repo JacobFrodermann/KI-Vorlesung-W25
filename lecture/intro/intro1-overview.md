@@ -1,6 +1,6 @@
 # Intro: Was ist Künstliche Intelligenz?
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -33,6 +33,8 @@
 > Erwartungen.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -510,9 +512,7 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 - Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 1: Introduction
 - Ertel ([2017](#ref-Ertel2017)): Kapitel 1: Introduction
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -525,6 +525,8 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 > - k1: Wichtige Strömungen in der KI und ihre zeitliche Einordnung
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -572,12 +574,19 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
+  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
+  RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
+  Art. 3 Abs. 1
 - [AvB - RoboCup 2013 -
   Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
 - [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
   [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
@@ -588,13 +597,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
-  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
-- [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
-  RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
-  Art. 3 Abs. 1
+- nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>

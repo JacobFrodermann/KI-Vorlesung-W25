@@ -1,6 +1,6 @@
 # Pruning
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -27,6 +27,8 @@
 > Tests im Baum ändern.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -103,9 +105,7 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 - Russell und Norvig ([2020](#ref-Russell2020)): Entscheidungsbäume:
   Abschnitt 19.3
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -116,6 +116,8 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 > - k3: Umformen von Entscheidungsbäumen mit Transformationsregel
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >

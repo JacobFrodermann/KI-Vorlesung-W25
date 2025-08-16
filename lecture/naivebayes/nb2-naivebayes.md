@@ -1,6 +1,6 @@
 # Klassifikation mit Naive Bayes
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -65,6 +65,8 @@
 > Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -354,9 +356,7 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 - Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 12
 - Ertel ([2017](#ref-Ertel2017)): Abschnitt 8.7
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -371,6 +371,8 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 >   Wahrscheinlichkeiten
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -380,6 +382,8 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 >   (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106588&client_id=FH-Bielefeld)
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
