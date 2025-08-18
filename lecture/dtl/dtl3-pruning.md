@@ -111,9 +111,11 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Pruning: Entfernen bedingt irrelevanter Tests
-> - k3: Pruning: Entfernen bedingt redundanter Tests
-> - k3: Umformen von Entscheidungsbäumen mit Transformationsregel
+> - k3: Ich kann Pruning anwenden und bedingt irrelevante Tests
+>   entfernen
+> - k3: Ich kann Pruning anwenden und bedingt redundante Tests entfernen
+> - k3: Ich kann Entscheidungsbäume mit Hilfe der Transformationsregel
+>   umformen
 >
 > </details>
 
@@ -163,4 +165,4 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> b5983e1 (lecture: rework outcomes (DTL3), 2025-08-18)<br></sub></sup></p></blockquote>

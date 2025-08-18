@@ -38,16 +38,24 @@
 
 - Die **Überanpassung** (engl. Overfitting) ist eines der häufigsten und
   wichtigsten Probleme in ML und DL
-- “Was im Bereich des maschinellen Lernens Professionelle von Amateuren
-  unterscheidet, ist ihre Fähigkeit mit Überanpassung umzugehen.”
-  ([Abu-Mostafa, Magdon-Ismail, und Lin 2012, 119](#ref-AbuMostafa2012))
+
+  > “Was im Bereich des maschinellen Lernens Professionelle von
+  > Amateuren unterscheidet, ist ihre Fähigkeit mit Überanpassung
+  > umzugehen.”
+  >
+  > – Quelle: ([Abu-Mostafa, Magdon-Ismail, und Lin 2012,
+  > 119](#ref-AbuMostafa2012))
+
 - Anzeichen von Überanpassung sind geringe Trainingskosten und hohe
   **Testkosten** (Kosten auf nicht-gesehenen Daten).
+
 - Regularisierung ist eine Maßnahme gegen Überanpassung. Man kann es
   sich als eine Reduktion in der Komplexität des Modells vorstellen.
+
 - Der Regularisierungsparameter $`\lambda`$ ist ein Hyperparameter. Je
   größer der $`\lambda`$-Wert, desto größer der Regularisierungseffekt.
-- Die **Kostentenfunktion** bei regulariserter logistischer Regression:
+
+- Die **Kostenfunktion** bei regulariserter logistischer Regression:
 
 ``` math
 J = \frac{1}{m} \left\lbrack \sum_{i=1}^m \left( -y^{[i]}log(a^{[i]})-(1-y^{[i]})log(1-a^{[i]}) \right) + \frac{\lambda}{2} \sum_{j=1}^n (w^2_j)  \right\rbrack \tag{1}
@@ -70,11 +78,14 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Erhöhung der Modell-Komplexität durch Einführung von Merkmalen
->   höherer Ordnung
-> - k2: Unter- und Überanpassung
-> - k2: Regularisierung (Auswirkung auf Gewichte und Modell)
-> - k3: Gradientenabstieg für regularisierte logistische Regression
+> - k2: Ich kann die Erhöhung der Modell-Komplexität durch Einführung
+>   von Merkmalen höherer Ordnung erklären
+> - k2: Ich kann die Begriffe Unter- und Überanpassung an einem Beispiel
+>   erklären
+> - k2: Ich kann den Begriff Regularisierung erklären und die Auswirkung
+>   auf die Gewichte und das Modell erläutern
+> - k3: Ich kann den Gradientenabstieg für regularisierte logistische
+>   Regression an einem Beispiel anwenden
 >
 > </details>
 
@@ -117,4 +128,8 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+**Exceptions:**
+
+- ([Abu-Mostafa, Magdon-Ismail, und Lin 2012, 119](#ref-AbuMostafa2012))
+
+<blockquote><p><sup><sub><strong>Last modified:</strong> c6eb009 (lecture: add 'origin' span (NN04), 2025-08-18)<br></sub></sup></p></blockquote>

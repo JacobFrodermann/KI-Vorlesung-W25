@@ -64,7 +64,7 @@
 
 ## Learning Agent
 
-<img src="images/learning.png" width="80%">
+<img src="images/learning.png" width="70%">
 
 ## Feedback während des Lernens
 
@@ -154,7 +154,7 @@ X & . & .
 
 ## Konstruieren einer konsistenten Hypothese
 
-<img src="images/occams1.png" width="60%">
+<img src="images/occams1.png" width="40%">
 
 Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
 Funktionsverlauf … Wir haben für einige x-Werte die zugehörigen y-Werte
@@ -162,7 +162,7 @@ vorgegeben.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams2.png" width="60%">
+<img src="images/occams2.png" width="40%">
 
 Die einfachste Approximation wäre eine lineare Funktion. Allerdings
 werden hierbei einige Werte mehr oder weniger stark nicht korrekt
@@ -170,7 +170,7 @@ widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams3.png" width="60%">
+<img src="images/occams3.png" width="40%">
 
 Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
 gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
@@ -178,7 +178,7 @@ gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams4.png" width="60%">
+<img src="images/occams4.png" width="40%">
 
 Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
 erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
@@ -191,7 +191,7 @@ Ausreißer o.ä. gibt.)
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<img src="images/occams5.png" width="60%">
+<img src="images/occams5.png" width="40%">
 
 Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
 schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich
@@ -309,10 +309,12 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Definition und Arten des Lernens
-> - k2: Überwachtes Lernen: Lernen durch Beobachten (mit Lehrer)
-> - k2: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte,
->   Trainingsmenge
+> - k1: Ich kann den Begriff “(maschinelles) Lernen” definieren und
+>   verschiedene Arten unterscheiden
+> - k2: Ich kann “Überwachtes Lernen” erklären: Lernen durch Beobachten
+>   (mit Lehrer)
+> - k2: Ich kann wichtige Elemente des (maschinellen) Lernens erklären:
+>   Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte, Trainingsmenge
 >
 > </details>
 
@@ -390,4 +392,4 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c85854d (lecture: rework outcomes (DTL1), 2025-08-18)<br></sub></sup></p></blockquote>

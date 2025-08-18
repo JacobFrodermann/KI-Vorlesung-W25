@@ -51,8 +51,8 @@ def BT_Search(assignment, csp):
     return failure
 ```
 
-Quelle: Eigener Code basierend auf einer Idee nach ([Russell und Norvig
-2020](#ref-Russell2020), p. 176, fig. 5.5)
+Quelle: Backtracking-Search: Eigener Code basierend auf einer Idee nach
+([Russell und Norvig 2020](#ref-Russell2020), p. 176, fig. 5.5)
 
 Hierbei handelt es sich um eine etwas angepasste Tiefensuche: Starte mit
 leerem Assignment und weise schrittweise Variablen passende Werte zu und
@@ -128,7 +128,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- Eigener Code basierend auf einer Idee nach ([Russell und Norvig
-  2020](#ref-Russell2020), p. 176, fig. 5.5)
+- Backtracking-Search: Eigener Code basierend auf einer Idee nach
+  ([Russell und Norvig 2020](#ref-Russell2020), p. 176, fig. 5.5)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> fe8d842 (lecture: rework outcomes (CSP2), 2025-08-16)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d18fada (lecture: amend credits (CSP2), 2025-08-18)<br></sub></sup></p></blockquote>

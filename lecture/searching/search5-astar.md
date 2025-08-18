@@ -75,7 +75,7 @@ Varianten:
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="90%">
+<img src="images/tafelbeispiel.png" width="60%">
 
 </div>
 
@@ -208,11 +208,16 @@ Außerdem muss gelten:
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Verwendete Datenstrukturen
-> - k2: Algorithmische Abläufe, Terminierung
-> - k2: Optimalität, Vollständigkeit und Komplexität
-> - k2: Bedingung(en) an Restkostenabschätzung bei A\*
-> - k3: Informierte Suchverfahren A\*
+> - k2: Ich kann erklären, welche Datenstrukturen in A\* verwendet
+>   werden und wie diese sich auswirken
+> - k2: Ich kann die algorithmische Abläufe und die Terminierung von A\*
+>   erklären
+> - k2: Ich kann Optimalität, Vollständigkeit und Komplexität für A\*
+>   erklären
+> - k2: Ich kann die Bedingung(en) an Restkostenabschätzung bei A\*
+>   erklären
+> - k3: Ich kann A\* implementieren und auf ein konkretes Beispiel
+>   anwenden
 >
 > </details>
 
@@ -237,7 +242,7 @@ Außerdem muss gelten:
 >
 > Betrachten Sie folgendes Problem:
 >
-> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/searching/images/challenges_robby.png?raw=true">
+> <img src="https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/searching/images/challenges_robby.png?raw=true" width="60%">
 >
 > Dargestellt ist eine typische Büroumgebung mit verschiedenen Räumen
 > und einem Flur. Die Pfeile in den Durchgängen geben an, in welche
@@ -290,7 +295,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> dfd216c (lecture: rework outcomes (Search5), 2025-08-18)<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

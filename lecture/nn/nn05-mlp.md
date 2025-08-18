@@ -38,7 +38,7 @@
 
 - Ein Multi-Layer Perzeptron
 
-  <img src="images/mlp.png">
+  <img src="images/mlp.png" width="65%">
 
   Ein Vorwärtslauf (forward pass):
 
@@ -56,11 +56,14 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Multi-Layer Perzeptron (MLP): Graphische Darstellung,
->   Vorwärtslauf
-> - k2: Aktivierungsfunktionen (insbesondere ReLU)
-> - k3: Vorwärtslauf (forward pass) für ein gegebenes MLP
-> - k3: Berechnung der einzelnen Aktivierungen
+> - k2: Ich kann das Multi-Layer Perzeptron (MLP) erläutern und dabei
+>   auf die graphische Darstellung eingehen und den Vorwärtslauf
+>   erklären
+> - k2: Ich kann verschiedene Aktivierungsfunktionen (insbesondere ReLU)
+>   erklären
+> - k3: Ich kann den Vorwärtslauf (forward pass) für ein gegebenes MLP
+>   anwenden
+> - k3: Ich kann die Berechnung der einzelnen Aktivierungen durchführen
 >
 > </details>
 
@@ -97,8 +100,9 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 > Als Beispiel sei das zwei-schichtige MLP mit den folgenden Gewichten
 > und Bias-Werten gegeben:
 >
-> Schicht 1: $`W_1 = [[2, 2],[3, -2]]`$, $`b_1 = [[1],[-1]]`$ Schicht 2:
-> $`W_2 = [[-2, 2]]`$, $`b_2 = [[-1]]`$
+> Schicht 1: $`W_1 = [[2, 2],[3, -2]]`$, $`b_1 = [[1],[-1]]`$
+>
+> Schicht 2: $`W_2 = [[-2, 2]]`$, $`b_2 = [[-1]]`$
 >
 > - Stellen Sie dieses Netzwerk graphisch dar. Was ist die Anzahl der
 >   Zellen in den einzelnen Schichten?
@@ -115,4 +119,4 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9d76f17 (lecture: balance image scaling (NN05), 2025-08-18)<br></sub></sup></p></blockquote>

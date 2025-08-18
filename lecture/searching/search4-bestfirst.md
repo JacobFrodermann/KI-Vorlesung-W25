@@ -107,10 +107,14 @@ Siehe [A\*](search5-astar.md)
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Verwendete Datenstrukturen
-> - k2: Algorithmische Abläufe, Terminierung
-> - k2: Optimalität, Vollständigkeit und Komplexität
-> - k3: Informierte Suchverfahren Best-First
+> - k2: Ich kann erklären, welche Datenstrukturen in Best First
+>   verwendet werden und wie diese sich auswirken
+> - k2: Ich kann die algorithmische Abläufe und die Terminierung von
+>   Best First erklären
+> - k2: Ich kann Optimalität, Vollständigkeit und Komplexität für Best
+>   First erklären
+> - k3: Ich kann Best First implementieren und auf ein konkretes
+>   Beispiel anwenden
 >
 > </details>
 
@@ -182,4 +186,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0d07eec (lecture: rework outcomes (Search4), 2025-08-18)<br></sub></sup></p></blockquote>

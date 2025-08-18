@@ -29,8 +29,6 @@
 
 ## Evolution sehr erfolgreich bei Anpassung
 
-<img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f?fm=png&crop=entropy&cs=tinysrgb" width="60%">
-
 Quelle: [Photo](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes
 Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash
 License](https://unsplash.com/license))
@@ -57,11 +55,11 @@ License](https://unsplash.com/license))
 
 ## EA – Allgemeiner Ablauf
 
-<img src="images/ea_prinz.png" width="80%">
+<img src="images/ea_prinz.png" width="60%">
 
 ## EA – Beispiel
 
-<img src="images/4-queens-example.png" width="40%">
+<img src="images/4-queens-example.png" width="25%">
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
 **aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
@@ -136,9 +134,12 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Problematik der lokalen Minima bei Gradientenverfahren
-> - k2: Überblick über die verschiedenen Strömungen
-> - k2: Prinzipieller Ablauf von Genetischen Algorithmen
+> - k2: Ich kann die Problematik der lokalen Minima bei
+>   Gradientenverfahren erklären
+> - k2: Ich kann einen Überblick über die verschiedenen Strömungen bei
+>   EA/GA darstellen
+> - k2: Ich kann den prinzipiellen Ablauf von Genetischen Algorithmen an
+>   einem Beispiel erklären
 >
 > </details>
 
@@ -203,4 +204,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash
   License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fb13c6e (lecture: rework outcomes (EA1), 2025-08-18)<br></sub></sup></p></blockquote>

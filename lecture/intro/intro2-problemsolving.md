@@ -330,10 +330,13 @@ Wieviel Speicher benötigt die Suche?
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Definition Problem: Begriffe Zustand, Aktion, Zustandsraum,
->   Problemgraph, Suchbaum
-> - k2: Problemlösen als Suche nach Wegen im Problemgraph =\> Suchbaum
-> - k2: Unterschied zw. Tree-Search und Graph-Search
+> - k2: Ich kann die Definition “Problem” erklären und dabei die
+>   Begriffe Zustand, Aktion, Zustandsraum, Problemgraph und Suchbaum
+>   erläutern
+> - k2: Ich kann Problemlösen als Suche nach Wegen im Problemgraph
+>   erklären
+> - k2: Ich kann den Unterschied zw. Tree-Search und Graph-Search an
+>   einem Beispiel erklären
 >
 > </details>
 
@@ -398,4 +401,4 @@ Wieviel Speicher benötigt die Suche?
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 37cc55c (lecture: rework outcomes (Intro2), 2025-08-18)<br></sub></sup></p></blockquote>

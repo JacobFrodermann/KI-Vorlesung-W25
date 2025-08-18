@@ -12,10 +12,8 @@
 > (Klassifikation) erfolgt dann durch die Nutzung der beim “Training”
 > berechneten bedingten Wahrscheinlichkeiten:
 >
-> ``` math
-> h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h|D_1,  \ldots, D_n) =
-> \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i|h)
-> ```
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h|D_1,  \ldots, D_n) =
+> \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i|h)`$
 >
 > Für jede Hypothese $`h`$, d.h. für jede Klasse, wird der Posterior
 > $`P(h|D_1,  \ldots, D_n)`$ ausgerechnet. Die Klasse, deren Wert dabei
@@ -196,7 +194,8 @@ berechnet werden!)
     h = gesund: P(gesund) * P(Nase=0 | gesund) * P(Husten=1 | gesund) * P(Haut=0 | gesund) * P(Fieber=1 | gesund) = 0.4*0.5*0*1*0              = 0
     h = krank:  P(krank)  * P(Nase=0 | krank)  * P(Husten=1 | krank)  * P(Haut=0 | krank)  * P(Fieber=1 | krank)  = 0.6*0.333*0.667*0.33*0.333 = 0.015
 
-=\> Klasse “krank” gewinnt …
+=\> Klasse “krank” gewinnt (Wert für $`P(\text{krank})`$ ist der höchste
+der beiden Hypothesen) …
 
 ## Textklassifikation mit NB
 
@@ -362,13 +361,14 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Annahme von Unabhängigkeit =\> ‘Naive’ Bayes Klassifikation
-> - k2: Naivität der Annahme, dennoch sehr gute Erfolge in Praxis
-> - k2: Probleme mit niedrigen Wahrscheinlichkeiten
-> - k3: Schätzen der bedingten Wahrscheinlichkeiten aus den
->   Trainingsdaten
-> - k3: Klassifikation mit Naive Bayes durch Nutzung der geschätzten
->   Wahrscheinlichkeiten
+> - k2: Ich kann die Unabhängigkeits-Annahme in der ‘Naive’ Bayes
+>   Klassifikation erklären
+> - k2: Ich kann die Probleme mit niedrigen Wahrscheinlichkeiten
+>   erklären
+> - k3: Ich kann die bedingten Wahrscheinlichkeiten aus konkreten
+>   Trainingsdaten schätzen
+> - k3: Ich kann die Klassifikation mit Naive Bayes durch Nutzung der
+>   geschätzten Wahrscheinlichkeiten durchführen
 >
 > </details>
 
@@ -441,4 +441,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d91d678 (lecture: rework outcomes (NB2), 2025-08-18)<br></sub></sup></p></blockquote>

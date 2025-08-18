@@ -43,9 +43,13 @@
   - $`E_{test}`$ bezeichnet den Fehler auf dem Testset und ist eine
     **Näherung** für $`E_{out}`$.
 
-  > Analogie:  
-  > $`E_{in}`$ : Erfolg in Übungsaufgaben und Probeprüfungen.  
-  > $`E_{test}`$ : Erfolg in Endprüfung.
+> [!TIP]
+>
+> **Analogie**:
+>
+> $`E_{in}`$ : Erfolg in Übungsaufgaben und Probeprüfungen.
+>
+> $`E_{test}`$ : Erfolg in Endprüfung.
 
 - Die Näherung $`E_{test}`$ sollte möglichst genau sein, damit es als
   ein verlässliches **Gütesiegel** dienen kann.
@@ -86,7 +90,8 @@
   *development set*) beiseitelegen und nicht für das Training
   (i.e. Minimierung des Trainingsfehlers $`E_{in}`$) verwenden!
 
-- **Bemerkung**:  
+- **Bemerkung**:
+
   Das Wort **Modell** kann je nach Kontext unterschiedliche Bedeutungen
   annehmen.  
   Ein Modell im aktuellen Kontext ist als ein Paar
@@ -113,7 +118,7 @@
     Schichten, Anzahl Zellen/Schicht, Aktivierungsfunktion,
     Regularisierungsparameter (siehe Abbildung 1).
 
-  <p align="center"><img src="images/val1.png"></p><p align="center">Abbildung
+  <p align="center"><img src="images/val1.png" width="80%"></p><p align="center">Abbildung
   1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
 
   - Bei der **Auswahl der endgültigen Hypothese** ($`\rightarrow`$
@@ -121,14 +126,14 @@
     Trainings durchlafen werden, wähle jene mit kleinstem $`E_{val}`$
     (siehe Abbildung 2).
 
-  <p align="center"><img src="images/val2.png"></p><p align="center">Abbildung
+  <p align="center"><img src="images/val2.png" width="80%"></p><p align="center">Abbildung
   2 - Einsatz der Validierung bei der Auswahl der entgültigen
   Hypothese</p>
 
   - Bei der graphischen **Darstellung von Lernkurven** für die Diagnose
     von Über- und Unteranpassung (siehe Abbildung 3).
 
-  <p align="center"><img src="images/val3.png"></p><p align="center">Abbildung
+  <p align="center"><img src="images/val3.png" width="80%"></p><p align="center">Abbildung
   3 - Lernkurven</p>
 
 - Übliche train/val/test Aufteilung der Daten (in Prozent):
@@ -136,7 +141,8 @@
   - bei $`|D| \approx 100.000 \rightarrow`$ ca. 60/20/20
   - bei $`|D| \approx 10.000.000 \rightarrow`$ ca. 98/1/1
 
-- **Bemerkung**:  
+- **Bemerkung**:
+
   Das Modell ist trainiert für gute Ergebnisse auf Trainingsdaten und
   “fine-tuned” für gute Ergebnisse auf den Validierungsdaten. Ergebnisse
   auf Testdaten werden mit hoher wahrscheinlichkeit schlechter
@@ -160,6 +166,7 @@
 - Das Modell $`(\mathcal{H_m},\mathcal{A_m})`$ wird $`k`$ mal trainiert
   und validiert, jedes mal mit unterschiedlichen Trainings- und
   Validierungsmengen:
+
   - Die Trainingsdaten werden in $`k`$ disjunkte Teilmengen
     $`D_1, D_2, ..., D_k`$ aufgeteilt.
 
@@ -171,7 +178,7 @@
     $`(\mathcal{H_m},\mathcal{A_m})`$ ist der Durchschnitt der $`k`$
     Validierungsfehler $`e_1, e_2, ..., e_k`$ (siehe Abbildung 4).
 
-  <p align="center"><img src="images/val4.png"></p><p align="center">Abbildung
+  <p align="center"><img src="images/val4.png" width="80%"></p><p align="center">Abbildung
   4 - Kreuzvalidierung</p>
 
 ``` math
@@ -190,11 +197,12 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Trainings-, Validierungs- und Testfehler
-> - k2: Zweck einer Testmenge
-> - k2: Kreuzvalidierung
-> - k2: Hyperparameter-Tuning
-> - k2: Lernkurven
+> - k2: Ich kann die Begriffe Trainings-, Validierungs- und Testfehler
+>   erklären
+> - k2: Ich kann den Zweck einer Testmenge erläutern
+> - k2: Ich kann das Verfahren der Kreuzvalidierung erklären
+> - k2: Ich kann den Begriff Hyperparameter-Tuning erklären
+> - k3: Ich kann verschiedene Lernkurven interpretieren
 >
 > </details>
 
@@ -237,4 +245,4 @@ E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> efb2f53 (lecture: improve gh alerts (NN07), 2025-08-18)<br></sub></sup></p></blockquote>

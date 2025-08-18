@@ -66,7 +66,7 @@ Varianten:
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="90%">
+<img src="images/tafelbeispiel.png" width="60%">
 
 </div>
 
@@ -172,10 +172,14 @@ anwendbaren Operationen bestimmt.)
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Verwendete Datenstrukturen
-> - k2: Algorithmische Abläufe, Terminierung
-> - k2: Optimalität, Vollständigkeit und Komplexität
-> - k3: Uninformierte Suchverfahren: Breitensuche
+> - k2: Ich kann erklären, welche Datenstrukturen in der Breitensuche
+>   verwendet werden und wie diese sich auswirken
+> - k2: Ich kann die algorithmische Abläufe und die Terminierung der
+>   Breitensuche erklären
+> - k2: Ich kann Optimalität, Vollständigkeit und Komplexität für die
+>   Breitensuche erklären
+> - k3: Ich kann die Breitensuche implementieren und auf ein konkretes
+>   Beispiel anwenden
 >
 > </details>
 
@@ -218,7 +222,7 @@ anwendbaren Operationen bestimmt.)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bffd3d3 (lecture: rework outcomes (Search2), 2025-08-18)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum

@@ -114,7 +114,8 @@ Bäume als CAL2 …
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Meta-Algorithmus CAL3 für überlappende Klassen
+> - k3: Ich kann den Meta-Algorithmus CAL3 für überlappende Klassen
+>   anwenden
 >
 > </details>
 
@@ -182,4 +183,4 @@ Bäume als CAL2 …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> b6d83b0 (lecture: rework outcomes (DTL4), 2025-08-18)<br></sub></sup></p></blockquote>

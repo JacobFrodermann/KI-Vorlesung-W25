@@ -81,7 +81,7 @@
 
 ## Minimax mit mehreren Spielern
 
-<img src="images/minimax3.png" width="50%">
+<img src="images/minimax3.png" width="35%">
 
 Hier maximiert jeder Spieler sein eigenes Ergebnis. Im Grunde müsste
 diese Variante dann besser “Maximax” heissen …
@@ -101,7 +101,7 @@ Backgammon: Was ist in dieser Situation der optimale Zug?
 
 ## Minimax mit Zufallsspielen: ZUFALLS-Knoten
 
-<img src="images/expectimax.png" width="50%">
+<img src="images/expectimax.png" width="35%">
 
 Zusätzlich zu den MIN- und MAX-Knoten führt man noch Zufalls-Knoten ein,
 um das Würfelergebnis repräsentieren zu können. Je möglichem
@@ -115,7 +115,7 @@ Wahrscheinlichkeit $`P(i)`$ dieses Ausgangs annotiert wird.
 Expectimax-Wert für Zufallsknoten $`C`$:
 
 ``` math
-    \mathop{\text{Expectimax}}(C) = \sum_i P(i) \mathop{\text{Expectimax}}(s_i)
+\mathop{\text{Expectimax}}(C) = \sum_i P(i) \mathop{\text{Expectimax}}(s_i)
 ```
 
 - $`i`$ mögliches Würfelergebnis
@@ -161,14 +161,18 @@ der Nachfolger arbeiten.
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Minimax für mehr als zwei Spieler
-> - k2: Minimax mit Zufallskomponente
-> - k2: Optimierungsmöglichkeit: Sortierung der Nachfolger =\> Heuristik
-> - k2: Optimierungsmöglichkeit: Suchtiefe beschränken =\> Übergang zu
->   Bewertungsfunktion
-> - k2: Optimierungsmöglichkeit: Bewertung über Spieldatenbanken
-> - k3: Minimax-Algorithmus
-> - k3: Tiefenbeschränkung und Bewertungsfunktion bei Minimax
+> - k2: Ich kann die Erweiterung von Minimax für mehr als zwei Spieler
+>   erklären
+> - k2: Ich kann die Erweiterung von Minimax mit Zufallskomponenten
+>   erklären
+> - k2: Ich kann die Heuristik erklären: Sortierung der Nachfolger
+> - k2: Ich kann erklären, wie die Suchtiefe beschränkt werden kann
+>   durch den Übergang zu Bewertungsfunktion
+> - k2: Ich kann erklären, wie eine Stellungsbewertung über
+>   Spieldatenbanken funktioniert
+> - k3: Ich kann den Minimax-Algorithmus implementieren
+> - k3: Ich kann Tiefenbeschränkung und Bewertungsfunktion bei Minimax
+>   einsetzen
 >
 > </details>
 
@@ -214,4 +218,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 45a2fe2 (lecture: rework outcomes (Games3), 2025-08-18)<br></sub></sup></p></blockquote>

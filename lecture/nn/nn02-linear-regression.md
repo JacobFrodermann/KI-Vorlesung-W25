@@ -89,8 +89,13 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 ### Graphische Übersicht
 
-- Lineare Regression <img src="images/lin_reg_nn.png">
-- Perzeptron <img src="images/perzeptron_nn.png">
+- **Lineare Regression**
+
+  <img src="images/lin_reg_nn.png" width="65%">
+
+- **Perzeptron**
+
+  <img src="images/perzeptron_nn.png" width="65%">
 
 > [!NOTE]
 >
@@ -98,13 +103,14 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Lineare Regression aus Sicht neuronaler Netze: Graphische
->   Darstellung, Vergleich mit Perzeptron
-> - k2: Formalisierung
-> - k2: Verlust- und Kostenfunktion
-> - k2: Gradientenvektor
-> - k2: Lernrate
-> - k3: Gradientenabstieg
+> - k2: Ich kann die lineare Regression aus Sicht neuronaler Netze
+>   erklären und dabei auf die graphische Darstellung und den Vergleich
+>   mit dem Perzeptron eingehen
+> - k2: Ich kann die Formalisierung von linearer Regression erklären
+> - k2: Ich kann den Begriff Verlust- und Kostenfunktion erklären
+> - k2: Ich kann den Gradientenvektor an einem Beispiel erklären
+> - k2: Ich kann den Begriff Lernrate erklären
+> - k3: Ich kann den Gradientenabstieg an einem Beispiel anwenden
 >
 > </details>
 
@@ -156,4 +162,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a2f3daf (lecture: rework outcomes (NN2), 2025-08-18)<br></sub></sup></p></blockquote>

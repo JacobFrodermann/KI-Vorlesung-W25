@@ -150,7 +150,7 @@ def Minimax(state):
 
 ## Minimax Beispiel
 
-<img src="images/minimaxBeispiel.png" width="50%">
+<img src="images/minimaxBeispiel.png" width="35%">
 
 ### Aufwand Minimax
 
@@ -189,7 +189,7 @@ Gedankenexperiment:
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Minimax-Algorithmus
+> - k3: Ich kann den Minimax-Algorithmus auf ein Beispiel anwenden
 >
 > </details>
 
@@ -220,24 +220,25 @@ Gedankenexperiment:
 >
 > 1.  Spielbaum
 >
-> Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den Kanten
-> jeweils die Zahl der genommenen und der verbleibenden Hölzer an.
+>     Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den
+>     Kanten jeweils die Zahl der genommenen und der verbleibenden
+>     Hölzer an.
 >
-> *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer
-> verbleiben, steht an der entsprechenden Kante “1/3”. Geben Sie jeweils
-> an, welcher Spieler am Zug ist.
+>     *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer
+>     verbleiben, steht an der entsprechenden Kante “1/3”. Geben Sie
+>     jeweils an, welcher Spieler am Zug ist.
 >
-> 1.  Minimax
+> 2.  Minimax
 >
-> Geben Sie die Bewertung aller Spielzustände mit Hilfe des
-> Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn
-> Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
+>     Geben Sie die Bewertung aller Spielzustände mit Hilfe des
+>     Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn
+>     Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
 >
-> 1.  Optimaler Zug
+> 3.  Optimaler Zug
 >
-> Mit welchem Zug muss Weiß beginnen, um das Spiel garantiert zu
-> gewinnen (beide Spieler verhalten sich stets optimal)? Argumentieren
-> Sie mit der Minimax-Bewertung.
+>     Mit welchem Zug muss Weiß beginnen, um das Spiel garantiert zu
+>     gewinnen (beide Spieler verhalten sich stets optimal)?
+>     Argumentieren Sie mit der Minimax-Bewertung.
 >
 > </details>
 
@@ -276,4 +277,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ae789aa (lecture: fix challenges (Games2), 2025-08-18)<br></sub></sup></p></blockquote>

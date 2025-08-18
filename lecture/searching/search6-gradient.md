@@ -29,9 +29,9 @@
 
 ## Unterschiede in den Suchproblemen?
 
-<img src="images/graph.png" width="80%">
+<img src="images/graph.png" width="60%">
 
-<img src="images/screenshot_stundenplan.png" width="80%">
+<img src="images/screenshot_stundenplan.png" width="60%">
 
 Bisher betrachtete Suchverfahren:
 
@@ -75,7 +75,7 @@ Gedächtnisverlust*”
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="90%">
+<img src="images/tafelbeispiel.png" width="60%">
 
 </div>
 
@@ -138,8 +138,10 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Problematik der lokalen Minima bei Gradientenverfahren
-> - k3: Lokale Suche (Gradientenabstieg)
+> - k2: Ich kann die Problematik der lokalen Minima bei
+>   Gradientenverfahren erklären
+> - k3: Ich kann die lokale Suche (Gradientenabstieg) auf ein konkretes
+>   Problem anwenden
 >
 > </details>
 
@@ -162,8 +164,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > Betrachten Sie folgende Landkarte und Restwegschätzungen:
 >
-> Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-> by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
+> Quelle: <a href="https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg"
+> width="40%">MapGermanyGraph.svg</a> by
+> [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 > [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
 > Commons ([Public
 > Domain](https://en.wikipedia.org/wiki/en:public_domain))
@@ -205,11 +208,12 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
-- [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-  by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
+- <a href="https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg"
+  width="40%">MapGermanyGraph.svg</a> by
+  [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
   [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
+- nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0a723c2 (lecture: rework outcomes (Search6), 2025-08-18)<br></sub></sup></p></blockquote>

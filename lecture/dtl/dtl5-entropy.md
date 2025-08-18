@@ -61,11 +61,9 @@
 - Zufallsvariable $`V`$ =\> mögliche Werte $`v_k`$
 - Wahrscheinlichkeit für $`v_k`$ sei $`p_k = P(v_k)`$
 
-<div align="center">
-
-$`H(V) = -\sum_k p_k \log_2 p_k`$
-
-</div>
+``` math
+H(V) = -\sum_k p_k \log_2 p_k
+```
 
 Hinweis:
 $`\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}`$
@@ -78,11 +76,10 @@ $`\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}`$
 
 ## Beispiele Entropie: faire Münze
 
-<div align="center">
-
-Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
-
-</div>
+Entropie:
+``` math
+H(V) = -\sum_k p_k \log_2 p_k
+```
 
 - $`v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}`$
 - $`p_1 = 0.5,  p_2 = 0.5`$
@@ -93,11 +90,10 @@ $`\log_2 0.5 = -1`$
 
 ## Beispiele Entropie: unfaire Münze
 
-<div align="center">
-
-Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
-
-</div>
+Entropie:
+``` math
+H(V) = -\sum_k p_k \log_2 p_k
+```
 
 - $`v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}`$
 
@@ -113,11 +109,10 @@ $`\log_2 0.99 \approx -0,014`$
 
 ## Beispiele Entropie: 4-seitiger Würfel
 
-<div align="center">
-
-Entropie: $`H(V) = -\sum_k p_k \log_2 p_k`$
-
-</div>
+Entropie:
+``` math
+H(V) = -\sum_k p_k \log_2 p_k
+```
 
 - $`v_1 = 1,  v_2 = 2,   v_3 = 3,   v_4 = 4`$
 - $`p_1 = p_2 = p_3 = p_4 = 0.25`$
@@ -241,7 +236,8 @@ Hierzu drei lesenswerte Blog-Einträge:
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Berechnung der Entropie und des Information Gain
+> - k3: Ich kann für konkrete Beispiele die Entropie und den Information
+>   Gain ausrechnen
 >
 > </details>
 
@@ -322,4 +318,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fff59cc (lecture: rework outcomes (DTL5), 2025-08-18)<br></sub></sup></p></blockquote>

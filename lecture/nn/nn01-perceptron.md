@@ -65,13 +65,18 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Arten des maschinellen Lernens
-> - k2: Formalisierung eines ML-Problems, insbesondere Klassifizierung:
->   Datensatz, Merkmalraum, Hyphotesenfunktion, Zielfunktion
-> - k2: Perzeptron als linearer Klassifizierer
-> - k2: Entscheidungsgrenze
-> - k3: Berechnung der Entscheidungsgrenze
-> - k3: Perzeptron Lernalgorithmus
+> - k2: Ich kann verschiedene Arten des maschinellen Lernens erklären
+> - k2: Ich kann die Formalisierung eines ML-Problems, insbesondere der
+>   Klassifizierung erklären und dabei insbesondere die Begriffe
+>   Datensatz, Merkmalraum, Hyphotesenfunktion und Zielfunktion an einem
+>   Beispiel erläutern
+> - k2: Ich kann das Perzeptron als linearen Klassifizierer verstehen
+>   und erklären
+> - k2: Ich kann den Begriff der Entscheidungsgrenze erklären
+> - k3: Ich kann die Entscheidungsgrenze für ein konkretes Beispiel
+>   berechnen
+> - k3: Ich kann den Perzeptron Lernalgorithmus implementieren und
+>   anwenden
 >
 > </details>
 
@@ -92,4 +97,4 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0828dc9 (lecture: rework outcomes (NN1), 2025-08-18)<br></sub></sup></p></blockquote>

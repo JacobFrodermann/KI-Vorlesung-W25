@@ -45,7 +45,7 @@
 
 ## Entscheidungsbäume: Klassifikation
 
-<img src="images/xor-decision-tree.png" width="80%">
+<img src="images/xor-decision-tree.png" width="60%">
 
 - Attribute als Knoten im Baum
 - Ausprägungen als Test (Ausgang, Verzweigung)
@@ -179,7 +179,8 @@ Referenzen vom Typ `Baum` sein).
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Entscheidungsbaumlerner CAL2
+> - k3: Ich kann den Entscheidungsbaumlerner CAL2 auf ein Beispiel
+>   anwenden
 >
 > </details>
 
@@ -273,4 +274,4 @@ Referenzen vom Typ `Baum` sein).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c6f39cf (lecture: rework outcomes (DTL2), 2025-08-18)<br></sub></sup></p></blockquote>

@@ -113,7 +113,7 @@ Reihenfolge der Knoten (Orte).
 
 <div align="center">
 
-<img src="images/tafelbeispiel.png" width="90%">
+<img src="images/tafelbeispiel.png" width="60%">
 
 </div>
 
@@ -211,10 +211,14 @@ Siehe [Breitensuche](search2-bfs.md)
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Verwendete Datenstrukturen
-> - k2: Algorithmische Abläufe, Terminierung
-> - k2: Optimalität, Vollständigkeit und Komplexität
-> - k3: Uninformierte Suchverfahren: Tiefensuche
+> - k2: Ich kann erklären, welche Datenstrukturen in der Tiefensuche
+>   verwendet werden und wie diese sich auswirken
+> - k2: Ich kann die algorithmische Abläufe und die Terminierung der
+>   Tiefensuche erklären
+> - k2: Ich kann Optimalität, Vollständigkeit und Komplexität für die
+>   Tiefensuche erklären
+> - k3: Ich kann die Tiefensuche implementieren und auf ein konkretes
+>   Beispiel anwenden
 >
 > </details>
 
@@ -257,4 +261,4 @@ Siehe [Breitensuche](search2-bfs.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9942f01 (lecture: rework outcomes (Search1), 2025-08-18)<br></sub></sup></p></blockquote>

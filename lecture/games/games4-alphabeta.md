@@ -49,7 +49,7 @@
 
 ## Verbesserung Minimax-Algorithmus
 
-<img src="images/minimax.png" width="40%">
+<img src="images/minimax.png" width="35%">
 
 =\> **Minimax-Baum**: Verbesserungen möglich?
 
@@ -207,11 +207,11 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Optimierungsmöglichkeit: Sortierung der Nachfolger =\> Heuristik
-> - k2: Optimierungsmöglichkeit: Suchtiefe beschränken =\> Übergang zu
->   Bewertungsfunktion
-> - k2: Optimierungsmöglichkeit: Bewertung über Spieldatenbanken
-> - k3: alpha-beta-Pruning
+> - k3: Ich kann Alpha-Beta-Pruning implementieren und anwenden
+> - k2: Ich kann die Anwendung verschiedener von Minimax her bekannter
+>   Optimierungsmöglichkeiten auf Alpha-Beta-Pruning erklären:
+>   Sortierung der Nachfolger, Suchtiefe beschränken (Übergang zu
+>   Bewertungsfunktion), Spielzug-Bewertung über Spieldatenbanken
 >
 > </details>
 
@@ -242,24 +242,25 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 >
 > 1.  Spielbaum
 >
-> Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den Kanten
-> jeweils die Zahl der genommenen und der verbleibenden Hölzer an.
+>     Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den
+>     Kanten jeweils die Zahl der genommenen und der verbleibenden
+>     Hölzer an.
 >
-> *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer
-> verbleiben, steht an der entsprechenden Kante “1/3”. Geben Sie jeweils
-> an, welcher Spieler am Zug ist.
+>     *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer
+>     verbleiben, steht an der entsprechenden Kante “1/3”. Geben Sie
+>     jeweils an, welcher Spieler am Zug ist.
 >
-> 1.  Minimax
+> 2.  Minimax
 >
-> Geben Sie die Bewertung aller Spielzustände mit Hilfe des
-> Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn
-> Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
+>     Geben Sie die Bewertung aller Spielzustände mit Hilfe des
+>     Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn
+>     Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
 >
-> 1.  Alpha-Beta-Pruning
+> 3.  Alpha-Beta-Pruning
 >
-> Wenden Sie Alpha-Beta-Pruning auf den Spielbaum an. Werden damit mehr
-> oder weniger oder gleich viele Spielzüge wie mit Minimax entwickelt?
-> Begründen Sie Ihre Antwort.
+>     Wenden Sie Alpha-Beta-Pruning auf den Spielbaum an. Werden damit
+>     mehr oder weniger oder gleich viele Spielzüge wie mit Minimax
+>     entwickelt? Begründen Sie Ihre Antwort.
 >
 > </details>
 
@@ -322,4 +323,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [deepmind.com/research/alphago/](https://deepmind.com/research/case-studies/alphago-the-story-so-far)
 - ([Russell und Norvig 2014](#ref-Russell2014), p. 185)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> eef8a6c (lecture: rework outcomes (Games4), 2025-08-18)<br></sub></sup></p></blockquote>

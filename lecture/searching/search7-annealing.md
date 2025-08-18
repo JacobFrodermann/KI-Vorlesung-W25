@@ -124,28 +124,32 @@ Domain](https://en.wikipedia.org/wiki/Public_domain))
 
 - Wahrscheinlichkeit zum Akzeptieren einer Verschlechterung:
   `math.exp(dE/temp)`
-- $`dE`$ negativ =\>
-  $`\exp\left(\text{dE}/\text{temp}\right) = \exp\left(-\frac{|\text{dE}|}{\text{temp}}\right) = \frac{1}{\exp\left(\frac{|\text{dE}|}{\text{temp}}\right)}`$
 
-$`\exp(a)`$ bzw. $`e^a`$:
+- Wenn $`dE`$ negativ ist, wird `math.exp(dE/temp)` ausgewertet
 
-- $`a<0`$: geht gegen 0
-- $`a=0`$: 1
-- $`a>0`$: steil (exponentiell) gegen Unendlich …
+- Wenn $`dE`$ negativ, dann gilt (Umformung):
 
-Wenn $`dE`$ negativ ist, wird `math.exp(dE/temp)` ausgewertet. Damit
-ergibt sich wegen $`dE`$ negativ:
-$`\exp\left(\text{dE}/\text{temp}\right) = \exp\left(-\frac{|\text{dE}|}{\text{temp}}\right) = \frac{1}{\exp\left(\frac{|\text{dE}|}{\text{temp}}\right)}`$.
-Betrachtung für $`dE`$ (nur negativer Fall!) und $`\text{temp}`$:
+``` math
+\exp\left(\text{dE}/\text{temp}\right) = \exp\left(-\frac{|\text{dE}|}{\text{temp}}\right) = \frac{1}{\exp\left(\frac{|\text{dE}|}{\text{temp}}\right)}
+```
 
-- Temperatur $`\text{temp}`$ hoch:
-  $`a = \frac{|\text{dE}|}{\text{temp}}`$ ist positiv und klein (nahe
-  Null), d.h. $`\exp(a)`$ nahe 1 (oder größer), d.h. die
-  Wahrscheinlichkeit $`1/\exp(a)`$ ist nahe 1 (oder kleiner)
-- Temperatur $`\text{temp}`$ wird kleiner und geht gegen Null:
-  $`a = \frac{|\text{dE}|}{\text{temp}}`$ ist positiv und wird größer,
-  d.h. $`\exp(a)`$ geht schnell gegen Unendlich, d.h. die
-  Wahrscheinlichkeit $`1/\exp(a)`$ geht gegen 0
+- Betrachtung von $`\exp(a)`$ bzw. $`e^a`$:
+
+  - $`a<0`$: geht gegen 0
+  - $`a=0`$: 1
+  - $`a>0`$: steil (exponentiell) gegen Unendlich …
+
+- Damit ergibt sich für $`dE`$ (nur negativer Fall!) und
+  $`\text{temp}`$:
+
+  - Temperatur $`\text{temp}`$ hoch:
+    $`a = \frac{|\text{dE}|}{\text{temp}}`$ ist positiv und klein (nahe
+    Null), d.h. $`\exp(a)`$ nahe 1 (oder größer), d.h. die
+    Wahrscheinlichkeit $`1/\exp(a)`$ ist nahe 1 (oder kleiner)
+  - Temperatur $`\text{temp}`$ wird kleiner und geht gegen Null:
+    $`a = \frac{|\text{dE}|}{\text{temp}}`$ ist positiv und wird größer,
+    d.h. $`\exp(a)`$ geht schnell gegen Unendlich, d.h. die
+    Wahrscheinlichkeit $`1/\exp(a)`$ geht gegen 0
 
 ## Abkühlungsplan problemabhängig wählen
 
@@ -199,7 +203,8 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Funktionsweise Simulated Annealing
+> - k3: Ich kann die Funktionsweise von Simulated Annealing erklären und
+>   den Algorithmus auf ein konkretes Problem anwenden
 >
 > </details>
 
@@ -250,4 +255,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikimedia Commons ([Public
   Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ca65832 (lecture: rework outcomes (Search7), 2025-08-18)<br></sub></sup></p></blockquote>

@@ -92,9 +92,9 @@ $`H(S) = 0.92 \mathop{\text{Bit}}`$
 \begin{eqnarray}
 \mathop{\text{Gain}}(S, x_1) &=& 0.92 - 0.87 = 0.05 \mathop{\text{Bit}}\\
 \mathop{\text{Gain}}(S, x_2) &=& 0.92 - 2/6  \cdot 0 - 4/6 \cdot 1\\
-                            &=& 0.25 \mathop{\text{Bit}}\\
+                             &=& 0.25 \mathop{\text{Bit}}\\
 \mathop{\text{Gain}}(S, x_3) &=& 0.92 - 3/6 \cdot 0.92 - 2/6 \cdot 1 - 1/6 \cdot 0\\
-                            &=& 0.13 \mathop{\text{Bit}}
+                             &=& 0.13 \mathop{\text{Bit}}
 \end{eqnarray}
 ```
 
@@ -263,7 +263,8 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Entscheidungsbaumalgorithmen ID3 und C4.5
+> - k3: Ich kann die Entscheidungsbaumalgorithmen ID3 und C4.5 auf
+>   konkrete Daten anwenden.
 >
 > </details>
 
@@ -331,4 +332,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c20b681 (lecture: rework outcomes (DTL6), 2025-08-18)<br></sub></sup></p></blockquote>

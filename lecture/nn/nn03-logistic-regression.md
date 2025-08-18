@@ -70,9 +70,17 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 ### Graphische Übersicht
 
-- Logistische Regression <img src="images/log_reg_nn.png">
-- Lineare Regression <img src="images/lin_reg_nn.png">
-- Perzeptron <img src="images/perzeptron_nn.png">
+- **Logistische Regression**
+
+  <img src="images/log_reg_nn.png" width="65%">
+
+- **Lineare Regression**
+
+  <img src="images/lin_reg_nn.png" width="65%">
+
+- **Perzeptron**
+
+  <img src="images/perzeptron_nn.png" width="65%">
 
 > [!NOTE]
 >
@@ -80,12 +88,15 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Logistische Regression aus Sicht neuronaler Netze: Graphische
->   Darstellung, Vergleich mit Perzeptron und linearer Regression
-> - k2: Formalisierung
-> - k2: Sigmoid-Aktivierungsfunktion
-> - k2: Verlust- und Kosten (Cross-Entropy Loss)
-> - k3: Gradientenabstieg für logistische Regression
+> - k2: Ich kann die logistische Regression aus Sicht neuronaler Netze
+>   erklären und dabei auf die graphische Darstellung und den Vergleich
+>   mit Perzeptron und linearer Regression eingehen
+> - k2: Ich kann die Formalisierung der logistische Regression erklären
+> - k2: Ich kann die Sigmoid-Aktivierungsfunktion erklären und an einem
+>   Beispiel demonstrieren
+> - k2: Ich kann Verlust- und Kosten (Cross-Entropy Loss) erklären
+> - k3: Ich kann den Gradientenabstieg für logistische Regression an
+>   einem Beispiel anwenden
 >
 > </details>
 
@@ -106,4 +117,4 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bed9019 (lecture: rework outcomes (NN3), 2025-08-18)<br></sub></sup></p></blockquote>

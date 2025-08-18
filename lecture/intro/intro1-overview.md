@@ -46,7 +46,7 @@
 
 ## Was ist (künstliche) Intelligenz?
 
-<img src="https://live.staticflickr.com/2889/10151827605_911e35be10_c_d.jpg" width="80%">
+<img src="https://live.staticflickr.com/2889/10151827605_911e35be10_c_d.jpg" width="60%">
 
 Quelle: [AvB - RoboCup 2013 -
 Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
@@ -198,7 +198,7 @@ Dazu gehört auch
 
 - Wann verhält sich eine Maschine intelligent?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Turing_Test_version_3.png" width="40%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Turing_Test_version_3.png" width="20%">
 
 Quelle: [Turing Test version
 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
@@ -253,7 +253,7 @@ Intention oder Bewusstsein vorhanden ist.
 
 ## Typische Ansätze in der KI
 
-<img src="images/dimensionen-ki.png" width="60%">
+<img src="images/dimensionen-ki.png" width="40%">
 
 Untersuchung von
 
@@ -518,11 +518,14 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Aspekte, die zur Intelligenz gerechnet werden
-> - k1: Turing-Test: Aufbau, Gebiete, Kritik
-> - k1: Gebiete der KI sowie deren Zielsetzung
-> - k1: Starke vs. schwache KI
-> - k1: Wichtige Strömungen in der KI und ihre zeitliche Einordnung
+> - k1: Ich kenne verschiedene Aspekte, die zur Intelligenz gerechnet
+>   werden
+> - k1: Ich kenne den Turing-Test und kann Aufbau, Gebiete, Kritik
+>   wiedergeben
+> - k1: Ich kenne verschiedene Gebiete der KI sowie deren Zielsetzung
+> - k1: Ich kann starke vs. schwache KI unterscheiden
+> - k1: Ich kenne wichtige Strömungen in der KI und ihre zeitliche
+>   Einordnung
 >
 > </details>
 
@@ -574,29 +577,29 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
-  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
   RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
   Art. 3 Abs. 1
-- [AvB - RoboCup 2013 -
-  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
-  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-  Flickr.com ([CC BY
-  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
 - [Turing Test version
   3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [AvB - RoboCup 2013 -
+  Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
+  [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+  Flickr.com ([CC BY
+  2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+- [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
+  [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2c1a0bc (lecture: rework outcomes (Intro1), 2025-08-18)<br></sub></sup></p></blockquote>

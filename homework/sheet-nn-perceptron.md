@@ -101,8 +101,8 @@ Sie können das folgende [**Jupyter
 Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/homework/files/perzeptron_lernalgorithmus_starter.ipynb)
 als Startpunkt benutzen.
 
-*Idee nach* Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien
-Lin. 2012. Learning From Data. AMLBook.
+Quelle: *Idee nach* Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and
+Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
 
 ------------------------------------------------------------------------
 
@@ -110,4 +110,9 @@ Lin. 2012. Learning From Data. AMLBook.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+**Exceptions:**
+
+- *Idee nach* Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien
+  Lin. 2012. Learning From Data. AMLBook.
+
+<blockquote><p><sup><sub><strong>Last modified:</strong> c6eb009 (lecture: add 'origin' span (NN04), 2025-08-18)<br></sub></sup></p></blockquote>

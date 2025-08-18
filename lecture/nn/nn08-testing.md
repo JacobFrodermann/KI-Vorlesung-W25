@@ -42,7 +42,7 @@
   Klasse-$`j`$-Beispiele enthält, die als Klasse-$`i`$ vorhergesagt
   wurden.
 
-<p align="center"><img src="images/nn8-1.png"></p><p align="center">Abbildung
+<p align="center"><img src="images/nn8-1.png" width="80%"></p><p align="center">Abbildung
 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
 
 #### Treffergenauigkeit (engl. Accuracy)
@@ -129,16 +129,18 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Performanzmetriken für die Evaluierung von
->   Klassifizierungsmodellen
-> - k2: Wahrheitsmatrix (engl. Confusion Matrix)
-> - k2: Treffergenauigkeit (engl. Accuracy)
-> - k2: Precision (engl. Precision)
-> - k2: Recall
-> - k2: F_1-Score (Harmonisches Mittel)
-> - k3: Berechnung und Deutung von Precision und Recall
-> - k3: Berechnung und Deutung des F_1-Scores
-> - k3: Einsatz bei Evaluierung und Auswahl von Modellen
+> - k2: Ich kann die betrachteten Performanzmetriken für die Evaluierung
+>   von Klassifizierungsmodellen erläutern
+> - k2: Ich kann die Wahrheitsmatrix (engl. Confusion Matrix) erklären
+> - k2: Ich kann den Begriff Treffergenauigkeit (engl. Accuracy)
+>   erklären
+> - k2: Ich kann den Begriff Precision (engl. Precision) erklären
+> - k2: Ich kann den Begriff Recall erklären
+> - k2: Ich kann den Begriff F_1-Score (Harmonisches Mittel) erklären
+> - k3: Ich kann Precision und Recall berechnen und deuten
+> - k3: Ich kann den F_1-Score berechnen und deuten
+> - k3: Ich kann die Performanzmetriken bei der Evaluierung und Auswahl
+>   von Modellen einsetzen
 >
 > </details>
 
@@ -148,4 +150,4 @@ F_1-Score = \frac{2}{\frac{1}{P} + \frac{1}{R}} = 2 \cdot \frac{PR}{P + R}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f97fa15 (lecture: rework outcomes (NN8), 2025-08-18)<br></sub></sup></p></blockquote>

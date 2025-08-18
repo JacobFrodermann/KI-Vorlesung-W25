@@ -43,7 +43,7 @@
 
 ## EA – Allgemeiner Ablauf
 
-<img src="images/ea_prinz.png" width="80%">
+<img src="images/ea_prinz.png" width="60%">
 
 ## Kodierung Individuen
 
@@ -215,9 +215,9 @@ Die SR liegt im Intervall $`[0, 1]`$.
 
 ## Typische Läufe
 
-<img src="images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="80%">
+<img src="images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%">
 
-<img src="images/typischerLauf_ritterIII_mG500M15L100_success.png" width="80%">
+<img src="images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%">
 
 - Populationsgröße $`\mu=15`$
 - Anzahl Nachfahren $`\lambda=100`$
@@ -260,7 +260,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: GA: Kodierung, Fitnessfunktion, Ablauf, Operatoren, Auswertung
+> - k3: Ich kann GA anwenden, insbesondere für ein Beispiel passende
+>   Kodierung, Fitnessfunktion, Operatoren und Auswertung formulieren
+>   und den Ablauf erklären
 >
 > </details>
 
@@ -363,4 +365,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> fbb38af (markdown: replace 'phantom' (workaround gh bug) (#443), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d100a62 (lecture: rework outcomes (EA2), 2025-08-18)<br></sub></sup></p></blockquote>

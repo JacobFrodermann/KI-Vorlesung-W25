@@ -43,7 +43,7 @@ beste Zug?!**
 
 ## Motivation: Unterschied zu Suche?!
 
-<img src="images/tttEnd.png" width="30%">
+<img src="images/tttEnd.png" width="10%">
 
 =\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
 
@@ -119,8 +119,8 @@ beste Zug?!**
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Spiele als Suchproblem
-> - k2: Eigenschaften guter Spielalgorithmen
+> - k2: Ich kann Spiele als Suchproblem formulieren
+> - k2: Ich kann Eigenschaften guter Spielalgorithmen erklären
 >
 > </details>
 
@@ -167,4 +167,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 - ([Russell und Norvig 2020](#ref-Russell2020), pp. 193-196)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 8d05ff9 (lecture: rework outcomes (Games1), 2025-08-18)<br></sub></sup></p></blockquote>
