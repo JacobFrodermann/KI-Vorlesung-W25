@@ -126,9 +126,4 @@ mache notfalls Backtracking.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- Backtracking-Search: Eigener Code basierend auf einer Idee nach
-  ([Russell und Norvig 2020](#ref-Russell2020), p. 176, fig. 5.5)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> d18fada (lecture: amend credits (CSP2), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

@@ -291,9 +291,4 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach ([Russell
-  und Norvig 2020](#ref-Russell2020), p. 171, fig. 5.3)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> c25b6e9 (lecture: amend credits (CSP4), 2025-08-16)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

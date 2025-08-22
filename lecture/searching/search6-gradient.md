@@ -214,6 +214,5 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0a723c2 (lecture: rework outcomes (Search6), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

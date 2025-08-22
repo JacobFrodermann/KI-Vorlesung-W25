@@ -29,9 +29,9 @@
 
 ## Evolution sehr erfolgreich bei Anpassung
 
-Quelle: [Photo](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes
-Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash
-License](https://unsplash.com/license))
+Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+[Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+([Unsplash License](https://unsplash.com/license))
 
 <div align="center">
 
@@ -200,8 +200,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [Photo](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes
-  Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash
-  License](https://unsplash.com/license))
+- [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+  [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+  ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> fb13c6e (lecture: rework outcomes (EA1), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

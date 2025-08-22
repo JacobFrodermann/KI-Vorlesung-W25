@@ -317,10 +317,4 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
-  [deepmind.com/research/alphago/](https://deepmind.com/research/case-studies/alphago-the-story-so-far)
-- ([Russell und Norvig 2014](#ref-Russell2014), p. 185)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> eef8a6c (lecture: rework outcomes (Games4), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

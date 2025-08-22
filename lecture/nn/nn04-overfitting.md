@@ -128,8 +128,4 @@ w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- ([Abu-Mostafa, Magdon-Ismail, und Lin 2012, 119](#ref-AbuMostafa2012))
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> c6eb009 (lecture: add 'origin' span (NN04), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

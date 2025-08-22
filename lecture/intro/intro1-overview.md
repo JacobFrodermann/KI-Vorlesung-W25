@@ -157,18 +157,16 @@ Dazu gehört auch
 >
 > **KI-Grundverordnung der EU**
 >
-> Die EU hat am 13. Juni 2024 die sogenannte “KI-Verordnung”
-> verabschiedet (“VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS
-> UND DES RATES”, \[Document 32024R1689: Verordnung (EU) 2024/1689 des
-> Europäischen Parlaments und des Rates vom
->
-> 1.  Juni 2024 zur Festlegung harmonisierter Vorschriften für
->     künstliche Intelligenz und zur Änderung der Verordnungen (EG) Nr.
->     300/2008, (EU) Nr. 167/2013, (EU) Nr. 168/2013, (EU) 2018/858,
->     (EU) 2018/1139 und (EU) 2019/2144 sowie der Richtlinien
->     2014/90/EU, (EU) 2016/797 und (EU) 2020/1828 (Verordnung über
->     künstliche Intelligenz) (Text von Bedeutung für den
->     EWR)\](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689)).
+> Die EU hat am 13. Juni 2024 die sog. “KI-Verordnung” verabschiedet
+> (“VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
+> RATES”, [Document 32024R1689: Verordnung (EU) 2024/1689 des
+> Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung
+> harmonisierter Vorschriften für künstliche Intelligenz und zur
+> Änderung der Verordnungen (EG) Nr. 300/2008, (EU) Nr. 167/2013, (EU)
+> Nr. 168/2013, (EU) 2018/858, (EU) 2018/1139 und (EU) 2019/2144 sowie
+> der Richtlinien 2014/90/EU, (EU) 2016/797 und (EU) 2020/1828
+> (Verordnung über künstliche Intelligenz) (Text von Bedeutung für den
+> EWR)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689)).
 >
 > Dort finden Sie unter Artikel 3 “Begriffsbestimmungen” unter Absatz 1
 > eine Begriffsdefinition. Ein “KI-System” wird darin als ein
@@ -177,6 +175,7 @@ Dazu gehört auch
 > haben kann. Zusätzlich soll das “KI-System” aus den Eingaben
 > Vorhersagen und Entscheidungen zu treffen oder auch Inhalte erzeugen
 > und mit der physischen oder digitalen Umwelt interagieren können.
+>
 > Quelle: [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
 > RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
 > Art. 3 Abs. 1
@@ -577,10 +576,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [VERORDNUNG (EU) 2024/1689 DES EUROPÄISCHEN PARLAMENTS UND DES
-  RATES](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689),
-  Art. 3 Abs. 1
-- nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
 - [Turing Test version
   3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
@@ -602,4 +597,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2c1a0bc (lecture: rework outcomes (Intro1), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

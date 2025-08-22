@@ -110,9 +110,4 @@ Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- *Idee nach* Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien
-  Lin. 2012. Learning From Data. AMLBook.
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> c6eb009 (lecture: add 'origin' span (NN04), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
