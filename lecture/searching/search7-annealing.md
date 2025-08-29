@@ -1,4 +1,4 @@
-# Lokale Suche: Simulated Annealing
+# Search: Lokale Suche - Simulated Annealing
 
 > [!IMPORTANT]
 >
@@ -255,4 +255,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikimedia Commons ([Public
   Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add 'Search' to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>

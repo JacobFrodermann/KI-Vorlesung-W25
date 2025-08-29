@@ -1,4 +1,4 @@
-# NN05 - Multilayer Perzeptron
+# NN05: Multilayer Perzeptron
 
 > [!TIP]
 >
@@ -119,4 +119,4 @@ a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9d76f17 (lecture: balance image scaling (NN05), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add 'NN' to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>

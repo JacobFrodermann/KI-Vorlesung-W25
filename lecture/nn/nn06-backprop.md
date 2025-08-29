@@ -1,4 +1,4 @@
-# NN06 - Backpropagation
+# NN06: Backpropagation
 
 > [!TIP]
 >
@@ -115,4 +115,4 @@ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 8cf223a (lecture: rework outcomes (NN6), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add 'NN' to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>

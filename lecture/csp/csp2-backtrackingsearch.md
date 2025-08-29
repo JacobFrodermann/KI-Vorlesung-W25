@@ -1,4 +1,4 @@
-# Lösen von diskreten CSP
+# CSP: Lösen von diskreten CSP
 
 > [!IMPORTANT]
 >
@@ -126,4 +126,4 @@ mache notfalls Backtracking.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bf0ccd0 (lecture: add 'CSP' to title (CSP), 2025-08-29)<br></sub></sup></p></blockquote>

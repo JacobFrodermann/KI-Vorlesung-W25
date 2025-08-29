@@ -1,4 +1,4 @@
-# Einführung Evolutionäre Algorithmen
+# EA: Einführung Evolutionäre Algorithmen
 
 > [!IMPORTANT]
 >
@@ -204,4 +204,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
   ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4d6883e (lecture: add 'EA' to title (EA), 2025-08-29)<br></sub></sup></p></blockquote>

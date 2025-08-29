@@ -1,4 +1,4 @@
-# NN01 - Das Perzeptron
+# NN01: Das Perzeptron
 
 > [!TIP]
 >
@@ -97,4 +97,4 @@ Ein einfaches Modell für die **binäre Klassifizierung**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0828dc9 (lecture: rework outcomes (NN1), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add 'NN' to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>

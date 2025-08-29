@@ -58,12 +58,12 @@ autonomen Fahrzeugen, …
 
 <img src="admin/images/fahrplan.png" width="80%">
 
-| Vorlesung (2 SWS): 06.10. - 24.10. | Vorlesung (2 SWS): 27.10. - 23.01. | Praktikum (2 SWS): 06.10. - 23.01. |
+| Vorlesung (2 SWS): bis 26.10. | Vorlesung (2 SWS): ab 26.10. | Praktikum (2 SWS) |
 |:---|:---|:---|
-| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Fr, 09:45 - 11:15 Uhr (DE) |
-| (online, Zoom) | (online, Zoom) | G2: Fr, 11:30 - 13:00 Uhr (DE) |
-|  |  | G3: Fr, 09:45 - 11:15 Uhr (DE) |
-|  |  | G4: Fr, 11:30 - 13:00 Uhr (DE) |
+| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Mo, xx:xx - xx:xx Uhr (DE) |
+| (online, Zoom) | (online, Zoom) | G2: Mo, xx:xx - xx:xx Uhr (DE) |
+|  |  | G3: Mo, xx:xx - xx:xx Uhr (DE) |
+|  |  | G4: Mo, xx:xx - xx:xx Uhr (DE) |
 |  |  | (online, Zoom) |
 
 Durchführung der Vorlesung als *Flipped Classroom*. Alle
@@ -159,4 +159,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3aec522 (orga: fix lecture times table, 2025-08-29)<br></sub></sup></p></blockquote>

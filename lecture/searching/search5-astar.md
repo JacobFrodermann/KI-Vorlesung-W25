@@ -1,4 +1,4 @@
-# Suche mit A\*
+# Search: Suche mit A\*
 
 > [!IMPORTANT]
 >
@@ -295,7 +295,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> dfd216c (lecture: rework outcomes (Search5), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5a1e8a5 (lecture: fix quoting in YAML header (Search5), 2025-08-29)<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

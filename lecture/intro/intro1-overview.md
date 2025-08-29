@@ -197,8 +197,6 @@ Dazu gehört auch
 
 - Wann verhält sich eine Maschine intelligent?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Turing_Test_version_3.png" width="20%">
-
 Quelle: [Turing Test version
 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
 by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
@@ -576,25 +574,25 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [Turing Test version
-  3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
-  by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
-  Commons ([Public
-  Domain](https://en.wikipedia.org/wiki/en:public_domain))
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [AvB - RoboCup 2013 -
   Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [Turing Test version
+  3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
+  by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
+  Commons ([Public
+  Domain](https://en.wikipedia.org/wiki/en:public_domain))
 - [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
   [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4daf65d (lecture: exclude image temporary due to loading issues, 2025-08-29)<br></sub></sup></p></blockquote>

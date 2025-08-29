@@ -1,4 +1,4 @@
-# NN03 - Logistische Regression
+# NN03: Logistische Regression
 
 > [!TIP]
 >
@@ -117,4 +117,4 @@ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{3}
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bed9019 (lecture: rework outcomes (NN3), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add 'NN' to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>

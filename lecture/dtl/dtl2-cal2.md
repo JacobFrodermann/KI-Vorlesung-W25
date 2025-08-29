@@ -1,4 +1,4 @@
-# CAL2
+# DTL: CAL2
 
 > [!IMPORTANT]
 >
@@ -274,4 +274,4 @@ Referenzen vom Typ `Baum` sein).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c6f39cf (lecture: rework outcomes (DTL2), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add 'DTL' to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>

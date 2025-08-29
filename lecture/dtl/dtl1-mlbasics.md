@@ -1,4 +1,4 @@
-# Machine Learning 101
+# DTL: Machine Learning 101
 
 > [!IMPORTANT]
 >
@@ -392,4 +392,4 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c85854d (lecture: rework outcomes (DTL1), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add 'DTL' to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>

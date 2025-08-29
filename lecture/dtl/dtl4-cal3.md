@@ -1,4 +1,4 @@
-# CAL3
+# DTL: CAL3
 
 > [!IMPORTANT]
 >
@@ -183,4 +183,4 @@ Bäume als CAL2 …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> b6d83b0 (lecture: rework outcomes (DTL4), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add 'DTL' to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>

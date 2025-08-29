@@ -1,4 +1,4 @@
-# ID3 und C4.5
+# DTL: ID3 und C4.5
 
 > [!IMPORTANT]
 >
@@ -332,4 +332,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c20b681 (lecture: rework outcomes (DTL6), 2025-08-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add 'DTL' to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>
