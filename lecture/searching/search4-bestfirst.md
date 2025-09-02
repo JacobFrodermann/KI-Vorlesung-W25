@@ -137,6 +137,8 @@ Siehe [A\*](search5-astar.md)
 >
 > Betrachten Sie folgende Landkarte und Restwegschätzungen:
 >
+> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png">
+>
 > Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
 > by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 > [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
@@ -186,4 +188,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add 'Search' to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image 'map germany' after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>

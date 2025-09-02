@@ -29,6 +29,8 @@
 
 ## Evolution sehr erfolgreich bei Anpassung
 
+<img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f?fm=png&crop=entropy&cs=tinysrgb" width="60%">
+
 Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
 ([Unsplash License](https://unsplash.com/license))
@@ -204,4 +206,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
   ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4d6883e (lecture: add 'EA' to title (EA), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c3912e2 (lecture: re-enabling image 'evolution' after toolchain fix (EA1), 2025-09-01)<br></sub></sup></p></blockquote>

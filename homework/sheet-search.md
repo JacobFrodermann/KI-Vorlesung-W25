@@ -22,6 +22,8 @@ es sonst zu Konflikten zwischen beiden Gruppen kommt.
 
 Betrachten Sie folgende Landkarte und Restwegschätzungen:
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png" width="40%">
+
 Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
 by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
@@ -95,7 +97,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image 'map germany' after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

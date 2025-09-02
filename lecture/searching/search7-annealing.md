@@ -114,6 +114,8 @@ den Wert Null (wird also nicht negativ).
 
 <div align="center">
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Exp_e.svg/524px-Exp_e.svg.png" width="60%">
+
 Quelle: [“Exp e.svg”](https://commons.wikimedia.org/wiki/File:Exp_e.svg)
 by Marcel Marnitz, reworked by
 [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on
@@ -255,4 +257,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikimedia Commons ([Public
   Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add 'Search' to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c33cce6 (lecture: re-enabling image 'exp e' after toolchain fix (Search7), 2025-09-01)<br></sub></sup></p></blockquote>
