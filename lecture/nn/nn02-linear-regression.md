@@ -162,4 +162,4 @@ J = \frac{1}{2m} \sum_{i=1}^{m} (\hat{y} - y)^2 = \frac{1}{2m} \sum_{i=1}^{m} (h
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add 'NN' to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9a4d8be (lecture: add NN to title (NN), 2025-08-29)<br></sub></sup></p></blockquote>

@@ -581,11 +581,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
-- [Turing Test version
-  3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
-  by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
-  Commons ([Public
-  Domain](https://en.wikipedia.org/wiki/en:public_domain))
 - [AvB - RoboCup 2013 -
   Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
@@ -596,5 +591,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [Turing Test version
+  3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
+  by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
+  Commons ([Public
+  Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d691287 (lecture: re-enabling image 'turing test' after toolchain fix (Intro1), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d691287 (lecture: re-enabling image turing test after toolchain fix (Intro1), 2025-09-01)<br></sub></sup></p></blockquote>

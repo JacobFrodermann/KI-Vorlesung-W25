@@ -222,7 +222,7 @@ anwendbaren Operationen bestimmt.)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add 'Search' to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add Search to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum

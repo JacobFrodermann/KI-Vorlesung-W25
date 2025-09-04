@@ -441,4 +441,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 68c420d (lecture: add 'NB' to title (NB), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 68c420d (lecture: add NB to title (NB), 2025-08-29)<br></sub></sup></p></blockquote>

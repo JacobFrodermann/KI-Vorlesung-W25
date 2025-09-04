@@ -206,4 +206,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
   ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c3912e2 (lecture: re-enabling image 'evolution' after toolchain fix (EA1), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c3912e2 (lecture: re-enabling image evolution after toolchain fix (EA1), 2025-09-01)<br></sub></sup></p></blockquote>

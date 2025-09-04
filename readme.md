@@ -65,4 +65,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename origin to credits, 2025-08-22)<br></sub></sup></p></blockquote>

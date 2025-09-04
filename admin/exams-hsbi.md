@@ -369,4 +369,4 @@ her.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace 'operatorname' w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6e35cb1 (markdown: replace operatorname w/ mathop+text (workaround gh bug) (#441), 2025-08-12)<br></sub></sup></p></blockquote>

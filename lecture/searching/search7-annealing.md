@@ -257,4 +257,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikimedia Commons ([Public
   Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c33cce6 (lecture: re-enabling image 'exp e' after toolchain fix (Search7), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c33cce6 (lecture: re-enabling image exp e after toolchain fix (Search7), 2025-09-01)<br></sub></sup></p></blockquote>

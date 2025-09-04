@@ -277,4 +277,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f3e6437 (lecture: add 'Games' to title (Games), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f3e6437 (lecture: add Games to title (Games), 2025-08-29)<br></sub></sup></p></blockquote>

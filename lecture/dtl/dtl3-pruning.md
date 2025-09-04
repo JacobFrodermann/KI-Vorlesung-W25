@@ -165,4 +165,4 @@ x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add 'DTL' to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add DTL to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>

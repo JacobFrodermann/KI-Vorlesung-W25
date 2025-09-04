@@ -401,4 +401,4 @@ Wieviel Speicher benötigt die Suche?
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 3268b7f (lecture: add 'Intro' to title (Intro), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3268b7f (lecture: add Intro to title (Intro), 2025-08-29)<br></sub></sup></p></blockquote>

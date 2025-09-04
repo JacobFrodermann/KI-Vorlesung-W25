@@ -97,7 +97,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image 'map germany' after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image map germany after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!
