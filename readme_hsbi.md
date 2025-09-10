@@ -68,7 +68,7 @@ autonomen Fahrzeugen, …
 
 Durchführung der Vorlesung als *Flipped Classroom*. Alle
 Online-Sitzungen per Zoom. (Zugangsdaten siehe
-[ILIAS](https://www.hsbi.de/elearning/goto.php?target=crs_1400597&client_id=FH-Bielefeld))
+[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1555856))
 
 ## Fahrplan (HSBI)
 
@@ -76,9 +76,9 @@ Hier finden Sie einen abonnierbaren [Google
 Kalender](https://calendar.google.com/calendar/ical/552fdc6c19e64eda7b36b2d16a88bf4b7e593af2c520afbe1aeeb0bb4f43107d%40group.calendar.google.com/public/basic.ics)
 mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 
-Abgabe der Übungsblätter jeweils **Montag bis 11:00 Uhr** im
-[ILIAS](https://www.hsbi.de/elearning/goto.php?target=exc_1420535&client_id=FH-Bielefeld).
-Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
+Abgabe der Übungsblätter jeweils **Montag bis 10:00 Uhr** im
+[ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung
+der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
 | Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | AI Connect |
 |:---|:---|:---|:---|:---|:---|
@@ -149,7 +149,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f1ddf82 (orga: add lecture time (HSBI), 2025-09-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fd3c6d7 (orga: fix link to ilias (HSBI), 2025-09-10)<br></sub></sup></p></blockquote>
 
 [^1]: “erfolgreich bearbeitet”: Bearbeitung in individuell, alle
     Aufgaben/Punkte bearbeitet, fristgerechte Abgabe des ausreichenden
