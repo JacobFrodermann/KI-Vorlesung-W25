@@ -1,5 +1,23 @@
 # Übungsblatt: Entscheidungsbäume (Decision Tree Learner DTL)
 
+## Bonus: Starke vs. Schwache KI (2P)
+
+Recherchieren Sie und diskutieren Sie folgende Punkte:
+
+- Ist ein System wie ChatGPT “intelligent”? Was ist der Kern des
+  Systems?
+- Gibt es Systeme, die intelligent sind? Was tun diese, wie arbeiten
+  sie?
+- Brauchen wir wirklich Intelligenz in Systemen? Reicht auch schwache
+  KI, d.h. reichen intelligent *wirkende* Systeme?
+- Absicht vs. Auswirkung: vorteilhafte Anwendungen vs. Unfälle
+  (Robustheit und falsche Korrelationen, Fairness, Sicherheit)
+  vs. Missbrauch (Spam, Betrug, Spear-Phishing, Desinformation)
+  vs. doppelte Verwendung (“*dual use*”: Raketen, Kernkraft,
+  Genbearbeitung, …) vs. *Bias* (Voreingenommenheit)
+
+*Thema*: Schwache vs. starke KI, Auswirkungen und Nutzen
+
 ## DTL.01: Entscheidungsbäume mit CAL3 und ID3 (6P)
 
 Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
@@ -110,7 +128,7 @@ nachinstallieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 12d767c (homework: spread the discussion tasks across the first four exercise sheets, 2025-09-15)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

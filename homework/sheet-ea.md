@@ -1,5 +1,18 @@
 # Übungsblatt: Lokale Suche, GA
 
+## Bonus: ChatGPT Taboo (2P)
+
+Spielen Sie [Tabu](https://en.wikipedia.org/wiki/Taboo_(game)) mit Ihrem
+Lieblings-Chatbot und bringen Sie den Bot dazu, ein bestimmtes Wort oder
+einen Satz zu sagen. Sie haben dabei eine Liste mit Wörtern, die Sie
+nicht verwenden dürfen.
+
+Geben Sie einen Bericht darüber ab, was Sie versucht haben, wie
+leicht/schwer es war und eine vollständige Historie des “Gesprächs”.
+(Grenze: nicht länger als 30 Minuten, nicht mehr als 5 Seiten)
+
+*Thema*: Interaktion mit Chatbots
+
 ## EA.01: Modellierung von GA (2P)
 
 Betrachten Sie das 8-Queens-Problem sowie das Landkarten-Färbeproblem
@@ -63,7 +76,7 @@ EA/GA jeweils genutzt werden.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 12d767c (homework: spread the discussion tasks across the first four exercise sheets, 2025-09-15)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

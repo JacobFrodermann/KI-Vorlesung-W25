@@ -75,7 +75,7 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 | Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Übung | AI Connect |
 |:---|:---|:---|:---|:---|:---|
 | 15.09. | Orga | [Einführung KI](lecture/intro/intro1-overview.md) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_tdu.md) (*Zoom*) |  |  |
-| 22.09. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) | [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| **TODO**: Backjumping oder SAT oder Bin Packing |  |  |
+| 22.09. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) | [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| [Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md) |  |  |
 | 29.09. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) | **TODO**: Bayes’sche Inferenz/Netze | [Blatt: CSP](homework/sheet-csp.md) |  |
 | 06.10. | Intro | [Problemlösen](lecture/intro/intro2-problemsolving.md) | **ab 10:45**: Einführung Jupyter-Notebooks | [Blatt: Naive Bayes](homework/sheet-nb.md) |  |
 | 13.10. | Search | [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) | [A-Stern](lecture/searching/search5-astar.md) |  |  |
@@ -138,4 +138,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 60fdb3b (orga: lecture starts later on 01.12. & 08.12., 2025-09-04)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 991d2b2 (lecture: add min-conflicts heuristics (CSP) (#463), 2025-09-15)<br></sub></sup></p></blockquote>

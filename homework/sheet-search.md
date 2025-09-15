@@ -1,5 +1,34 @@
 # Übungsblatt: Problemlösen, Suche
 
+## Bonus: Möglichkeiten und Grenzen sowie Auswirkungen der KI (2P)
+
+Recherchieren Sie, welche Probleme bereits mittels Computer- bzw.
+Robotereinsatz gelöst werden können und welche aktuell noch ungelöst
+sind.
+
+Recherchieren und diskutieren Sie Auswirkungen auf die Gesellschaft
+durch die KI, etwa durch autonomes Fahren oder durch *Large Language
+Models* (LLM).
+
+Hier ein paar Startpunkte:
+
+- “Empirical evidence of Large Language Model’s influence on human
+  spoken communication” (https://arxiv.org/abs/2409.01754) - Gut?
+  Schlecht? Egal?
+- “AI and Cognitive Decline”
+  (https://www.reddit.com/r/Professors/s/Otxpcpe65L)
+- “Data Center the Size of Manhattan”
+  (https://www.reddit.com/r/artificial/comments/1m1oup8/zuckerberg_says_meta_will_build_data_center_the)
+- “Mach dir selbst ein Video”
+  (https://www.zeit.de/digital/2024-07/ki-filme-videos-newsletter-kuenstliche-intelligenz)
+- “Police pulls over a driverless Waymo car”
+  (https://www.reddit.com/r/Damnthatsinteresting/comments/1dvsod6/phoenix_police_officer_pulls_over_a_driverless)
+- “AI is making it up. Your authoritative source is the documentation”
+  (https://github.com/jgm/pandoc/discussions/10994)
+
+*Thema*: Gefühl für bereits realisierbare Aufgaben, Chancen und Risiken,
+Ethik
+
 ## Search.01: Problemformalisierung, Zustandsraum (3P)
 
 Drei Elben und drei Orks befinden sich an einem Ufer eines Flusses und
@@ -97,7 +126,7 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image map germany after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 12d767c (homework: spread the discussion tasks across the first four exercise sheets, 2025-09-15)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

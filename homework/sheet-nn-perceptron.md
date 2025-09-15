@@ -1,17 +1,5 @@
 # Übungsblatt: Perzeptron
 
-## Bonus: Möglichkeiten und Grenzen sowie Auswirkungen der KI (2P)
-
-Recherchieren Sie, welche Probleme bereits mittels Computer- bzw.
-Robotereinsatz gelöst werden können und welche aktuell noch ungelöst
-sind.
-
-Recherchieren Sie Auswirkungen auf die Gesellschaft durch die KI, etwa
-durch autonomes Fahren oder durch *Large Language Models* (LLM).
-
-*Thema*: Gefühl für bereits realisierbare Aufgaben, Chancen und Risiken,
-Ethik
-
 ## NN.Perzeptron.01: Entscheidungsgrenze (2P)
 
 - (1P) Betrachten Sie das durch den Gewichtsvektor
@@ -110,4 +98,4 @@ Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 771d815 (tooling: rename origin to credits, 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2ed282e (homework: move discussion task ai and society back to first assignment, 2025-09-15)<br></sub></sup></p></blockquote>

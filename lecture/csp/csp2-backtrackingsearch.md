@@ -34,7 +34,7 @@
 
 ``` python
 def BT_Search(assignment, csp):
-    if complete(assignment): return assignment
+    if complete(assignment, csp): return assignment
 
     var = VARIABLES(csp, assignment)
 
@@ -126,4 +126,4 @@ mache notfalls Backtracking.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bf0ccd0 (lecture: add CSP to title (CSP), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 991d2b2 (lecture: add min-conflicts heuristics (CSP) (#463), 2025-09-15)<br></sub></sup></p></blockquote>

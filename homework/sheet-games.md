@@ -1,5 +1,19 @@
 # Übungsblatt: Spiele
 
+## Bonus: Verlässlichkeit von ChatGPT (2P)
+
+Vergleichen Sie Informationen aus zuverlässigen Quellen mit
+Informationen aus einem LLM. Beurteilen Sie, ob die vom Model generierte
+Information korrekt ist oder ob Dinge fehlen oder Halluzinationen
+vorliegen.
+
+Beispiel I: Erstellung einer Zeitleiste eines historischen Ereignisses.
+
+Beispiel II: Erstellen von Quellcode zu einem Standardproblem aus der
+Informatik.
+
+*Thema*: Qualität und Zuverlässigkeit von generierten Inhalten
+
 ## Games.01: Handsimulation: Minimax und alpha-beta-Pruning (3P)
 
 <img src="images/alphabeta.png">
@@ -86,4 +100,4 @@ den Wurzelknoten mit den entsprechenden Wert-Tripeln annotieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 12d767c (homework: spread the discussion tasks across the first four exercise sheets, 2025-09-15)<br></sub></sup></p></blockquote>
