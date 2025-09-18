@@ -576,14 +576,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [“Kognition”](https://de.wikipedia.org/wiki/Kognition) by
   [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
   [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
   on Wikipedia ([CC BY-SA
   3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [AvB - RoboCup 2013 -
