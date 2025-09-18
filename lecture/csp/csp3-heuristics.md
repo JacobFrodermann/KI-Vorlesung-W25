@@ -121,10 +121,8 @@ wenig zusätzlicher Aufwand entsteht.
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): CSP,
-  Backtracking/Heuristiken: Abschnitt 5.3
-- Kumar ([1992](#ref-Kumar1992))
-- Barták ([2001](#ref-Bartak2001))
+Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Abschnitt 5.3 “Backtracking Search for CSPs”.
 
 > [!NOTE]
 >
@@ -154,6 +152,8 @@ wenig zusätzlicher Aufwand entsteht.
 >
 > <summary><strong>🏅 Challenges</strong></summary>
 >
+> **Problem 1**
+>
 > Sei $`D=\lbrace 0, \ldots, 5 \rbrace`$, und ein Constraintproblem
 > definiert durch $`\langle
 > \lbrace v_1, v_2, v_3, v_4 \rbrace, \lbrace D_{v_1} = D_{v_2} = D_{v_3} = D_{v_4} = D \rbrace,
@@ -173,6 +173,28 @@ wenig zusätzlicher Aufwand entsteht.
 >     ausgewählt?
 > 3.  Geben Sie eine Lösung für das Problem an.
 >
+> **Problem 2**
+>
+> Sei ein Constraintproblem definiert durch
+> $`V = \lbrace a, b, c, d, e \rbrace`$,
+> $`D_{a} = D_{b} = D_{c} = D_{e} = \lbrace 1,2,3 \rbrace, D_{d} = \lbrace 1,2 \rbrace`$,
+> und $`C = \lbrace c_1, c_2, c_3, c_4, c_5 \rbrace`$
+>
+> mit
+>
+> - $`c_1=\left((a,b), \ne\right)`$,
+> - $`c_2=\left((b,c), \ne\right)`$,
+> - $`c_3=\left((a,c), \ne\right)`$,
+> - $`c_4=\left((c,d), =\right)`$, und
+> - $`c_5=\left((b,e), <\right)`$.
+>
+> 1.  Zeichen Sie den Constraint-Graph.
+> 2.  Welche Variable würde bei der Anwendung der Heuristik *MRV* im
+>     ersten Schritt bei der Suche mit der BT-Search ausgewählt?
+> 3.  Gegeben die (partielle) Belegung $`d=1`$ und $`c=1`$, welche
+>     Variable würde mit *MRV* ausgewählt werden?
+> 4.  Was würde die *Gradheuristik* jeweils ändern?
+>
 > </details>
 
 ------------------------------------------------------------------------
@@ -185,21 +207,6 @@ wenig zusätzlicher Aufwand entsteht.
 >
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
->
-> <div id="ref-Bartak2001" class="csl-entry">
->
-> Barták, R. 2001. „Theory and Practice of Constraint Propagation“. In
-> *Proceedings of the 3rd Workshop on Constraint Programming for
-> Decision and Control*. Bd. 50.
->
-> </div>
->
-> <div id="ref-Kumar1992" class="csl-entry">
->
-> Kumar, V. 1992. „Algorithms for Constraint Satisfaction Problems: A
-> Survey“. *AI Magazine* 13 (1): 32–44.
->
-> </div>
 >
 > <div id="ref-Russell2020" class="csl-entry">
 >
@@ -218,4 +225,4 @@ wenig zusätzlicher Aufwand entsteht.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bf0ccd0 (lecture: add CSP to title (CSP), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0f1ca6b (lecture: add challenge (CSP3), 2025-09-18)<br></sub></sup></p></blockquote>

@@ -159,8 +159,8 @@ problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem).
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): CSP, Min-Conflicts
-  Heuristik: Abschnitt 5.4
+Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Abschnitt 5.4 “Local Search for CSPs”.
 
 > [!NOTE]
 >
@@ -226,4 +226,4 @@ problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 991d2b2 (lecture: add min-conflicts heuristics (CSP) (#463), 2025-09-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e5c4d3c (lecture: update readings (CSP), 2025-09-18)<br></sub></sup></p></blockquote>

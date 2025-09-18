@@ -183,10 +183,8 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): CSP, AC-3: Abschnitt
-  5.2
-- Kumar ([1992](#ref-Kumar1992))
-- Barták ([2001](#ref-Bartak2001))
+Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Abschnitt 5.2 “Constraint Propagation”.
 
 > [!NOTE]
 >
@@ -259,21 +257,6 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Bartak2001" class="csl-entry">
->
-> Barták, R. 2001. „Theory and Practice of Constraint Propagation“. In
-> *Proceedings of the 3rd Workshop on Constraint Programming for
-> Decision and Control*. Bd. 50.
->
-> </div>
->
-> <div id="ref-Kumar1992" class="csl-entry">
->
-> Kumar, V. 1992. „Algorithms for Constraint Satisfaction Problems: A
-> Survey“. *AI Magazine* 13 (1): 32–44.
->
-> </div>
->
 > <div id="ref-Russell2020" class="csl-entry">
 >
 > Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
@@ -291,4 +274,4 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bf0ccd0 (lecture: add CSP to title (CSP), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e5c4d3c (lecture: update readings (CSP), 2025-09-18)<br></sub></sup></p></blockquote>

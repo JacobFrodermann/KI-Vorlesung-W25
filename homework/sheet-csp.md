@@ -18,7 +18,7 @@ binäre) Relationen auf.
 
 *Thema*: Formulierung von Problemen als CSP
 
-## CSP.02: Framework für Constraint Satisfaction (2P)
+## CSP.02: Framework für Constraint Satisfaction (3P)
 
 Lösen Sie nun das obige Rätsel (aus CSP.01):
 
@@ -31,6 +31,9 @@ Lösen Sie nun das obige Rätsel (aus CSP.01):
     damit bereits eine Lösung (bzw. Unlösbarkeit)? Falls nicht, wenden
     Sie anschließend den ergänzten Algorithmus aus Schritt (2) an.
     Vergleichen Sie wieder die Ergebnisse und die Laufzeiten.
+4.  Implementieren Sie das Rätsel nun in
+    [MiniZinc](https://www.minizinc.org/). Vergleichen Sie wieder die
+    Ergebnisse und die Laufzeiten.
 
 Sie können dafür eine Handsimulation anwenden oder die Algorithmen
 implementieren. Sie können gern auch die Java-Klassen im Paket
@@ -39,7 +42,7 @@ bzw. die Python-Klassen in
 [`csp.py`](https://github.com/aimacode/aima-python/blob/master/csp.py)
 als Ausgangspunkt nutzen.[^1]
 
-## CSP.03: Kantenkonsistenz mit AC-3 (3P)
+## CSP.03: Kantenkonsistenz mit AC-3 (1P)
 
 Sei $`D=\lbrace 0, \ldots, 5 \rbrace`$, und ein Constraintproblem
 definiert durch
@@ -68,7 +71,7 @@ mit
 
 *Thema*: Handsimulation des AC-3-Algorithmus
 
-## CSP.04: Forward Checking und Kantenkonsistenz (2P)
+## CSP.04: Forward Checking und Kantenkonsistenz (1P)
 
 Betrachten Sie erneut das CSP aus der vorigen Aufgabe und die Zuweisung
 $`\alpha = \lbrace v_1 \to  2 \rbrace`$.
@@ -89,13 +92,38 @@ $`\alpha = \lbrace v_1 \to  2 \rbrace`$.
 
 *Thema*: Kantenkonsistenz und Forward Checking verstehen
 
-## CSP.05: Anwendungen (1P)
+## CSP.05: Planung von Indoor-Spielplätzen (3P)
 
-Recherchieren Sie, in welchen Anwendungen CSP vorkommen und mit der
-BT-Suche (plus Heuristiken) oder sogar AC-3 gelöst werden. Erklären Sie
-kurz, wie und wofür die Algorithmen jeweils genutzt werden.
+Sie sind für die Planung von Indoor-Spielplätzen zuständig.
 
-*Thema*: Anwendungen von CSP, BT-Suche und AC-3
+Ein Spielplatz hat eine rechteckige Form, etwa 40x100 m. Zur
+Vereinfachung wird diese Fläche in ein gleichmäßiges Raster unterteilt,
+beispielsweise 10x10 cm. Es gibt am Rand mehrere Türen (normaler
+Eingang, Notausgänge).
+
+Auf dieser Grundfläche sollen verschiedene Spielgeräte angeordnet
+werden, beispielsweise Go-Kart-Bahnen, Hüpfburgen und Kletterberge.
+Diese Spielgeräte haben selbst eine rechteckige Grundfläche, wobei die
+Abmessungen rastergenau sein sollen (also Vielfache der Rastergröße).
+Weiterhin gibt es eine Bar, die als größerer rechteckiger Bereich
+modelliert werden kann (keine Unterscheidung in Tresen plus Tische plus
+Stühle o.ä. notwendig).
+
+Die Aufgabe besteht darin, die Spielgeräte und den Bar-Bereich nach
+bestimmten Randbedingungen anzuordnen. Zu diesen Vorgaben gehört, dass
+sich die Spielgeräte nicht überlappen oder berühren, dass bestimmte
+Sicherheitsabstände eingehalten werden (1m zw. den Spielgeräten), dass
+Entspannungszonen eingerichtet werden und dass Sichtlinien gewährleistet
+sind (z.B. sollten die Aktivitäten am Kletterberg vom Barbereich aus
+beobachtet werden können). Die Bar ist bevorzugt direkt am Eingang zu
+finden. Notausgänge dürfen nicht verstellt werden.
+
+Abstrahieren Sie das gegebene Problem angemessen und geben Sie eine
+geeignete Modellierung als CSP an. Definieren Sie sich ein paar
+Spielgeräte und lösen Sie das Problem mit Hilfe von
+[MiniZinc](https://www.minizinc.org/).
+
+*Thema*: Modellierung eines Real-World-Problems
 
 ------------------------------------------------------------------------
 
@@ -103,7 +131,7 @@ kurz, wie und wofür die Algorithmen jeweils genutzt werden.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 (markdown: switch to leaner yaml header (#438), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 03dfaa5 (homework: replace sudoku with indoor playground modelling task (CSP), 2025-09-18)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

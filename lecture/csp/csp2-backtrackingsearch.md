@@ -68,10 +68,8 @@ mache notfalls Backtracking.
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): CSP, Backtracking:
-  Abschnitt 5.3
-- Kumar ([1992](#ref-Kumar1992))
-- Barták ([2001](#ref-Bartak2001))
+Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Abschnitt 5.3 “Backtracking Search for CSPs”.
 
 > [!NOTE]
 >
@@ -80,6 +78,31 @@ mache notfalls Backtracking.
 > <summary><strong>✅ Lernziele</strong></summary>
 >
 > - k3: Ich kann CSP mit endlichen Domänen mit Hilfe der BT-Suche lösen
+>
+> </details>
+
+> [!TIP]
+>
+> <details>
+>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> Sei ein Constraintproblem definiert durch
+> $`V = \lbrace a, b, c, d, e \rbrace`$,
+> $`D_{a} = D_{b} = D_{c} = D_{e} = \lbrace 1,2,3 \rbrace, D_{d} = \lbrace 1,2 \rbrace`$,
+> und $`C = \lbrace c_1, c_2, c_3, c_4, c_5 \rbrace`$
+>
+> mit
+>
+> - $`c_1=\left((a,b), \ne\right)`$,
+> - $`c_2=\left((b,c), \ne\right)`$,
+> - $`c_3=\left((a,c), \ne\right)`$,
+> - $`c_4=\left((c,d), =\right)`$, und
+> - $`c_5=\left((b,e), <\right)`$.
+>
+> 1.  Zeichen Sie den Constraint-Graph.
+> 2.  Zeigen Sie, wie der BT-Search-Algorithmus eine Lösung für das
+>     Problem findet.
 >
 > </details>
 
@@ -93,21 +116,6 @@ mache notfalls Backtracking.
 >
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
->
-> <div id="ref-Bartak2001" class="csl-entry">
->
-> Barták, R. 2001. „Theory and Practice of Constraint Propagation“. In
-> *Proceedings of the 3rd Workshop on Constraint Programming for
-> Decision and Control*. Bd. 50.
->
-> </div>
->
-> <div id="ref-Kumar1992" class="csl-entry">
->
-> Kumar, V. 1992. „Algorithms for Constraint Satisfaction Problems: A
-> Survey“. *AI Magazine* 13 (1): 32–44.
->
-> </div>
 >
 > <div id="ref-Russell2020" class="csl-entry">
 >
@@ -126,4 +134,4 @@ mache notfalls Backtracking.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 991d2b2 (lecture: add min-conflicts heuristics (CSP) (#463), 2025-09-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 008cb24 (lecture: add challenge (CSP2), 2025-09-18)<br></sub></sup></p></blockquote>

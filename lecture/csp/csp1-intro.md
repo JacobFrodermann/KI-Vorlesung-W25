@@ -151,9 +151,8 @@ hat ein Constraint?)
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): CSP: Abschnitt 5.1
-- Kumar ([1992](#ref-Kumar1992))
-- Barták ([2001](#ref-Bartak2001))
+Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Abschnitt 5.1 “Defining Constraint Satisfaction Problems”.
 
 > [!NOTE]
 >
@@ -178,6 +177,39 @@ hat ein Constraint?)
 >
 > </details>
 
+> [!TIP]
+>
+> <details>
+>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Problem 1**
+>
+> Drei Personen - Paul, George und John - sind zu einem Abendessen
+> eingeladen und sollen an einer Seite des Tisches auf drei
+> nebeneinander liegenden Plätzen platziert werden. George und John
+> können sich nicht besonders gut leiden, weshalb sie nicht direkt
+> nebeneinander gesetzt werden dürfen.
+>
+> Formulieren Sie das Platzierungsproblem als Constraint-Problem. Geben
+> Sie Variablen, Domänen und Constraints an.
+>
+> **Problem 2**
+>
+> Betrachten Sie das Problem
+> [ex_2](https://github.com/aimacode/aima-exercises/blob/master/markdown/6-Constraint-Satisfaction-Problems/exercises/ex_2/question.md)
+> aus den [AIMA Excercises](https://github.com/aimacode/aima-exercises).
+>
+> Sei $`n=3`$. Diskutieren Sie die Fragen (1), (2) und (3) und geben Sie
+> Lösungsvorschläge an.
+>
+> **Problem 3**
+>
+> Formulieren Sie [Sudoku](https://en.wikipedia.org/wiki/Sudoku) als CSP
+> und geben Sie Variablen, Domänen und Constraints an.
+>
+> </details>
+
 ------------------------------------------------------------------------
 
 > [!NOTE]
@@ -188,21 +220,6 @@ hat ein Constraint?)
 >
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
->
-> <div id="ref-Bartak2001" class="csl-entry">
->
-> Barták, R. 2001. „Theory and Practice of Constraint Propagation“. In
-> *Proceedings of the 3rd Workshop on Constraint Programming for
-> Decision and Control*. Bd. 50.
->
-> </div>
->
-> <div id="ref-Kumar1992" class="csl-entry">
->
-> Kumar, V. 1992. „Algorithms for Constraint Satisfaction Problems: A
-> Survey“. *AI Magazine* 13 (1): 32–44.
->
-> </div>
 >
 > <div id="ref-Russell2020" class="csl-entry">
 >
@@ -221,4 +238,4 @@ hat ein Constraint?)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bf0ccd0 (lecture: add CSP to title (CSP), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 03dfaa5 (homework: replace sudoku with indoor playground modelling task (CSP), 2025-09-18)<br></sub></sup></p></blockquote>
