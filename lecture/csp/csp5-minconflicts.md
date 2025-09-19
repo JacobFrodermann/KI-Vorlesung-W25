@@ -33,7 +33,7 @@
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> - [VL CSP, Min-Conflicts Heuristik](TODO)
+> - [VL CSP, Min-Conflicts Heuristik](https://youtu.be/Z-Xk6oCBZJ0)
 >
 > </details>
 
@@ -50,22 +50,52 @@ dauert eine Suche mit der BT-Search u.U. relativ lange, selbst wenn man
 die in [CSP: Heuristiken](csp3-heuristics.md) besprochenen Heuristiken
 einsetzt.
 
-## Idee Min-Conflicts Heuristik
+## Idee: Würfeln und Schütteln
 
-Was würde passieren, wenn wir analog zu [GA/EA](../ea/ea2-ga.md) eine
-*vollständige* Codierung wählen würden mit initial zufällig aus den
-Domänen ausgewählten Werten?
+1.  **Würfeln**: Erzeuge zufällige *vollständige* Belegung
 
-Was würde passieren, wenn wir danach die Konflikte “*heraus schütteln*”
-(erinnert ein bisschen an [Simulated
-Annealing](../searching/search7-annealing.md))?
+    Was würde passieren, wenn wir analog zu [GA/EA](../ea/ea2-ga.md)
+    eine *vollständige* Codierung wählen würden mit initial zufällig aus
+    den Domänen ausgewählten Werten?
+
+<!-- -->
+
+1.  **Schütteln**: Verändere schrittweise Werte
+
+    Was würde passieren, wenn wir danach die Konflikte “*heraus
+    schütteln*” (erinnert ein bisschen an [Simulated
+    Annealing](../searching/search7-annealing.md))?
+
+## Beispiel: Einfärben von Landkarten
+
+Ausgangszustand:
+
+<img src="images/map_graph.png" width="75%">
+
+Schritt 1: “Würfeln” (zufällige vollständige Belegung)
+
+<img src="images/min_conflicts1.png" width="50%">
+
+**Problem**: Konflikt in Knoten B und C.
+
+Schritt 2: “Schütteln”
+
+- Auswahl von Knoten B
+- Auswahl einer anderen Farbe (grün - Anzahl der verbleibenden Konflikte
+  = 0)
+
+<img src="images/min_conflicts2.png" width="50%">
+
+**Lösung erreicht.**
+
+## Min-Conflicts Heuristik
 
 ``` python
 Min-Conflicts(csp, maxSteps):
     assignment = random_complete_assignment(csp)
 
     for step in 1..maxSteps:
-        if complete(assignment, csp): return assignment
+        if complete_consistent(assignment, csp): return assignment
 
         var = random_conflicted_variable(csp, assignment)
         value = choose_val_min_conflicts(csp, assignment, var)
@@ -77,10 +107,12 @@ Min-Conflicts(csp, maxSteps):
 Quelle: Min-Conflicts: Eigener Code basierend auf einer Idee nach
 ([Russell und Norvig 2020](#ref-Russell2020), p. 182, fig. 5.8)
 
-**Hinweis**: Wenn es mehrere gleichwertige Möglichkeiten gibt, nimm eine
-beliebige davon.
+### Hinweis
 
-**Beobachtungen**:
+Wenn es mehrere gleichwertige Möglichkeiten gibt, nimm eine beliebige
+davon.
+
+### Beobachtungen
 
 - Algorithmus braucht i.d.R. sehr wenige Schritte bis zur Lösung
 - Plateaus können häufig auftreten
@@ -96,31 +128,12 @@ beliebige davon.
 - Weitere Verbesserung: Statt einer beliebigen Variable diejenige mit
   den meisten Konflikten auswählen
 
-## Beispiel
+### Beispiel aus der Praxis
 
-Schritt 1: Zufällige Belegung
-
-<img src="images/min_conflicts1.png" width="50%">
-
-**Problem**: Konflikt in Knoten B und C.
-
-Schritt 2:
-
-- Auswahl von Knoten B
-- Auswahl einer anderen Farbe (grün - Anzahl der verbleibenden Konflikte
-  = 0)
-
-<img src="images/min_conflicts2.png" width="50%">
-
-**Lösung erreicht.**
-
-**Beispiel aus der Praxis**:
-
-Nach [Min-conflicts algorithm \>
-Example](https://en.wikipedia.org/wiki/Min-conflicts_algorithm#Example)
-konnte die Rechenzeit für die Planungen der Beobachtungen für eine Woche
-für das Hubble-Weltraum-Teleskop von **drei Wochen** durch Einsatz der
-Min-Conflicts Heuristik **auf 10 Minuten gesenkt** werden.
+Mit der Min-Conflicts Heuristik konnte die Rechenzeit für die Planungen
+für eine Woche Beobachtungen für das Hubble-Weltraum-Teleskop von **drei
+Wochen** auf **10 Minuten** gesenkt werden.
+(Quelle: [Wikipedia](https://en.wikipedia.org/wiki/Min-conflicts_algorithm#Example))
 
 ## Diskussion
 
@@ -133,7 +146,7 @@ MAC (Maintaining Arc Consistency: BT-Search plus AC-3):
 - Gute Pruning‑Eigenschaften bei starken/engen Constraints
 - Hoher Rechenaufwand pro Schritt durch wiederholte Konsistenzprüfung
 
-Min-Conflict Heuristik:
+Min-Conflicts Heuristik:
 
 - Lokale Repair‑Heuristik
 - Startet mit kompletter und zufälliger Belegung
@@ -226,4 +239,4 @@ Abschnitt 5.4 “Local Search for CSPs”.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e5c4d3c (lecture: update readings (CSP), 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 44513de (lecture: add video (CSP5), 2025-09-19)<br></sub></sup></p></blockquote>
