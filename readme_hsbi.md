@@ -52,7 +52,6 @@ autonomen Fahrzeugen, …
   (HSBI, Sprechstunde nach Vereinbarung)
 - [Canan Yıldız](http://people.tau.edu.tr/people.show/cananyildiz/de)
   (TDU)
-- N.N.(TDU)
 
 ## Kursformat (HSBI)
 
@@ -196,4 +195,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 583d428 (orga: wrap hinweise as gh-details (HSBI), 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fc91387 (orga: fix teams sequence in readme (HSBI), 2025-09-19)<br></sub></sup></p></blockquote>

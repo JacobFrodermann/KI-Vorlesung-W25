@@ -31,9 +31,8 @@ Lösen Sie nun das obige Rätsel (aus CSP.01):
     damit bereits eine Lösung (bzw. Unlösbarkeit)? Falls nicht, wenden
     Sie anschließend den ergänzten Algorithmus aus Schritt (2) an.
     Vergleichen Sie wieder die Ergebnisse und die Laufzeiten.
-4.  Implementieren Sie das Rätsel nun in
-    [MiniZinc](https://www.minizinc.org/). Vergleichen Sie wieder die
-    Ergebnisse und die Laufzeiten.
+4.  Wenden Sie die *Min-Conflicts* Heuristik zur Lösung des Problems an.
+    Vergleichen Sie wieder die Ergebnisse und die Laufzeiten.
 
 Sie können dafür eine Handsimulation anwenden oder die Algorithmen
 implementieren. Sie können gern auch die Java-Klassen im Paket
@@ -120,10 +119,26 @@ finden. Notausgänge dürfen nicht verstellt werden.
 
 Abstrahieren Sie das gegebene Problem angemessen und geben Sie eine
 geeignete Modellierung als CSP an. Definieren Sie sich ein paar
-Spielgeräte und lösen Sie das Problem mit Hilfe von
-[MiniZinc](https://www.minizinc.org/).
+Spielgeräte und lösen Sie das Problem mit Hilfe von *MAC* und
+*Min-Conflicts*.
 
 *Thema*: Modellierung eines Real-World-Problems
+
+## Bonus: DSL für Constraint Solving: MiniZinc (2P)
+
+[MiniZinc](https://www.minizinc.org/) ist eine *Domain Specific
+Language* (DSL) zum Modellieren von Constraint- und
+Optimierungs-Problemen.
+
+Schauen Sie sich das
+[Tutorial](https://docs.minizinc.dev/en/stable/part_2_tutorial.html) an.
+Stellen Sie das Einstein-Rätsel oder das Spielplatz-Problem in MiniZinc
+dar. Nutzen Sie zur Ausführung einen der im
+[Playground](https://play.minizinc.dev) angebotenen Solver. Vergleichen
+Sie die Modellierung und die Laufzeiten mit Ihren Ergebnissen aus den
+vorigen Aufgaben.
+
+*Thema*: DSL zur Formulierung von Constraint-Problemen
 
 ------------------------------------------------------------------------
 
@@ -131,7 +146,7 @@ Spielgeräte und lösen Sie das Problem mit Hilfe von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 03dfaa5 (homework: replace sudoku with indoor playground modelling task (CSP), 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4ab8491 (homework: make MiniZinc bonus (CSP), 2025-09-19)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!

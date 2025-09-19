@@ -47,11 +47,11 @@ autonomen Fahrzeugen, …
 
 ## Team
 
+- [Canan Yıldız](http://people.tau.edu.tr/people.show/cananyildiz/de)
+  (TDU)
 - [Carsten
   Gips](https://www.hsbi.de/minden/ueber-uns/personenverzeichnis/carsten-gips)
   (HSBI, Sprechstunde nach Vereinbarung)
-- [Canan Yıldız](http://people.tau.edu.tr/people.show/cananyildiz/de)
-  (TDU)
 - N.N. (TDU)
 
 ## Kursformat (TDU)
@@ -138,4 +138,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 991d2b2 (lecture: add min-conflicts heuristics (CSP) (#463), 2025-09-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 78f8b5f (orga: fix teams sequence in readme (TDU), 2025-09-19)<br></sub></sup></p></blockquote>
