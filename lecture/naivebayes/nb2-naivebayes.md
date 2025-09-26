@@ -12,8 +12,8 @@
 > (Klassifikation) erfolgt dann durch die Nutzung der beim “Training”
 > berechneten bedingten Wahrscheinlichkeiten:
 >
-> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h|D_1,  \ldots, D_n) =
-> \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i|h)`$
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h|D_1,  \ldots, D_n) =
+> \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i|h)`$
 >
 > Für jede Hypothese $`h`$, d.h. für jede Klasse, wird der Posterior
 > $`P(h|D_1,  \ldots, D_n)`$ ausgerechnet. Die Klasse, deren Wert dabei
@@ -125,15 +125,15 @@ P(D_1, \ldots, D_n | H) = P(D_1 | H) \cdot \ldots \cdot P(D_n | H) = \prod_i P(D
   unterstützt wird.
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
 ```
 
 ## Bayes’sches Lernen
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
 ```
 
 **Training**: Bestimme die Wahrscheinlichkeiten aus Trainingsdaten
@@ -147,7 +147,7 @@ $`\mathbf{S}`$
 **Klassifikation**: Wähle wahrscheinlichste Klasse $`h_{MAP}`$ für
 Vektor $`\mathbf{x}`$
 
-- $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h) \prod_{x \in \mathbf{x}} P(x | h)`$
+- $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x | h)`$
 
 ## Beispiel Klassifikation mit NB
 
@@ -245,6 +245,115 @@ Wenn Attribute nicht (bedingt) unabhängig sind, kann sich der NB
 verschätzen, d.h. es kommt dann u.U. zu einer höheren Fehlerrate, da
 bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
+> [!TIP]
+>
+> ### Beispiel
+>
+> #### Gegebene Daten
+>
+> Seien die beiden Merkmale $`x_1`$ und $`x_2`$ mit den folgenden
+> Verteilungen gegeben:
+>
+> - Klassen: $`H \in \lbrace 0, 1 \rbrace`$,
+>   $`P(H = 0) = P(H = 1) = 0.5`$
+> - Bedingte Verteilungen $`P(x_1, x_2 | H)`$:
+>   - Für $`H = 0`$:
+>     - $`P(x_1=0, x_2=0 | 0) = 0.30`$
+>     - $`P(x_1=0, x_2=1 | 0) = 0.35`$
+>     - $`P(x_1=1, x_2=0 | 0) = 0.15`$
+>     - $`P(x_1=1, x_2=1 | 0) = 0.20`$
+>   - Für $`H = 1`$:
+>     - $`P(x_1=0, x_2=0 | 1) = 0.00`$
+>     - $`P(x_1=0, x_2=1 | 1) = 0.30`$
+>     - $`P(x_1=1, x_2=0 | 1) = 0.65`$
+>     - $`P(x_1=1, x_2=1 | 1) = 0.05`$
+>
+> #### Analyse der gegebenen Daten
+>
+> Die Merkmale $`x_1`$ und $`x_2`$ sind *nicht* bedingt abhängig gegeben
+> $`H`$.
+>
+> Erinnerung: Zwei Ereignisse $`X`$ und $`Y`$ sind bedingt unabhängig
+> gegeben $`Z`$, wenn gilt $`P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)`$.
+>
+> Wir haben aber im Fall von $`H=1`$:
+>
+> - $`P(x_1=0, x_2=0 | 1) = 0.00`$
+>   vs. $`P(x_1=0 | 1) P(x_2=0 | 1) = (0.00+0.30) * (0.00+0.65) = 0.30 * 0.65 = 0.195`$
+> - $`P(x_1=0, x_2=1 | 1) = 0.30`$
+>   vs. $`P(x_1=0 | 1) P(x_2=1 | 1) = (0.00+0.30) * (0.30+0.05) = 0.30 * 0.35 = 0.105`$
+> - $`P(x_1=1, x_2=0 | 1) = 0.65`$
+>   vs. $`P(x_1=1 | 1) P(x_2=0 | 1) = (0.65+0.05) * (0.00+0.65) = 0.70 * 0.65 = 0.455`$
+> - $`P(x_1=1, x_2=1 | 1) = 0.05`$
+>   vs. $`P(x_1=1 | 1) P(x_2=1 | 1) = (0.65+0.05) * (0.30+0.05) = 0.70 * 0.35 = 0.245`$
+>
+> (analog für $`H=0`$)
+>
+> Damit bekommen wir im Naive Bayes Klassifikator ein Problem. Dort wird
+> von bedingt unabhängigen Merkmalen ausgegangen und deshalb die
+> Vereinfachung von $`P(x_1, x_2 | H)`$ zu $`P(x_1 | H) P(x_2 | H)`$
+> vorgenommen. Da die Annahme nicht stimmt, werden die Merkmale falsch
+> gewichtet und es kann zu Fehlklassifikationen kommen.
+>
+> #### Klassifikation einer Beobachtung
+>
+> Wir machen nun die folgende Beobachtung: $`X = (x_1=1, x_2=1)`$.
+>
+> Die nötigen Marginalisierungen aus den Trainingsdaten für diese
+> Beobachtung sind:
+>
+> - Für $`H = 0`$: $`P(x_1=1|0) = 0.15 + 0.20 = 0.35`$,
+>   $`P(x_2=1|0) = 0.35 + 0.20 = 0.55`$
+> - Für $`H = 1`$: $`P(x_1=1|1) = 0.65 + 0.05 = 0.70`$,
+>   $`P(x_2=1|1) = 0.30 + 0.05 = 0.35`$
+>
+> Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt
+> unabhängige Merkmale): Wir nutzen
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)`$ und
+> setzen unsere beiden Merkmale ein:
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 | h) P(x_2 | h)`$.
+>
+> Damit bekommen wir folgende Entscheidung:
+>
+> - $`H=0: 0.5 * 0.35 * 0.55 = 0.09625`$
+> - $`H=1: 0.5 * 0.70 * 0.35 = 0.1225`$
+> - Entscheidung für Klasse $`H=1`$
+>
+> Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht
+> verwendet werden, sondern wir müssten eigentlich den Term
+> $`P(x_1, x_2 | h)`$ nutzen:
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 | h)`$.
+>
+> Aus den gegebenen Daten haben wir (einfach oben ablesen):
+>
+> - $`P(x_1=1, x_2=1 | 0) = 0.20`$
+> - $`P(x_1=1, x_2=1 | 1) = 0.05`$
+>
+> Eingesetzt in die Formel
+> $`h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | x_1, x_2)
+> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 | h)`$:
+>
+> - $`H=0: 0.5 * 0.20 = 0.10`$
+> - $`H=1: 0.5 * 0.05 = 0.025`$
+> - Entscheidung für Klasse $`H=0`$
+>
+> D.h. der Naive Bayes Klassifikator würde hier $`H=1`$ vorschlagen,
+> während der korrekte Posterior für $`H=0`$ spricht.
+>
+> #### Interpretation
+>
+> In diesem konstruierten Beispiel führt die Abhängigkeit der Merkmale
+> zu einer Fehlkalibrierung der Posterior-Wahrscheinlichkeiten durch NB
+> und damit zu einer falschen Klassifikation. In der Realität erweist
+> sich der NB trotzdem relativ robust gegenüber der Abhängigkeit von
+> Merkmalen: Durch die Korrelation kommen häufig
+> A-posteriori-Wahrscheinlichkeiten nahe 0 oder nahe 1 heraus, aber da
+> es nur auf das Maximum und nicht auf den konkreten Wert ankommt,
+> erhält man häufig trotzdem noch eine korrekte Klassifikation.
+
 ## Laplace-Schätzer
 
 - Problem: Attribut-Ausprägung für bestimmte Klasse nicht in
@@ -287,9 +396,9 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 ``` math
 \begin{eqnarray}
-h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
-        &=& \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h) \\[5pt]
-        &=& \mathop{\text{argmax}}_{h \in H} [\log(P(h)) + \sum_i \log(P(D_i | h))]
+h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h|D_1, \ldots, D_n) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h) \\[5pt]
+        &=& \mathop{\text{argmax}}_{h \in H} \: [\log(P(h)) + \sum_i \log(P(D_i | h))]
 \end{eqnarray}
 ```
 
@@ -298,8 +407,8 @@ h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} P(h|D_1, \ldots, D_n) \\[5pt]
 - **Maximum a Posteriori**
 
 ``` math
-h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} P(h) \prod_i P(D_i | h)
+h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h | D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i | h)
 ```
 
 - Annahme: Klassen uniform verteilt =\> $`P(h_i) = P(h_j)`$
@@ -309,7 +418,7 @@ h_{MAP} = \mathop{\text{argmax}}_{h \in H} P(h | D_1, \ldots, D_n)
   =\> Maximiere die Likelihood der Daten
 
 ``` math
-h_{ML} = \mathop{\text{argmax}}_{h \in H} \prod_i P(D_i | h)
+h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i | h)
 ```
 
 ## Ausblick: Kontinuierliche Attribute
@@ -441,4 +550,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 68c420d (lecture: add NB to title (NB), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1fb3677 (lecture: add demonstration of dependet features (NB2), 2025-09-26)<br></sub></sup></p></blockquote>
