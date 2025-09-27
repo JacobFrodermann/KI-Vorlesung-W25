@@ -197,9 +197,9 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Alpha-beta-Pruning:
+- Russell und Norvig ([2021](#ref-Russell2021)): Alpha-beta-Pruning:
   Abschnitt 6.2.3, Erweiterungen: Abschnitt 6.3
-- Ertel ([2017](#ref-Ertel2017))
+- Ertel ([2025](#ref-Ertel2025))
 
 > [!NOTE]
 >
@@ -275,10 +275,11 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Ertel2017" class="csl-entry">
+> <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2017. *Introduction to Artificial Intelligence*. 2nd
-> edition. Springer. <https://doi.org/10.1007/978-3-319-58487-4>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
+> Springer Vieweg Wiesbaden.
+> <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
@@ -290,9 +291,9 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 >
 > </div>
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> ———. 2020. *Artificial Intelligence: A Modern Approach*. 4th Edition.
+> ———. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition.
 > Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -317,4 +318,4 @@ Quelle: ([Silver u. a. 2016](#ref-Silver2016)), siehe auch
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f3e6437 (lecture: add Games to title (Games), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>

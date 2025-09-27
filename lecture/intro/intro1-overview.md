@@ -142,7 +142,7 @@ langer Zahlen als intelligent zu betrachten! Bezieht sich vor allem auf
 >
 > – Elaine Rich (“Artificial Intelligence”, McGraw-Hill, 1983)
 
-Quelle: nach ([Ertel 2017](#ref-Ertel2017), pp. 1-3)
+Quelle: nach ([Ertel 2025](#ref-Ertel2025), pp. 1-3)
 
 Dazu gehört auch
 
@@ -493,7 +493,7 @@ oder die Programmiersprache Prolog.
   Rückkehr zu “Human-Level AI” (McCarthy, Minsky, Nilsson, Winston);
   Rückkehr zu Neuronalen Netzen (CNN/RNN)
 
-Siehe auch Abbildung 1.3 in ([Ertel 2017, 8](#ref-Ertel2017)) …
+Siehe auch Abbildung 1.3 in ([Ertel 2025, 8](#ref-Ertel2025)) …
 
 ## Wrap-Up
 
@@ -508,8 +508,8 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 1: Introduction
-- Ertel ([2017](#ref-Ertel2017)): Kapitel 1: Introduction
+- Russell und Norvig ([2021](#ref-Russell2021)): Kapitel 1: Introduction
+- Ertel ([2025](#ref-Ertel2025)): Kapitel 1: Introduction
 
 > [!NOTE]
 >
@@ -550,16 +550,17 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Ertel2017" class="csl-entry">
+> <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2017. *Introduction to Artificial Intelligence*. 2nd
-> edition. Springer. <https://doi.org/10.1007/978-3-319-58487-4>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
+> Springer Vieweg Wiesbaden.
+> <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -576,6 +577,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
+  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+  on Wikipedia ([CC BY-SA
+  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 - [Turing Test version
   3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
   by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia
@@ -591,10 +597,5 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
   Flickr.com ([CC BY
   2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
-- [“Intelligenz”](https://de.wikipedia.org/wiki/Intelligenz) by
-  [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-  [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-  on Wikipedia ([CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d691287 (lecture: re-enabling image turing test after toolchain fix (Intro1), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>

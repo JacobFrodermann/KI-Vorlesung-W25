@@ -46,13 +46,13 @@
 > Zur Suche kann man bei den in dieser Veranstaltung betrachteten
 > deterministischen Problemen mit diskreten Zuständen den einfachen
 > “Tree-Search”-Algorithmus (Benennung in Anlehnung an ([Russell und
-> Norvig 2020](#ref-Russell2020))) einsetzen, der allerdings
+> Norvig 2021](#ref-Russell2021))) einsetzen, der allerdings
 > Wiederholungen und Schleifen zulässt. Mit zwei Erweiterungen wird
 > daraus der “Graph-Search”-Algorithmus (Benennung in Anlehnung an
-> ([Russell und Norvig 2020](#ref-Russell2020))), der die wiederholte
+> ([Russell und Norvig 2021](#ref-Russell2021))), der die wiederholte
 > Untersuchung von bereits besuchten Knoten vermeidet. In beiden
 > Algorithmen wird eine zentrale Datenstruktur eingesetzt (im ([Russell
-> und Norvig 2020](#ref-Russell2020)) auch “Frontier” genannt), die die
+> und Norvig 2021](#ref-Russell2021)) auch “Frontier” genannt), die die
 > als Nächstes zu untersuchenden Knoten hält und die damit die Grenze
 > zwischen dem bereits untersuchten Teil des Graphen und dem unbekannten
 > Teil des Graphen bildet. Je nach Art der Datenstruktur und je nach den
@@ -144,10 +144,10 @@ Ergebnis:
 
 **Geeignete Abstraktionen wählen für Zustände und Aktionen!**
 
-**Anmerkung:** ([Russell und Norvig 2020](#ref-Russell2020))
+**Anmerkung:** ([Russell und Norvig 2021](#ref-Russell2021))
 unterscheidet zw. Aktionen und Transitionsmodell; hier nur Aktionen!
 D.h. die Aktionen und das Übergangsmodell aus dem ([Russell und Norvig
-2020](#ref-Russell2020)) werden direkt zusammen betrachtet. Bei den hier
+2021](#ref-Russell2021)) werden direkt zusammen betrachtet. Bei den hier
 diskutierten Problemen ist das ohne Nachteile möglich, es wird lediglich
 etwas Flexibilität genommen bzw. Komplexität vermieden (je nach
 Sichtweise :-) …
@@ -235,14 +235,14 @@ Suchalgorithmen.
 **Anmerkung**: Für Handsimulation besserer Überblick, wenn statt der
 Knoten immer **partielle Wege** in Datenstruktur gespeichert werden!
 
-**Anmerkung**: Im ([Russell und Norvig 2020, Abschn. 3.3.3,
-S.92](#ref-Russell2020)) wird ein Algorithmus mit den vorgestellten
+**Anmerkung**: Im ([Russell und Norvig 2021, Abschn. 3.3.3,
+S.92](#ref-Russell2021)) wird ein Algorithmus mit den vorgestellten
 Eigenschaften als “**tree-like search**” bezeichnet. In Anlehnung an
-([Russell und Norvig 2020](#ref-Russell2020)) wird diese Basisvariante
+([Russell und Norvig 2021](#ref-Russell2021)) wird diese Basisvariante
 der Suche in dieser Lehrveranstaltung kurz als “Tree-Search”-Algorithmus
 bezeichnet.
 
-**Anmerkung**: Im ([Russell und Norvig 2020](#ref-Russell2020)) wird für
+**Anmerkung**: Im ([Russell und Norvig 2021](#ref-Russell2021)) wird für
 die Datenstruktur, mit der die Suche arbeitet, auch “*Frontier*”
 genannt. Hier werden alle Knoten gehalten, die in einem der nächsten
 Schritte betrachtet werden sollen, d.h. diese Knoten bilden die Grenze
@@ -277,10 +277,10 @@ Suche:
 **Anmerkung**: Für Handsimulation besserer Überblick, wenn statt der
 Knoten immer **partielle Wege** in Datenstruktur gespeichert werden!
 
-**Anmerkung**: Im ([Russell und Norvig 2020, Abschn. 3.3.3,
-S.92](#ref-Russell2020)) wird ein Algorithmus mit den vorgestellten
+**Anmerkung**: Im ([Russell und Norvig 2021, Abschn. 3.3.3,
+S.92](#ref-Russell2021)) wird ein Algorithmus mit den vorgestellten
 Eigenschaften als “**graph search**” bezeichnet. In Anlehnung an
-([Russell und Norvig 2020](#ref-Russell2020)) wird diese erweiterter
+([Russell und Norvig 2021](#ref-Russell2021)) wird diese erweiterter
 Variante der Suche in dieser Lehrveranstaltung kurz als
 “Graph-Search”-Algorithmus bezeichnet.
 
@@ -321,7 +321,7 @@ Wieviel Speicher benötigt die Suche?
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Problemlösen: Kapitel
+- Russell und Norvig ([2021](#ref-Russell2021)): Problemlösen: Kapitel
   3.1 - 3.3
 
 > [!NOTE]
@@ -384,9 +384,9 @@ Wieviel Speicher benötigt die Suche?
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -401,4 +401,4 @@ Wieviel Speicher benötigt die Suche?
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 3268b7f (lecture: add Intro to title (Intro), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

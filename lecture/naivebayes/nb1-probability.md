@@ -315,7 +315,7 @@ Diagnose “keine Arthrose” ein steifes Gelenk beobachten.
 **Hinweis**: Die genannten Zahlen und Zusammenhänge sind rein fiktional
 und sollen lediglich zur Veranschaulichung der Bayes-Regel dienen!
 
-Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2017](#ref-Ertel2017),
+Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2025](#ref-Ertel2025),
 Ex. 7.9, S. 135) an!
 
 ## Unabhängige Ereignisse
@@ -357,8 +357,10 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 12
-- Ertel ([2017](#ref-Ertel2017)): Abschnitt 7.1
+Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte die
+Abschnitte 12.2 bis (einschließlich) 12.5. Darüber hinaus ist Abschnitt
+“7.1 Rechnen mit Wahrscheinlichkeiten” ([Ertel 2025](#ref-Ertel2025))
+sehr empfehlenswert.
 
 > [!NOTE]
 >
@@ -400,16 +402,17 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Ertel2017" class="csl-entry">
+> <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2017. *Introduction to Artificial Intelligence*. 2nd
-> edition. Springer. <https://doi.org/10.1007/978-3-319-58487-4>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
+> Springer Vieweg Wiesbaden.
+> <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -424,4 +427,4 @@ P(X,Y|Z) = P(X|Y,Z)P(Y|Z) = P(X|Z)P(Y|Z)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 68c420d (lecture: add NB to title (NB), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 08f3f49 (lecture: update readings (NB), 2025-09-27)<br></sub></sup></p></blockquote>

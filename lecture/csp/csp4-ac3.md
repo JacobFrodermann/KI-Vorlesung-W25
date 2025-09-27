@@ -58,7 +58,7 @@ prüfen
 <img src="images/bt_search_inference.png" width="65%">
 
 **Inference**: Frühzeitiges Erkennen von Fehlschlägen! (vgl. ([Russell
-und Norvig 2020, 178](#ref-Russell2020)))
+und Norvig 2021, 178](#ref-Russell2021)))
 
 Nach Zuweisung eines Wertes an Variable $`X`$:
 
@@ -145,7 +145,7 @@ def ARC_Reduce(csp, x, y):
 ```
 
 Quelle: AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach
-([Russell und Norvig 2020](#ref-Russell2020), p. 171, fig. 5.3)
+([Russell und Norvig 2021](#ref-Russell2021), p. 171, fig. 5.3)
 
 *Anmerkung*: Die Queue in AC-3 ist wie eine (mathematische) Menge zu
 betrachten: Jedes Element kann nur genau einmal in einer Menge enthalten
@@ -183,7 +183,7 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 ## 📖 Zum Nachlesen
 
-Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den
 Abschnitt 5.2 “Constraint Propagation”.
 
 > [!NOTE]
@@ -257,9 +257,9 @@ Abschnitt 5.2 “Constraint Propagation”.
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -274,4 +274,4 @@ Abschnitt 5.2 “Constraint Propagation”.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e5c4d3c (lecture: update readings (CSP), 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

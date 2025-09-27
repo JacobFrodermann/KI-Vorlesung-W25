@@ -247,7 +247,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): GA: Abschnitt 4.1.4
+- Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
 - Schwefel ([1995](#ref-Schwefel1995)): Originalarbeit zu
   Evolutionsstrategien
 - Michalewicz ([1996](#ref-Michalewicz1996))
@@ -342,9 +342,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > </div>
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -365,4 +365,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4d6883e (lecture: add EA to title (EA), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

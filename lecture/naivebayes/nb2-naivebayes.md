@@ -461,8 +461,10 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Kapitel 12
-- Ertel ([2017](#ref-Ertel2017)): Abschnitt 8.7
+Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den
+Abschnitt 12.6 “Naive Bayes Models”. Darüber hinaus ist Abschnitt “8.10
+Der Naive Bayes Klassifikator” ([Ertel 2025](#ref-Ertel2025)) sehr
+empfehlenswert.
 
 > [!NOTE]
 >
@@ -526,16 +528,17 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Ertel2017" class="csl-entry">
+> <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2017. *Introduction to Artificial Intelligence*. 2nd
-> edition. Springer. <https://doi.org/10.1007/978-3-319-58487-4>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
+> Springer Vieweg Wiesbaden.
+> <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -550,4 +553,4 @@ In Abhängigkeit von der Verteilung der $`P(D_i | h)`$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1fb3677 (lecture: add demonstration of dependet features (NB2), 2025-09-26)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 08f3f49 (lecture: update readings (NB), 2025-09-27)<br></sub></sup></p></blockquote>

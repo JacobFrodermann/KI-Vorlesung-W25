@@ -300,7 +300,7 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Lernen: Abschnitte 19.1
+- Russell und Norvig ([2021](#ref-Russell2021)): Lernen: Abschnitte 19.1
   und 19.2
 
 > [!NOTE]
@@ -375,9 +375,9 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -392,4 +392,4 @@ bestimmte Anzahl erlaubter Werte (“Ausprägungen”) …
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 (lecture: add DTL to title (DTL), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

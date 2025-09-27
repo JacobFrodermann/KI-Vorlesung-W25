@@ -83,7 +83,7 @@ Varianten:
 
 In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten
 der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für
-die Beschreibung im ([Russell und Norvig 2020](#ref-Russell2020))). Dies
+die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies
 erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack
 schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die
 Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
@@ -124,7 +124,7 @@ h(n) \le h^\star(n)
 =\> Beispiel: Luftlinie als Abschätzung
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
-2020](#ref-Russell2020)) wird die **zulässige Heuristik** auch
+2021](#ref-Russell2021)) wird die **zulässige Heuristik** auch
 “**admissible heuristic**” genannt.
 
 ## A\* ist optimal
@@ -167,7 +167,7 @@ Außerdem muss gelten:
 =\> Eine konsistente Heuristik ist gleichzeitig zulässig.
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
-2020](#ref-Russell2020)) wird die **konsistente Heuristik** auch
+2021](#ref-Russell2021)) wird die **konsistente Heuristik** auch
 “**consistent heuristic**” genannt.
 
 ## Eigenschaften Branch-and-Bound, Best-First, A\*
@@ -199,7 +199,7 @@ Außerdem muss gelten:
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): A\*: Abschnitt 3.5.2,
+- Russell und Norvig ([2021](#ref-Russell2021)): A\*: Abschnitt 3.5.2,
   Heuristiken: Kapitel 3.6
 
 > [!NOTE]
@@ -278,9 +278,9 @@ Außerdem muss gelten:
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -295,7 +295,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5a1e8a5 (lecture: fix quoting in YAML header (Search5), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

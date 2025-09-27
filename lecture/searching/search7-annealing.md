@@ -196,7 +196,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Simulated Annealing:
+- Russell und Norvig ([2021](#ref-Russell2021)): Simulated Annealing:
   Abschnitt 4.1.2
 
 > [!NOTE]
@@ -232,9 +232,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -257,4 +257,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Wikimedia Commons ([Public
   Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c33cce6 (lecture: re-enabling image exp e after toolchain fix (Search7), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

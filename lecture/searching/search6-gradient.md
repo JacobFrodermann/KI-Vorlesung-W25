@@ -89,7 +89,7 @@ Gedächtnisverlust*”
   reduziert wird
 
 Schauen Sie sich auch Abb. 4.3 auf Seite 130 im Russell und Norvig
-([2020](#ref-Russell2020)) an!
+([2021](#ref-Russell2021)) an!
 
 **Hinweis**: Alle Damen stehen von Anfang an auf dem Brett und werden
 nur verschoben =\> “vollständige Zustandsformulierung”
@@ -103,7 +103,7 @@ nur verschoben =\> “vollständige Zustandsformulierung”
 - Beobachtung: Lösung nach durchschnittlich 4 Schritten, oder Verfahren
   bleibt nach durchschnittlich 3 Schritten stecken.
 
-Quelle: nach ([Russell und Norvig 2020](#ref-Russell2020), p. 131)
+Quelle: nach ([Russell und Norvig 2021](#ref-Russell2021), p. 131)
 
 ## Eigenschaften Gradientensuche
 
@@ -129,7 +129,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Gradientenabstieg:
+- Russell und Norvig ([2021](#ref-Russell2021)): Gradientenabstieg:
   Abschnitt 4.1.1
 
 > [!NOTE]
@@ -191,9 +191,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -217,4 +217,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   Commons ([Public
   Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c378cdb (lecture: re-enabling image map germany after toolchain fix (Search), 2025-09-01)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

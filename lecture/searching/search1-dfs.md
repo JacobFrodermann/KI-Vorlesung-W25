@@ -130,7 +130,7 @@ Reihenfolge der Knoten (Orte).
 
   Auswirkung: Weg wird in die **Tiefe** verfolgt (deshalb “Tiefensuche”)
 
-- Im ([Russell und Norvig 2020](#ref-Russell2020)) wird die
+- Im ([Russell und Norvig 2021](#ref-Russell2021)) wird die
   Datenstruktur zum Halten der zu expandierenden Knoten (also hier im
   Fall der Tiefensuche der Stack) auch “**Frontier**” genannt.
 
@@ -145,7 +145,7 @@ Reihenfolge der Knoten (Orte).
 
 In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten
 der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für
-die Beschreibung im ([Russell und Norvig 2020](#ref-Russell2020))). Dies
+die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies
 erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack
 schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die
 Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
@@ -169,7 +169,7 @@ anwendbaren Operationen bestimmt.)
   Außerdem sind mehrere Wege zum selben (Zwischen-/End-) Knoten in der
   Datenstruktur möglich!
 
-- Im ([Russell und Norvig 2020](#ref-Russell2020)) wird der Begriff
+- Im ([Russell und Norvig 2021](#ref-Russell2021)) wird der Begriff
   “Backtracking” für den rekursiven Tiefensuche-Algorithmus verwendet.
   Dies steht im Gegensatz zum üblichen Sprachgebrauch in der KI!
 
@@ -202,7 +202,7 @@ Siehe [Breitensuche](search2-bfs.md)
 
 ## 📖 Zum Nachlesen
 
-- Russell und Norvig ([2020](#ref-Russell2020)): Tiefensuche: Abschnitt
+- Russell und Norvig ([2021](#ref-Russell2021)): Tiefensuche: Abschnitt
   3.4.3
 
 > [!NOTE]
@@ -244,9 +244,9 @@ Siehe [Breitensuche](search2-bfs.md)
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -261,4 +261,4 @@ Siehe [Breitensuche](search2-bfs.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7f2a2c8 (lecture: add Search to title (Searching), 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>

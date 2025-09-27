@@ -42,8 +42,8 @@
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
-**Minimum Remaining Values (MRV)**: (vgl. ([Russell und Norvig 2020,
-177](#ref-Russell2020)))
+**Minimum Remaining Values (MRV)**: (vgl. ([Russell und Norvig 2021,
+177](#ref-Russell2021)))
 
 - Wähle Variable mit wenigsten freien Werten (die am meisten
   eingeschränkte Variable)
@@ -64,7 +64,7 @@ Beispiel:
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
 **Gradheuristik**: Erweiterung von *MRV* bei *Gleichstand* (vgl.
-([Russell und Norvig 2020, 177](#ref-Russell2020)))
+([Russell und Norvig 2021, 177](#ref-Russell2021)))
 
 - Wähle Variable mit meisten Constraints auf offene (noch nicht
   zugewiesene) Variablen
@@ -89,8 +89,8 @@ Beispiel:
 
 **VALUES**: Welchen Wert zuerst ausprobieren?
 
-**Least Constraining Value (LCV)**: (vgl. ([Russell und Norvig 2020,
-177](#ref-Russell2020)))
+**Least Constraining Value (LCV)**: (vgl. ([Russell und Norvig 2021,
+177](#ref-Russell2021)))
 
 - Wähle Wert, der für verbleibende Variablen die wenigsten Werte
   ungültig macht
@@ -121,7 +121,7 @@ wenig zusätzlicher Aufwand entsteht.
 
 ## 📖 Zum Nachlesen
 
-Lesen Sie in ([Russell und Norvig 2020](#ref-Russell2020)) bitte den
+Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den
 Abschnitt 5.3 “Backtracking Search for CSPs”.
 
 > [!NOTE]
@@ -208,9 +208,9 @@ Abschnitt 5.3 “Backtracking Search for CSPs”.
 > <div id="refs" class="references csl-bib-body hanging-indent"
 > entry-spacing="0">
 >
-> <div id="ref-Russell2020" class="csl-entry">
+> <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2020. *Artificial Intelligence: A Modern
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
 > Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
@@ -225,4 +225,4 @@ Abschnitt 5.3 “Backtracking Search for CSPs”.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0f1ca6b (lecture: add challenge (CSP3), 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 (lecture: fix publishing year of AIMA, 2025-09-27)<br></sub></sup></p></blockquote>
