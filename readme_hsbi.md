@@ -95,7 +95,7 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 | *22.12.* |  |  | *Weihnachtspause* |  |  |
 | *29.12.* |  |  | *Weihnachtspause* |  |  |
 | 05.01. | Train&Test | [Training & Testing](lecture/nn/nn07-training-testing.md) | [Performanzanalyse](lecture/nn/nn08-testing.md) | [Blatt: MLP](homework/sheet-nn-mlp.md) |  |
-| 12.01. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) | **TODO**: Bayes’sche Inferenz/Netze | [Blatt: Backprop](homework/sheet-nn-backprop.md) |  |
+| 12.01. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) | [Textklassifikation mit NB](lecture/naivebayes/nb3-nb-text.md) | [Blatt: Backprop](homework/sheet-nn-backprop.md) |  |
 | 19.01. | PV | [Prüfungsvorbereitung HSBI](admin/exams-hsbi.md) | Rückblick (*Zoom*) | [Blatt: Naive Bayes](homework/sheet-nb.md) |  |
 
 ## Prüfungsform, Note und Credits (HSBI)
@@ -194,4 +194,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df (lecture: update to 2025 edition of Ertel, 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 133566f (lecture: link text classification with nb in schedule, 2025-09-29)<br></sub></sup></p></blockquote>
