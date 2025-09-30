@@ -52,7 +52,11 @@ autonomen Fahrzeugen, …
 - [Carsten
   Gips](https://www.hsbi.de/minden/ueber-uns/personenverzeichnis/carsten-gips)
   (HSBI, Sprechstunde nach Vereinbarung)
-- N.N. (TDU)
+- [Halit Canap
+  Demir](https://people.tau.edu.tr/people.show/halit.demir/de) (TDU)
+- [Seza Nihan
+  Bekarlar](https://people.tau.edu.tr/people.show/nihan.bekarlar/de)
+  (TDU)
 
 ## Kursformat (TDU)
 
@@ -137,4 +141,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 133566f (lecture: link text classification with nb in schedule, 2025-09-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9acde57 (add TDU wimis (#469), 2025-09-29)<br></sub></sup></p></blockquote>
