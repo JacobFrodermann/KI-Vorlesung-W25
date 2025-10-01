@@ -37,6 +37,17 @@
 >
 > </details>
 
+> [!TIP]
+>
+> <details>
+>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> - [VL Text-Klassifikation mit Naive
+>   Bayes](https://youtu.be/Gkg-SGnl9nY)
+>
+> </details>
+
 ## Textklassifikation mit NB
 
 - Trainingsdaten: Mails, manuell markiert:
@@ -580,4 +591,4 @@ empfehlenswert.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6efde1f (lecture: fix weird GH parsing (NB3), 2025-09-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> b309587 (lecture: add video (NB3), 2025-10-01)<br></sub></sup></p></blockquote>

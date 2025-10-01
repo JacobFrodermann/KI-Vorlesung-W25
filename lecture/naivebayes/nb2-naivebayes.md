@@ -500,6 +500,18 @@ empfehlenswert.
 >
 > <summary><strong>🏅 Challenges</strong></summary>
 >
+> **Spam-Mails**
+>
+> Stellen Sie sich vor, Sie haben eine Sammlung von 100 E-Mails (60
+> Spam, 40 Nicht-Spam). Sie wissen, dass das Wort “Gewinn” in 45
+> Spam-E-Mails und in 5 Nicht-Spam-E-Mails vorkommt.
+>
+> 1.  Berechnen Sie die Wahrscheinlichkeit, dass es eine E-Mail Spam
+>     ist, wenn das Wort “Gewinn” darin vorkommt.
+>
+> 2.  Wie würde die E-Mail mit dem Wort “Gewinn” durch einen Naive Bayes
+>     Klassifikator bewertet?
+>
 > **Textklassifikation**
 >
 > Betrachten Sie die folgenden Aussagen:
@@ -553,4 +565,4 @@ empfehlenswert.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 08f3f49 (lecture: update readings (NB), 2025-09-27)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cac4843 (lecture: improve challenge (NB2), 2025-10-01)<br></sub></sup></p></blockquote>
