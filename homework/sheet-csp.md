@@ -62,8 +62,8 @@ mit
   und
 - $`c_4=\left((v_3,v_4), \lbrace (x,y) \in D^2 | x \ne y \rbrace\right)`$.
 
-1.  (0.5P) Zeichen Sie den Constraint-Graph
-2.  (0.5P) Wenden Sie den AC-3-Algorithmus auf das CSP an. Geben Sie den
+1.  Zeichnen Sie den Constraint-Graph
+2.  Wenden Sie den AC-3-Algorithmus auf das CSP an. Geben Sie den
     Zustand der Queue und das Ergebnis von `ARC_Reduce`, d.h. den
     Ergebniszustand des aktuellen $`D_i`$, für jede Iteration des
     Algorithmus an.
@@ -75,8 +75,8 @@ mit
 Betrachten Sie erneut das CSP aus der vorigen Aufgabe und die Zuweisung
 $`\alpha = \lbrace v_1 \to  2 \rbrace`$.
 
-1.  (0.5P) Erzeugen Sie Kantenkonsistenz in $`\alpha`$. Geben Sie hierzu
-    die Wertebereiche der Variablen vor und nach dem Erzeugen der
+1.  Erzeugen Sie Kantenkonsistenz in $`\alpha`$. Geben Sie hierzu die
+    Wertebereiche der Variablen vor und nach dem Erzeugen der
     Kantenkonsistenz an.
 
     *Hinweis*: Sie dürfen annehmen, dass der Wertebereich von Variablen
@@ -86,8 +86,8 @@ $`\alpha = \lbrace v_1 \to  2 \rbrace`$.
     *Hinweis*: Sie müssen zur Lösung dieser Teilaufgabe nicht den AC-3
     nutze.
 
-2.  (0.5P) Führen Sie Forward-Checking in $`\alpha`$ aus. Vergleichen
-    Sie das Ergebnis mit (1).
+2.  Führen Sie Forward-Checking in $`\alpha`$ aus. Vergleichen Sie das
+    Ergebnis mit (1).
 
 *Thema*: Kantenkonsistenz und Forward Checking verstehen
 
@@ -146,7 +146,7 @@ vorigen Aufgaben.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 20cd883 (homework: fix sub-points (CSP) (#471), 2025-10-03)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ae651b8 (homework: fix typo (CSP), 2025-10-04)<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder “TODO”-Marker auf - bitte mit
     Vorsicht genießen!
