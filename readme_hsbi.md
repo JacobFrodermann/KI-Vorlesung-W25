@@ -105,8 +105,9 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 - **Studienleistung**: “Portfolio” - Kriterien je Person:
 
   1.  Teilnahme an der Internationalen Projektwoche “AI Connect” mit
-      aktiver Beteiligung (Team-Building, Kick-Off, Teamarbeit,
-      Vortrag/Video)
+      aktiver Beteiligung (Meeting 1: Team-Building/Kick-Off, Meeting 2:
+      Project Launch, Teamarbeit, Meeting 3: Team-Präsentationen
+      (Vortrag/Video))
   2.  Mind. fünf Übungsblätter erfolgreich bearbeitet
   3.  Video-Vortrag zum erfolgreich bearbeiteten Mini-Projekt (“AI
       Connect”) am Fr, 19.12., ab 10:30 Uhr, a 2 Minuten (pro Team)
@@ -122,23 +123,21 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
 - Die Bearbeitung der Leistungen erfolgt individuell (außer “AI Connect”
   Projektwoche).
-
 - Für die “AI Connect” Projektwoche werden gemischte Teams aus den
   beteiligten Hochschulen gebildet.
-
 - Die Post Mortems sind individuell zu erstellen und abzugeben.
-
 - “Aktive Beteiligung” umfasst Anwesenheit und sachbezogene Beiträge;
   Anwesenheit/Beteiligung werden dokumentiert.
-
 - “Erfolgreiche Bearbeitung” eines Blattes umfasst Bearbeitung aller
   Aufgaben des Blattes und fristgerechte Abgabe des ausreichenden Post
   Mortems im ILIAS. Die intensive Beschäftigung mit den Aufgaben muss
   erkennbar sein.
 
+<!-- -->
+
 - **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung
-  des jeweiligen Kriteriums bzw. die Teilnahme am “AI
-  Connect”-Mini-Projekt zurückblickend mit mind. 200 bis max. 400
+  des jeweiligen Kriteriums bzw. die Teilnahme an den drei Meetings des
+  “AI Connect”-Mini-Projekts zurückblickend mit mind. 200 bis max. 400
   Wörtern (Nutzlast; Überschriften und Links zählen nicht mit). Gehen
   Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
 
@@ -154,9 +153,9 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
   Für die “AI Connect”-Meetings passen Sie bitte die Punkte (1) bis (4)
   und (5) entsprechend inhaltlich an, (6) entfällt für die ersten beiden
-  Meetings (für das dritte Meeting (Projekt-Präsentation) geben Sie
-  bitte einen Link zu Ihrem Repo mit den Artefakten (Lösung, Vortrag,
-  Video) an).
+  Meetings (für das dritte Meeting (Team-Präsentation) geben Sie bitte
+  einen Link zu Ihrem Repo mit den Artefakten (Lösung, Vortrag, Video)
+  an).
 
   Die Post Mortems geben Sie bitte pro Person bis spätestens zur
   jeweiligen Deadline im
@@ -197,4 +196,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1a96dd9 (orga: clarify post mortem for ai connect meetings (HSBI), 2025-10-04)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6247c25 (orga: clarify post mortem for ai connect meetings (HSBI), 2025-10-04)<br></sub></sup></p></blockquote>
