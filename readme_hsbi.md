@@ -153,7 +153,10 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
       für den Vortrag, …).
 
   Für die “AI Connect”-Meetings passen Sie bitte die Punkte (1) bis (4)
-  und (5) entsprechend inhaltlich an, (6) entfällt.
+  und (5) entsprechend inhaltlich an, (6) entfällt für die ersten beiden
+  Meetings (für das dritte Meeting (Projekt-Präsentation) geben Sie
+  bitte einen Link zu Ihrem Repo mit den Artefakten (Lösung, Vortrag,
+  Video) an).
 
   Die Post Mortems geben Sie bitte pro Person bis spätestens zur
   jeweiligen Deadline im
@@ -194,4 +197,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
   on Pixabay.com ([Pixabay
   License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 133566f (lecture: link text classification with nb in schedule, 2025-09-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1a96dd9 (orga: clarify post mortem for ai connect meetings (HSBI), 2025-10-04)<br></sub></sup></p></blockquote>
